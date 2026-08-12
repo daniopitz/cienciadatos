@@ -77,7 +77,7 @@ Los enlaces se van publicando a medida que avanza el semestre.
 |-------|-------|-------------------|------------|--------|----------|----------------------|
 | 01 | vie 07-ago | U1. Fundamentos y ética | Qué es la ciencia de datos; reglas del curso; IA responsable; marco legal (Ley 21.719, AI Act) | [pdf](presentaciones/clase01_ia_responsable.pdf) · [pptx](presentaciones/clase01_ia_responsable.pptx) | - | Se publica lectura de Q1 |
 | - | vie 14-ago | *Sin clases (Días Sansanos)* | | | | |
-| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | NumPy y Pandas: arreglos, DataFrames, groupby, merge · Inicio de EDA: estadística descriptiva | - | - | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
+| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | Manipulación de datos con Pandas: DataFrames, indexación, selección, groupby, merge · Inicio de EDA: estadística descriptiva | - | - | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | 03 | vie 28-ago | U2. Análisis exploratorio *(parte 2)* + U4. Visualización | EDA: métodos gráficos · Matplotlib y Seaborn; datos multivariados; buenas prácticas | - | - | **Se forman los grupos de proyecto** |
 | 04 | vie 04-sep | U3. Pre-procesamiento | Limpieza, imputación, outliers, transformaciones | - | - | Avance mínimo T1 (revisión en clase) · **Control Q2** *(lectura tentativa)*: *Datasheets for Datasets* (Gebru et al., 2021) |
 | 05 | vie 11-sep | U3. Reducción de dimensión | Selección de características; PCA; métodos no lineales: t-SNE y UMAP | - | - | **Entrega T1**: exploración de datos · última clase antes de las vacaciones (14 al 18 de septiembre) |
