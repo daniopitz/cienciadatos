@@ -11,12 +11,34 @@ programa oficial INF-396 (ver `programa/`).
 
 `NF = 0,1·Q + 0,1·T + 0,5·promedio(C1, C2) + 0,3·P`
 
-| Ítem | Ponderación | Detalle |
-|------|-------------|---------|
-| Controles de lectura (Q) | 10% | 4 controles, al inicio de la clase, duración 15 a 20 minutos |
-| Tareas (T) | 10% | 4 tareas en parejas, sobre datos reales; gran parte se desarrolla en clase, en el bloque práctico |
-| Certámenes (C) | 50% | promedio de C1 (2 de octubre) y C2 (27 de noviembre), individuales |
-| Proyecto final (P) | 30% | en grupo; propuesta, avance y presentación + informe con ficha del modelo |
+| Ítem | Ponderación | Fechas | Detalle |
+|------|-------------|--------|---------|
+| Controles de lectura (Q) | 10% | **21-ago** (Q1) · resto por confirmar | 4 controles, al inicio de la clase, duración 15 a 20 minutos |
+| Tareas (T) | 10% | entregas: **4-sep · 25-sep · 30-oct · 13-nov** | 4 tareas en parejas, sobre datos reales; gran parte se desarrolla en clase, en el bloque práctico |
+| Certámenes (C) | 50% | **2-oct · 27-nov** | promedio de C1 y C2, individuales |
+| Proyecto final (P) | 30% | **11-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe con ficha del modelo |
+
+### Calendario de evaluaciones
+
+Todas las fechas son viernes, en el horario de clases. Las fechas de los certámenes,
+la propuesta y la presentación del proyecto son firmes. Los controles Q2 a Q4 y las
+entregas de tareas se ajustan sobre la marcha: se confirman en clase y por Aula, a más
+tardar una semana antes.
+
+| Fecha | Evaluación | Estado | Detalle |
+|-------|------------|--------|---------|
+| vie 21-ago | **Control Q1** | ✅ Confirmado | O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
+| vie 28-ago | Hito proyecto | ✅ | Se forman los grupos |
+| vie 04-sep | **Control Q2** · **Entrega T1** | *Tentativo* | Q2: *Datasheets for Datasets* |
+| vie 11-sep | **Propuesta de proyecto** | ✅ Confirmado | Obligatoria: pregunta, datos y plan de trabajo |
+| vie 25-sep | **Entrega T2** | *Tentativo* | |
+| vie 02-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5 · individual, sin IA |
+| vie 23-oct | **Control Q3** | *Tentativo* | *Model Cards* |
+| vie 30-oct | **Entrega T3** | *Tentativo* | |
+| vie 06-nov | Avance de proyecto *(opcional)* | ✅ | Quienes lo presenten parten con 10 puntos de base |
+| vie 13-nov | **Control Q4** · **Entrega T4** | *Tentativo* | Q4: paper aplicado, por definir |
+| vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · individual, sin IA |
+| vie 04-dic | **Presentación del proyecto + informe** | ✅ Confirmado | Con ficha del modelo |
 
 ## Reglas del curso
 

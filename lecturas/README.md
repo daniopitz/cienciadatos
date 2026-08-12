@@ -3,8 +3,9 @@
 Cada control de lectura (Q) se toma al inicio de la clase indicada y dura entre 15 y 20 minutos.
 Son 4 controles y ponderan 10% de la nota final.
 
-**Solo Q1 está confirmada. Q2, Q3 y Q4 son tentativas** y pueden cambiar según cómo
-avance el curso; se confirman a más tardar una semana antes de cada control.
+**Solo Q1 está confirmada: viernes 21 de agosto.** Q2, Q3 y Q4 son tentativas, tanto en
+la lectura como en la fecha, y se ajustan según cómo avance el curso. Cada una se confirma
+en clase y por Aula a más tardar una semana antes.
 
 | Control | Fecha | Lectura | Estado | Acceso |
 |---------|-------|---------|--------|--------|
