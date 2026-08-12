@@ -135,13 +135,28 @@ uv run jupyter lab
 
 ## Estructura del repositorio
 
-- `NN_tema.ipynb`: notebook de cada clase, en la raíz (material de referencia para estudiar).
-- `presentaciones/`: slides de cada clase, como `claseNN_tema.pptx` y `claseNN_tema.pdf`.
-- `actividades/`: enunciados y soluciones de las actividades en clase.
-- `lecturas/`: lecturas de los controles (ver `lecturas/README.md`).
-- `datos/`: datasets del curso (ver `datos/README.md`).
-- `tareas/`: enunciados de tareas y pauta del proyecto.
-- `programa/`: programa oficial de la asignatura.
+```
+NN_tema.ipynb        notebook de cada clase, en la raíz
+presentaciones/      slides: claseNN_tema.pptx y claseNN_tema.pdf
+actividades/         enunciados y soluciones de las actividades en clase
+evaluaciones/
+  tareas/            enunciados de T1 a T4
+  controles/         enunciados de Q1 a Q4
+  certamenes/        enunciados de C1 y C2
+  rubricas/          pautas de corrección
+  proyecto/          pauta, formato de propuesta y ficha del modelo
+lecturas/            lecturas de los controles (ver lecturas/README.md)
+datos/               datasets del curso (ver datos/README.md)
+programa/            programa oficial de la asignatura
+```
+
+El material se agrupa por tipo y no por clase, porque buena parte no pertenece a
+una sola clase: los datasets se reutilizan, las lecturas están amarradas a los
+controles y las tareas cruzan varias semanas. La navegación por clase se hace desde
+la tabla de planificación de más arriba, que enlaza directo a cada archivo.
+
+Las actividades quedan fuera de `evaluaciones/` a propósito: son formativas, se
+trabajan en el bloque práctico y no se califican por separado.
 
 ## Bibliografía
 
