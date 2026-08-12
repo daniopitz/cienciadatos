@@ -10,8 +10,8 @@ en clase y por Aula a más tardar una semana antes.
 | Control | Fecha | Lectura | Estado | Acceso |
 |---------|-------|---------|--------|--------|
 | Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | Confirmada | 📄 Se distribuye por **Aula** (ver abajo) |
-| Q2 | vie 04-sep | Gebru, T. et al. (2021). *Datasheets for Datasets*. Communications of the ACM 64(12), 86–92 | *Tentativa* | ✅ Libre: https://arxiv.org/abs/1803.09010 |
-| Q3 | vie 23-oct | Mitchell, M. et al. (2019). *Model Cards for Model Reporting*. FAT* '19, 220–229 | *Tentativa* | ✅ Libre: https://arxiv.org/abs/1810.03993 |
+| Q2 | vie 04-sep | Gebru, T. et al. (2021). *Datasheets for Datasets*. Communications of the ACM 64(12), 86-92 | *Tentativa* | ✅ Libre: https://arxiv.org/abs/1803.09010 |
+| Q3 | vie 23-oct | Mitchell, M. et al. (2019). *Model Cards for Model Reporting*. FAT* '19, 220-229 | *Tentativa* | ✅ Libre: https://arxiv.org/abs/1810.03993 |
 | Q4 | vie 13-nov | Artículo aplicado, por definir según los intereses del grupo | *Tentativa* | Por publicar |
 
 ## Cómo conseguir la lectura Q1

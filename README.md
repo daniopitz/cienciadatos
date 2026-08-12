@@ -71,24 +71,24 @@ Los enlaces se van publicando a medida que avanza el semestre.
 
 | Clase | Fecha | Unidad (programa) | Contenidos | Slides | Notebook | Evaluaciones e hitos |
 |-------|-------|-------------------|------------|--------|----------|----------------------|
-| 01 | vie 07-ago | U1. Fundamentos y ética | Qué es la ciencia de datos; reglas del curso; IA responsable; marco legal (Ley 21.719, AI Act) | [pdf](presentaciones/clase01_ia_responsable.pdf) · [pptx](presentaciones/clase01_ia_responsable.pptx) | — | Se publica lectura de Q1 |
-| — | vie 14-ago | *Sin clases (Días Sansanos)* | | | | |
-| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | NumPy y Pandas: arreglos, DataFrames, groupby, merge · Inicio de EDA: estadística descriptiva | — | — | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 · sale Tarea 1 |
-| 03 | vie 28-ago | U2. Análisis exploratorio *(parte 2)* + U4. Visualización | EDA: métodos gráficos · Matplotlib y Seaborn; datos multivariados; buenas prácticas | — | — | Avance mínimo T1 (revisión en clase) · **Se forman los grupos de proyecto** |
-| 04 | vie 04-sep | U3. Pre-procesamiento | Limpieza, imputación, outliers, transformaciones | — | — | **Entrega T1** · sale Tarea 2 · **Control Q2** *(lectura tentativa)*: *Datasheets for Datasets* (Gebru et al., 2021) |
-| 05 | vie 11-sep | U3. Reducción de dimensión | Selección de características; PCA; métodos no lineales: t-SNE y UMAP | — | — | Última clase antes de las vacaciones (14 al 18 de septiembre) |
-| — | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
-| 06 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | — | — | **Entrega propuesta de proyecto** (de vuelta de vacaciones) · **Entrega T2** |
+| 01 | vie 07-ago | U1. Fundamentos y ética | Qué es la ciencia de datos; reglas del curso; IA responsable; marco legal (Ley 21.719, AI Act) | [pdf](presentaciones/clase01_ia_responsable.pdf) · [pptx](presentaciones/clase01_ia_responsable.pptx) | - | Se publica lectura de Q1 |
+| - | vie 14-ago | *Sin clases (Días Sansanos)* | | | | |
+| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | NumPy y Pandas: arreglos, DataFrames, groupby, merge · Inicio de EDA: estadística descriptiva | - | - | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 · sale Tarea 1 |
+| 03 | vie 28-ago | U2. Análisis exploratorio *(parte 2)* + U4. Visualización | EDA: métodos gráficos · Matplotlib y Seaborn; datos multivariados; buenas prácticas | - | - | Avance mínimo T1 (revisión en clase) · **Se forman los grupos de proyecto** |
+| 04 | vie 04-sep | U3. Pre-procesamiento | Limpieza, imputación, outliers, transformaciones | - | - | **Entrega T1** · sale Tarea 2 · **Control Q2** *(lectura tentativa)*: *Datasheets for Datasets* (Gebru et al., 2021) |
+| 05 | vie 11-sep | U3. Reducción de dimensión | Selección de características; PCA; métodos no lineales: t-SNE y UMAP | - | - | Última clase antes de las vacaciones (14 al 18 de septiembre) |
+| - | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
+| 06 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | - | - | **Entrega propuesta de proyecto** (de vuelta de vacaciones) · **Entrega T2** |
 | 07 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5) | | | |
-| 08 | vie 09-oct | U6. Aprendizaje automático | Tipos de aprendizaje; función de pérdida; minimización del riesgo esperado; API de scikit-learn | — | — | |
-| 09 | vie 16-oct | U7. Regresión | Regresión lineal múltiple; regularización (ridge y lasso) | — | — | ⚠️ **Puertas Abiertas**: actividades suspendidas desde las 12:30 · sale Tarea 3 |
-| 10 | vie 23-oct | U7. Clasificación | Regresión logística; análisis discriminante lineal (LDA); KNN | — | — | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
-| 11 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; métricas de desempeño; equidad entre grupos | — | — | **Entrega T3** · sale Tarea 4 |
-| 12 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | — | — | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
-| 13 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | — | — | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir · **Entrega T4** |
-| 14 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | — | — | |
+| 08 | vie 09-oct | U6. Aprendizaje automático | Tipos de aprendizaje; función de pérdida; minimización del riesgo esperado; API de scikit-learn | - | - | |
+| 09 | vie 16-oct | U7. Regresión | Regresión lineal múltiple; regularización (ridge y lasso) | - | - | ⚠️ **Puertas Abiertas**: actividades suspendidas desde las 12:30 · sale Tarea 3 |
+| 10 | vie 23-oct | U7. Clasificación | Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
+| 11 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; métricas de desempeño; equidad entre grupos | - | - | **Entrega T3** · sale Tarea 4 |
+| 12 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
+| 13 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir · **Entrega T4** |
+| 14 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | - | - | |
 | 15 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
-| — | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
+| - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
 
 ### Estructura de cada clase (2 horas)
 
