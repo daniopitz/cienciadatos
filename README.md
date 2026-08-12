@@ -2,6 +2,7 @@
 
 Universidad Técnica Federico Santa María, Departamento de Informática.
 Segundo semestre 2026. Clases los viernes, 2 horas. Primera clase: viernes 7 de agosto.
+Sin clases el 14 de agosto (Días Sansanos) ni el 18 de septiembre (Fiestas Patrias).
 
 Material inspirado en el [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
 de Jake VanderPlas (adaptado y traducido, licencia MIT/CC-BY-NC-ND), siguiendo el
@@ -27,7 +28,7 @@ tardar una semana antes.
 
 | Fecha | Evaluación | Estado | Detalle |
 |-------|------------|--------|---------|
-| vie 21-ago | **Control Q1** | ✅ Confirmado | O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
+| vie 21-ago | **Control Q1** · sale T1 | ✅ Confirmado | O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | vie 28-ago | Hito proyecto | ✅ | Se forman los grupos |
 | vie 04-sep | **Control Q2** · **Entrega T1** | *Tentativo* | Q2: *Datasheets for Datasets* |
 | vie 11-sep | **Propuesta de proyecto** | ✅ Confirmado | Obligatoria: pregunta, datos y plan de trabajo |
@@ -56,30 +57,33 @@ tardar una semana antes.
 
 ## Planificación semana a semana
 
-Las 9 unidades temáticas del programa oficial INF-396, distribuidas en 16 clases.
-Sin clases el viernes 18 de septiembre (Fiestas Patrias).
+Las 9 unidades temáticas del programa oficial INF-396, distribuidas en 15 sesiones
+más la presentación del proyecto.
+
+Dos viernes sin clases: **14 de agosto** (Días Sansanos) y **18 de septiembre**
+(Fiestas Patrias). El contenido del 14 de agosto se junta con la clase del 21.
 
 Los enlaces se van publicando a medida que avanza el semestre.
 
 | Clase | Fecha | Unidad (programa) | Contenidos | Slides | Notebook | Evaluaciones e hitos |
 |-------|-------|-------------------|------------|--------|----------|----------------------|
 | 01 | vie 07-ago | U1. Fundamentos y ética | Qué es la ciencia de datos; reglas del curso; IA responsable; marco legal (Ley 21.719, AI Act) | [pdf](presentaciones/clase01_ia_responsable.pdf) · [pptx](presentaciones/clase01_ia_responsable.pptx) | — | Se publica lectura de Q1 |
-| 02 | vie 14-ago | Herramientas (apoyo U2) | NumPy y Pandas: arreglos, DataFrames, groupby, merge | — | — | **Sale Tarea 1** (Pandas y EDA) |
-| 03 | vie 21-ago | U2. Análisis exploratorio | EDA: estadística descriptiva, métodos gráficos | — | — | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
-| 04 | vie 28-ago | U4. Visualización | Matplotlib y Seaborn; datos multivariados; buenas prácticas | — | — | Avance mínimo T1 (revisión en clase) · **Se forman los grupos de proyecto** |
-| 05 | vie 04-sep | U3. Pre-procesamiento | Limpieza, imputación, outliers, transformaciones | — | — | **Entrega T1** · **Sale Tarea 2** · **Control Q2** *(lectura tentativa)*: *Datasheets for Datasets* (Gebru et al., 2021) |
-| 06 | vie 11-sep | U3. Reducción de dimensión | Selección de características; PCA; efectos no lineales | — | — | **Entrega propuesta de proyecto** (antes de Fiestas Patrias) |
+| — | vie 14-ago | *Sin clases (Días Sansanos)* | | | | |
+| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio | NumPy y Pandas: arreglos, DataFrames, groupby, merge · EDA: estadística descriptiva y métodos gráficos | — | — | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 · **Sale Tarea 1** |
+| 03 | vie 28-ago | U4. Visualización | Matplotlib y Seaborn; datos multivariados; buenas prácticas | — | — | Avance mínimo T1 (revisión en clase) · **Se forman los grupos de proyecto** |
+| 04 | vie 04-sep | U3. Pre-procesamiento | Limpieza, imputación, outliers, transformaciones | — | — | **Entrega T1** · **Sale Tarea 2** · **Control Q2** *(lectura tentativa)*: *Datasheets for Datasets* (Gebru et al., 2021) |
+| 05 | vie 11-sep | U3. Reducción de dimensión | Selección de características; PCA; métodos no lineales: t-SNE y UMAP | — | — | **Entrega propuesta de proyecto** (antes de Fiestas Patrias) |
 | — | vie 18-sep | *Feriado (Fiestas Patrias)* | | | | |
-| 07 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | — | — | **Entrega T2** |
-| 08 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5) | | | |
-| 09 | vie 09-oct | U6. Aprendizaje automático | Tipos de aprendizaje; función de pérdida; minimización del riesgo esperado; API de scikit-learn | — | — | |
-| 10 | vie 16-oct | U7. Regresión | Regresión lineal múltiple; regularización (ridge y lasso) | — | — | **Sale Tarea 3** |
-| 11 | vie 23-oct | U7. Clasificación | Regresión logística; análisis discriminante lineal (LDA); KNN | — | — | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
-| 12 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; métricas de desempeño; equidad entre grupos | — | — | **Entrega T3** · **Sale Tarea 4** |
-| 13 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | — | — | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
-| 14 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | — | — | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir · **Entrega T4** |
-| 15 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | — | — | |
-| 16 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
+| 06 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | — | — | **Entrega T2** |
+| 07 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5) | | | |
+| 08 | vie 09-oct | U6. Aprendizaje automático | Tipos de aprendizaje; función de pérdida; minimización del riesgo esperado; API de scikit-learn | — | — | |
+| 09 | vie 16-oct | U7. Regresión | Regresión lineal múltiple; regularización (ridge y lasso) | — | — | **Sale Tarea 3** |
+| 10 | vie 23-oct | U7. Clasificación | Regresión logística; análisis discriminante lineal (LDA); KNN | — | — | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
+| 11 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; métricas de desempeño; equidad entre grupos | — | — | **Entrega T3** · **Sale Tarea 4** |
+| 12 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | — | — | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
+| 13 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | — | — | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir · **Entrega T4** |
+| 14 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | — | — | |
+| 15 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
 | — | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
 
 ### Estructura de cada clase (2 horas)
