@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.uv/
+uv.lock
+*.egg-info/
+.jupyter/
+.ruff_cache/

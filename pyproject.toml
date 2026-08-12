@@ -1,0 +1,17 @@
+[project]
+name = "cienciadatos"
+version = "0.1.0"
+description = "INF-396 Introduccion a la Ciencia de Datos - UTFSM"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "scikit-learn>=1.5",
+    "scipy>=1.13",
+    "statsmodels>=0.14",
+    "jupyterlab>=4.2",
+    "ipywidgets>=8.1",
+    "python-pptx>=1.0",
+]
