@@ -3,12 +3,15 @@
 Cada control de lectura (Q) se toma al inicio de la clase indicada y dura entre 15 y 20 minutos.
 Son 4 controles y ponderan 10% de la nota final.
 
-| Control | Fecha | Lectura | Acceso |
-|---------|-------|---------|--------|
-| Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | ⚠️ **Por resolver** — no está en el catálogo USM (ver abajo) |
-| Q2 | vie 04-sep | Gebru, T. et al. (2021). *Datasheets for Datasets*. Communications of the ACM 64(12), 86–92 | ✅ Libre: https://arxiv.org/abs/1803.09010 |
-| Q3 | vie 23-oct | Mitchell, M. et al. (2019). *Model Cards for Model Reporting*. FAT* '19, 220–229 | ✅ Libre: https://arxiv.org/abs/1810.03993 |
-| Q4 | vie 13-nov | Artículo aplicado, por definir según los intereses del grupo | Por publicar |
+**Solo Q1 está confirmada. Q2, Q3 y Q4 son tentativas** y pueden cambiar según cómo
+avance el curso; se confirman a más tardar una semana antes de cada control.
+
+| Control | Fecha | Lectura | Estado | Acceso |
+|---------|-------|---------|--------|--------|
+| Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | Confirmada | ⚠️ **Por resolver** — no está en el catálogo USM (ver abajo) |
+| Q2 | vie 04-sep | Gebru, T. et al. (2021). *Datasheets for Datasets*. Communications of the ACM 64(12), 86–92 | *Tentativa* | ✅ Libre: https://arxiv.org/abs/1803.09010 |
+| Q3 | vie 23-oct | Mitchell, M. et al. (2019). *Model Cards for Model Reporting*. FAT* '19, 220–229 | *Tentativa* | ✅ Libre: https://arxiv.org/abs/1810.03993 |
+| Q4 | vie 13-nov | Artículo aplicado, por definir según los intereses del grupo | *Tentativa* | Por publicar |
 
 ## Situación de la lectura Q1
 

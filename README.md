@@ -45,17 +45,17 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 02 | vie 14-ago | Herramientas (apoyo U2) | NumPy y Pandas: arreglos, DataFrames, groupby, merge | — | — | **Sale Tarea 1** (Pandas y EDA) |
 | 03 | vie 21-ago | U2. Análisis exploratorio | EDA: estadística descriptiva, métodos gráficos | — | — | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | 04 | vie 28-ago | U4. Visualización | Matplotlib y Seaborn; datos multivariados; buenas prácticas | — | — | Avance mínimo T1 (revisión en clase) · **Se forman los grupos de proyecto** |
-| 05 | vie 04-sep | U3. Pre-procesamiento | Limpieza, imputación, outliers, transformaciones | — | — | **Entrega T1** · **Sale Tarea 2** · **Control Q2**: *Datasheets for Datasets* (Gebru et al., 2021) |
+| 05 | vie 04-sep | U3. Pre-procesamiento | Limpieza, imputación, outliers, transformaciones | — | — | **Entrega T1** · **Sale Tarea 2** · **Control Q2** *(lectura tentativa)*: *Datasheets for Datasets* (Gebru et al., 2021) |
 | 06 | vie 11-sep | U3. Reducción de dimensión | Selección de características; PCA; efectos no lineales | — | — | **Entrega propuesta de proyecto** (antes de Fiestas Patrias) |
 | — | vie 18-sep | *Feriado (Fiestas Patrias)* | | | | |
 | 07 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | — | — | **Entrega T2** |
 | 08 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5) | | | |
 | 09 | vie 09-oct | U6. Aprendizaje automático | Tipos de aprendizaje; función de pérdida; minimización del riesgo esperado; API de scikit-learn | — | — | |
 | 10 | vie 16-oct | U7. Regresión | Regresión lineal múltiple; regularización (ridge y lasso) | — | — | **Sale Tarea 3** |
-| 11 | vie 23-oct | U7. Clasificación | Regresión logística; análisis discriminante lineal (LDA); KNN | — | — | **Control Q3**: *Model Cards* (Mitchell et al., 2019) |
+| 11 | vie 23-oct | U7. Clasificación | Regresión logística; análisis discriminante lineal (LDA); KNN | — | — | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
 | 12 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; métricas de desempeño; equidad entre grupos | — | — | **Entrega T3** · **Sale Tarea 4** |
 | 13 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | — | — | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
-| 14 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | — | — | **Control Q4** (paper aplicado, por definir) · **Entrega T4** |
+| 14 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | — | — | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir · **Entrega T4** |
 | 15 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | — | — | |
 | 16 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
 | — | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
@@ -73,9 +73,12 @@ Los enlaces se van publicando a medida que avanza el semestre.
 Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
 
 - **Q1 (21-ago):** O'Neil, *Armas de destrucción matemática*, Introducción + Capítulo 1.
-- **Q2 (04-sep):** Gebru et al. (2021), *Datasheets for Datasets*, CACM.
-- **Q3 (23-oct):** Mitchell et al. (2019), *Model Cards for Model Reporting*, FAT*.
-- **Q4 (13-nov):** artículo aplicado, por definir según los intereses del grupo.
+- **Q2 (04-sep)** *(tentativa)*: Gebru et al. (2021), *Datasheets for Datasets*, CACM.
+- **Q3 (23-oct)** *(tentativa)*: Mitchell et al. (2019), *Model Cards for Model Reporting*, FAT*.
+- **Q4 (13-nov)** *(tentativa)*: artículo aplicado, por definir según los intereses del grupo.
+
+Solo Q1 está confirmada. Las demás pueden cambiar; se confirman a más tardar una semana
+antes de cada control.
 
 ### Proyecto final
 
