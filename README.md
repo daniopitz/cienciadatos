@@ -191,6 +191,10 @@ Descarga gratuita en https://www.statlearning.com
 
 No están en el programa oficial, pero cubren unidades que el texto guía no aborda.
 
+- Bruce, P., Bruce, A. y Gedeck, P. (2020). *Practical Statistics for Data Scientists*,
+  2ª ed. O'Reilly. Su **capítulo 1 es "Exploratory Data Analysis"**: es la única fuente
+  del curso que trata el EDA como tal. Notebooks en Python de acceso libre en
+  https://github.com/gedeck/practical-statistics-for-data-scientists
 - VanderPlas, J. (2016). *Python Data Science Handbook*. Herramientas: Pandas,
   Matplotlib y Seaborn. https://jakevdp.github.io/PythonDataScienceHandbook/
 - O'Neil, C. (2017). *Armas de destrucción matemática*. Capitán Swing. Ética y
@@ -203,10 +207,15 @@ No están en el programa oficial, pero cubren unidades que el texto guía no abo
 El texto guía cubre muy bien la segunda mitad del curso y casi nada de la primera.
 Por eso el material del inicio se apoya en otras fuentes.
 
+Un caso a tener presente: **el análisis exploratorio no aparece como tal en el texto
+guía ni en los complementarios del programa**. El término lo acuña Tukey en 1977
+(*Exploratory Data Analysis*, Addison-Wesley) y en la bibliografía moderna del curso
+solo lo desarrolla Bruce, Bruce y Gedeck.
+
 | Unidad del programa | Fuente principal |
 |---------------------|------------------|
 | U1. Fundamentos y ética | Ninguno de los textos del programa. Se usa O'Neil |
-| U2. Análisis exploratorio | Ningún texto lo trata como EDA. VanderPlas caps. 3 y 4 dan las herramientas |
+| U2. Análisis exploratorio | Bruce, Bruce y Gedeck cap. 1, que es el único que desarrolla el EDA como método. VanderPlas caps. 3 y 4 para las herramientas |
 | U3. Pre-procesamiento | García, Luengo y Herrera (complementario del programa). VanderPlas cap. 3 (datos faltantes) y cap. 5 (ingeniería de características) |
 | U4. Visualización | VanderPlas cap. 4, incluida la sección de Seaborn |
 | U5. Inferencia estadística | ISLP cap. 5 (validación cruzada y bootstrap) y cap. 13 (contraste de hipótesis) |
