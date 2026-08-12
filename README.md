@@ -1,9 +1,12 @@
 # INF-396 Introducción a la Ciencia de Datos
 
 Universidad Técnica Federico Santa María, Departamento de Informática.
-Segundo semestre 2026. Clases los viernes, 2 horas. Primera clase: viernes 7 de agosto.
-Sin clases el 14 de agosto (Días Sansanos) ni el 18 de septiembre (vacaciones de
-Fiestas Patrias). Fechas según el [calendario académico oficial USM 2026](https://vra.usm.cl/calendario-academico/).
+Segundo semestre 2026. Clases los **viernes de 14:40 a 17:15**: 3 bloques de 45 minutos
+con dos recreos de 10. Primera clase: viernes 7 de agosto.
+
+Tres viernes sin clases: 14 de agosto (Días Sansanos), 18 de septiembre (vacaciones de
+Fiestas Patrias) y 16 de octubre (Puertas Abiertas). Fechas según el
+[calendario académico oficial USM 2026](https://vra.usm.cl/calendario-academico/).
 
 Material basado en el programa oficial INF-396 (ver `programa/`). El texto guía es
 *An Introduction to Statistical Learning*; las primeras unidades se apoyan en otras
@@ -61,11 +64,13 @@ en clase y por Aula, a más tardar una semana antes.
 
 ## Planificación semana a semana
 
-Las 9 unidades temáticas del programa oficial INF-396, distribuidas en 15 sesiones
+Las 9 unidades temáticas del programa oficial INF-396, distribuidas en 14 sesiones
 más la presentación del proyecto.
 
-Dos viernes sin clases: **14 de agosto** (Días Sansanos) y **18 de septiembre**
-(Fiestas Patrias). El contenido del 14 de agosto se junta con la clase del 21.
+Tres viernes sin clases, porque las tres suspensiones empiezan a las 12:30 y el curso
+es a las 14:40: **14 de agosto** (Días Sansanos), **18 de septiembre** (vacaciones) y
+**16 de octubre** (Puertas Abiertas). El contenido del 14 de agosto se junta con la
+clase del 21, y el del 16 de octubre con la del 23.
 
 Para no sobrecargar la clase del 21 (que además tiene el control Q1), el análisis
 exploratorio se reparte entre el **21 y el 28 de agosto**: se avanza lo que se alcance
@@ -85,22 +90,27 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 06 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | - | - | **Entrega propuesta de proyecto** (de vuelta de vacaciones) |
 | 07 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5) | | | |
 | 08 | vie 09-oct | U6. Aprendizaje automático | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado; API de scikit-learn | - | - | **Entrega T2** |
-| 09 | vie 16-oct | U7. Clasificación *(parte 1)* | Regresión lineal múltiple | - | - | ⚠️ **Puertas Abiertas**: actividades suspendidas desde las 12:30 |
-| 10 | vie 23-oct | U7. Clasificación *(parte 2)* | Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
-| 11 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; bootstrap; métricas de desempeño; regularización (ridge y lasso); equidad entre grupos | - | - | **Entrega T3** |
-| 12 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
-| 13 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir |
-| 14 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | - | - | **Entrega T4** |
-| 15 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
+| - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
+| 09 | vie 23-oct | U7. Clasificación | Regresión lineal múltiple; regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
+| 10 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; bootstrap; métricas de desempeño; regularización (ridge y lasso); equidad entre grupos | - | - | **Entrega T3** |
+| 11 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
+| 12 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir |
+| 13 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | - | - | **Entrega T4** |
+| 14 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
 | - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
 
-### Estructura de cada clase (2 horas)
+### Estructura de cada clase (14:40 a 17:15)
 
-| Bloque | Duración | Contenido |
-|--------|----------|-----------|
-| Inicio | 15 a 20 min (solo semanas con control) o 10 min de repaso | Control de lectura o repaso de la clase anterior |
-| Teoría | 50 min | Presentación (slides en `presentaciones/`) |
-| Práctica | 45 a 50 min | Actividad guiada en notebook, en parejas (`actividades/`); aquí se avanza gran parte de las tareas |
+| Bloque | Horario | Contenido |
+|--------|---------|-----------|
+| 1 | 14:40 a 15:25 | Control de lectura (semanas con control) o repaso de la clase anterior, y comienzo de la teoría |
+| Recreo | 15:25 a 15:35 | |
+| 2 | 15:35 a 16:20 | Teoría (slides en `presentaciones/`) |
+| Recreo | 16:20 a 16:30 | |
+| 3 | 16:30 a 17:15 | Actividad guiada en notebook, en parejas (`actividades/`); aquí se avanza gran parte de las tareas |
+
+Son 135 minutos de clase efectivos, que equivalen a las 3 horas de cátedra semanales
+que fija el programa.
 
 ### Lecturas de los controles
 
