@@ -5,9 +5,9 @@ Segundo semestre 2026. Clases los viernes, 2 horas. Primera clase: viernes 7 de 
 Sin clases el 14 de agosto (Días Sansanos) ni el 18 de septiembre (vacaciones de
 Fiestas Patrias). Fechas según el [calendario académico oficial USM 2026](https://vra.usm.cl/calendario-academico/).
 
-Material inspirado en el [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
-de Jake VanderPlas (adaptado y traducido, licencia MIT/CC-BY-NC-ND), siguiendo el
-programa oficial INF-396 (ver `programa/`).
+Material basado en el programa oficial INF-396 (ver `programa/`). El texto guía es
+*An Introduction to Statistical Learning*; las primeras unidades se apoyan en otras
+fuentes, porque el texto guía no las cubre (ver [Bibliografía](#bibliografía)).
 
 ## Evaluación
 
@@ -84,10 +84,10 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | - | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
 | 06 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | - | - | **Entrega propuesta de proyecto** (de vuelta de vacaciones) |
 | 07 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5) | | | |
-| 08 | vie 09-oct | U6. Aprendizaje automático | Tipos de aprendizaje; función de pérdida; minimización del riesgo esperado; API de scikit-learn | - | - | **Entrega T2** |
-| 09 | vie 16-oct | U7. Regresión | Regresión lineal múltiple; regularización (ridge y lasso) | - | - | ⚠️ **Puertas Abiertas**: actividades suspendidas desde las 12:30 |
-| 10 | vie 23-oct | U7. Clasificación | Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
-| 11 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; métricas de desempeño; equidad entre grupos | - | - | **Entrega T3** |
+| 08 | vie 09-oct | U6. Aprendizaje automático | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado; API de scikit-learn | - | - | **Entrega T2** |
+| 09 | vie 16-oct | U7. Clasificación *(parte 1)* | Regresión lineal múltiple | - | - | ⚠️ **Puertas Abiertas**: actividades suspendidas desde las 12:30 |
+| 10 | vie 23-oct | U7. Clasificación *(parte 2)* | Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
+| 11 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; bootstrap; métricas de desempeño; regularización (ridge y lasso); equidad entre grupos | - | - | **Entrega T3** |
 | 12 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
 | 13 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir |
 | 14 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | - | - | **Entrega T4** |
@@ -164,8 +164,43 @@ trabajan en el bloque práctico y no se califican por separado.
 
 ## Bibliografía
 
-- James, G., Witten, D., Hastie, T., Tibshirani, R. *An Introduction to Statistical Learning,
-  with Applications in Python* (2023). Texto guía; descarga gratuita en https://www.statlearning.com
-- VanderPlas, J. *Python Data Science Handbook* (2016). https://jakevdp.github.io/PythonDataScienceHandbook/
-- Russell, S., Norvig, P. *Artificial Intelligence: A Modern Approach*, 4ª ed. (2021). Capítulo 1.
-- O'Neil, C. *Armas de destrucción matemática* (2016).
+### Texto guía
+
+El programa oficial indica **James, Witten, Hastie y Tibshirani, *An Introduction to
+Statistical Learning*, Springer**, en su edición con R. En el curso usamos la **edición
+en Python (ISLP, 2023)**, que es el mismo libro con el lenguaje que ocupamos.
+Descarga gratuita en https://www.statlearning.com
+
+### Complementaria (del programa oficial)
+
+- Saltz, J. S. y Stanton, J. M. (2018). *An Introduction to Data Science*. SAGE.
+- Ozdemir, S. (2016). *Principles of Data Science*. Packt.
+- García, S., Luengo, J. y Herrera, F. (2015). *Data Preprocessing in Data Mining*. Springer.
+
+### Material adicional del curso
+
+No están en el programa oficial, pero cubren unidades que el texto guía no aborda.
+
+- VanderPlas, J. (2016). *Python Data Science Handbook*. Herramientas: Pandas,
+  Matplotlib y Seaborn. https://jakevdp.github.io/PythonDataScienceHandbook/
+- O'Neil, C. (2017). *Armas de destrucción matemática*. Capitán Swing. Ética y
+  sesgo algorítmico. Lectura del control Q1.
+- Russell, S. y Norvig, P. (2021). *Artificial Intelligence: A Modern Approach*,
+  4ª ed. Capítulo 1.
+
+### Qué fuente cubre cada unidad
+
+El texto guía cubre muy bien la segunda mitad del curso y casi nada de la primera.
+Por eso el material del inicio se apoya en otras fuentes.
+
+| Unidad del programa | Fuente principal |
+|---------------------|------------------|
+| U1. Fundamentos y ética | Ninguno de los textos del programa. Se usa O'Neil |
+| U2. Análisis exploratorio | Ningún texto lo trata como EDA. VanderPlas caps. 3 y 4 dan las herramientas |
+| U3. Pre-procesamiento | García, Luengo y Herrera (complementario del programa). VanderPlas cap. 3 (datos faltantes) y cap. 5 (ingeniería de características) |
+| U4. Visualización | VanderPlas cap. 4, incluida la sección de Seaborn |
+| U5. Inferencia estadística | ISLP cap. 5 (validación cruzada y bootstrap) y cap. 13 (contraste de hipótesis) |
+| U6. Aprendizaje automático | ISLP cap. 2. Para lo bayesiano, VanderPlas cap. 5 (Naive Bayes) |
+| U7. Clasificación | ISLP cap. 3 (regresión lineal) y cap. 4 (logística, LDA, KNN) |
+| U8. Evaluación de modelos | ISLP cap. 2 (sesgo y varianza), cap. 5 (validación cruzada) y cap. 6 (regularización) |
+| U9. SVM y redes neuronales | ISLP cap. 9 (SVM) y cap. 10 (deep learning) |
