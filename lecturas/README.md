@@ -14,28 +14,29 @@ en clase y por Aula a más tardar una semana antes.
 | Q3 | vie 23-oct | Mitchell, M. et al. (2019). *Model Cards for Model Reporting*. FAT* '19, 220–229 | *Tentativa* | ✅ Libre: https://arxiv.org/abs/1810.03993 |
 | Q4 | vie 13-nov | Artículo aplicado, por definir según los intereses del grupo | *Tentativa* | Por publicar |
 
-## Situación de la lectura Q1
+## Cómo conseguir la lectura Q1
+
+**El extracto (Introducción + Capítulo 1) está en Aula.** No se sube a este repositorio
+porque es público y el libro tiene derechos de autor: Capitán Swing, Madrid, 2017,
+ISBN 978-84-947408-4-8, traducción de Violeta Arranz del original *Weapons of Math
+Destruction* (Crown, 2016).
+
+Para el control se necesitan solo esas dos secciones, no el libro completo. Dicho eso,
+vale mucho la pena leerlo entero.
 
 El libro **no está en el catálogo del Sistema de Bibliotecas USM** (revisado el 12-ago-2026
 en https://catalogo.usm.cl): no aparece ningún título de la autora, ni en español ni en inglés.
 Queda por revisar la [Biblioteca Digital USM](https://biblioteca.usm.cl/bibliotecadigital)
 (plataforma Odilo), que es un catálogo distinto y requiere cuenta institucional.
 
-Mientras tanto, **el extracto de la lectura se sube a Aula**, que es de acceso restringido
-al curso. No se sube a este repositorio: es público y el libro tiene derechos de autor
-(Capitán Swing, 2017, ISBN 978-84-947408-4-8; traducción de Violeta Arranz del original
-*Weapons of Math Destruction*, Crown, 2016).
-
-Para el control solo se necesitan la **Introducción y el Capítulo 1**, no el libro completo.
-
-### Alternativa de acceso libre
+### Lectura complementaria (opcional, no entra en el control)
 
 Angwin, J., Larson, J., Mattu, S. y Kirchner, L. (2016). *Machine Bias*. ProPublica.
 https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
 
-Sin barrera de pago y sin problemas de licencia para enlazar. Cubre el mismo caso (el
-algoritmo COMPAS de evaluación de riesgo en tribunales) que O'Neil discute en el Capítulo 1.
-Está en inglés.
+De acceso libre. Es la investigación periodística sobre el algoritmo COMPAS de evaluación
+de riesgo en tribunales, uno de los casos que O'Neil discute en el libro. Sirve para quien
+quiera ver los datos y el análisis detrás del caso. Está en inglés.
 
 ## Qué se evalúa
 
