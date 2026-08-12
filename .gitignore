@@ -1,4 +1,11 @@
 .DS_Store
+
+# El repo es público: no se suben libros ni papers con derechos de autor.
+# Las lecturas con copyright se distribuyen por Aula, no por aquí.
+lecturas/*.pdf
+lecturas/*.epub
+lecturas/*.mobi
+
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
