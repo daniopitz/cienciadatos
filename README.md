@@ -52,8 +52,6 @@ tardar una semana antes.
 - **Uso de IA generativa (ChatGPT, Copilot, etc.)**: **permitida, con declaración**. Al entregar,
   indiquen qué herramienta usaron y para qué (una línea basta). Deben **entender y poder explicar
   cualquier línea de su código**: en clase se puede preguntar. Los certámenes son sin IA.
-- **Honestidad académica**: copiar código de otro grupo sin atribución se considera falta.
-  Reutilizar código con atribución (fuente, compañero, IA) siempre es válido.
 
 ## Planificación semana a semana
 
