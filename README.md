@@ -63,14 +63,18 @@ más la presentación del proyecto.
 Dos viernes sin clases: **14 de agosto** (Días Sansanos) y **18 de septiembre**
 (Fiestas Patrias). El contenido del 14 de agosto se junta con la clase del 21.
 
+Para no sobrecargar la clase del 21 (que además tiene el control Q1), el análisis
+exploratorio se reparte entre el **21 y el 28 de agosto**: se avanza lo que se alcance
+el 21 y se retoma el 28, antes de entrar a visualización.
+
 Los enlaces se van publicando a medida que avanza el semestre.
 
 | Clase | Fecha | Unidad (programa) | Contenidos | Slides | Notebook | Evaluaciones e hitos |
 |-------|-------|-------------------|------------|--------|----------|----------------------|
 | 01 | vie 07-ago | U1. Fundamentos y ética | Qué es la ciencia de datos; reglas del curso; IA responsable; marco legal (Ley 21.719, AI Act) | [pdf](presentaciones/clase01_ia_responsable.pdf) · [pptx](presentaciones/clase01_ia_responsable.pptx) | — | Se publica lectura de Q1 |
 | — | vie 14-ago | *Sin clases (Días Sansanos)* | | | | |
-| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio | NumPy y Pandas: arreglos, DataFrames, groupby, merge · EDA: estadística descriptiva y métodos gráficos | — | — | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 · **Sale Tarea 1** |
-| 03 | vie 28-ago | U4. Visualización | Matplotlib y Seaborn; datos multivariados; buenas prácticas | — | — | Avance mínimo T1 (revisión en clase) · **Se forman los grupos de proyecto** |
+| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | NumPy y Pandas: arreglos, DataFrames, groupby, merge · Inicio de EDA: estadística descriptiva | — | — | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 · **Sale Tarea 1** |
+| 03 | vie 28-ago | U2. Análisis exploratorio *(parte 2)* + U4. Visualización | EDA: métodos gráficos · Matplotlib y Seaborn; datos multivariados; buenas prácticas | — | — | Avance mínimo T1 (revisión en clase) · **Se forman los grupos de proyecto** |
 | 04 | vie 04-sep | U3. Pre-procesamiento | Limpieza, imputación, outliers, transformaciones | — | — | **Entrega T1** · **Sale Tarea 2** · **Control Q2** *(lectura tentativa)*: *Datasheets for Datasets* (Gebru et al., 2021) |
 | 05 | vie 11-sep | U3. Reducción de dimensión | Selección de características; PCA; métodos no lineales: t-SNE y UMAP | — | — | **Entrega propuesta de proyecto** (antes de Fiestas Patrias) |
 | — | vie 18-sep | *Feriado (Fiestas Patrias)* | | | | |
