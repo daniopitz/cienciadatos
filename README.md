@@ -1,8 +1,12 @@
 # INF-396 Introducción a la Ciencia de Datos
 
 Universidad Técnica Federico Santa María, Departamento de Informática.
+Electivo de pregrado, 3 créditos UTFSM (5 SCT). Prerrequisitos: INF-239, INF-280 e
+INF-285 (o sus equivalentes ILI). Profesora: Daniela Opitz.
+
 Segundo semestre 2026. Clases los **viernes de 14:40 a 17:15**, en dos bloques de 70
-minutos con un recreo de 15. Primera clase: viernes 7 de agosto.
+minutos con un recreo de 15. Primera clase: viernes 7 de agosto. Los anuncios y las
+entregas van por Aula.
 
 Cuatro viernes sin clases: 14 de agosto (Días Sansanos), 11 y 18 de septiembre
 (actividades de Fiestas Patrias y vacaciones) y 16 de octubre (Puertas Abiertas).
@@ -25,17 +29,17 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 ### Calendario de evaluaciones
 
 Salvo la entrega de T1, que es un jueves y se hace por Aula, todas las fechas son
-viernes en el horario de clases. Aquí van solo las evaluaciones formales. Los enunciados de las tareas se publican por Aula y no figuran aquí como
-hito: lo que cuenta es la fecha de entrega.
+viernes en el horario de clases. Aquí van solo las evaluaciones formales; los
+enunciados de las tareas se publican por Aula y no figuran como hito.
 
-Las fechas de los certámenes, la propuesta y la presentación del proyecto son firmes.
-Los controles Q2 a Q4 y las entregas de tareas se ajustan sobre la marcha: se confirman
-en clase y por Aula, a más tardar una semana antes.
+Las fechas de los certámenes, la entrega de T1, la propuesta y la presentación del
+proyecto son firmes. Los controles Q2 a Q4 y las entregas T2 a T4 se ajustan sobre la
+marcha: se confirman en clase y por Aula, a más tardar una semana antes.
 
 | Fecha | Evaluación | Estado | Detalle |
 |-------|------------|--------|---------|
 | vie 21-ago | **Control Q1** | ✅ Confirmado | O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
-| vie 28-ago | Hito proyecto | ✅ | Se forman los grupos |
+| vie 28-ago | Hito proyecto | ✅ Confirmado | Se forman los grupos |
 | vie 04-sep | **Control Q2** | *Tentativo* | Lectura por definir |
 | **jue 10-sep** | **Entrega T1** | ✅ Confirmado | Exploración de datos. Se entrega por Aula, antes de las actividades de Fiestas Patrias |
 | vie 25-sep | **Propuesta de proyecto** | ✅ Confirmado | Obligatoria: pregunta, datos y plan de trabajo |
@@ -43,7 +47,7 @@ en clase y por Aula, a más tardar una semana antes.
 | vie 09-oct | **Entrega T2** | *Tentativo* | |
 | vie 23-oct | **Control Q3** | *Tentativo* | Lectura por definir |
 | vie 30-oct | **Entrega T3** | *Tentativo* | |
-| vie 06-nov | Avance de proyecto *(opcional)* | ✅ | Quienes lo presenten parten con 10 puntos de base |
+| vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
 | vie 13-nov | **Control Q4** | *Tentativo* | Lectura por definir |
 | vie 20-nov | **Entrega T4** | *Tentativo* | |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
@@ -63,8 +67,8 @@ en clase y por Aula, a más tardar una semana antes.
 
 ## Planificación semana a semana
 
-Las 9 unidades temáticas del programa oficial INF-396, distribuidas en 13 sesiones
-más la presentación del proyecto.
+Las 9 unidades temáticas del programa oficial INF-396, distribuidas en 11 clases de
+contenido, 2 certámenes y la presentación del proyecto.
 
 Cuatro viernes sin clases, porque las suspensiones empiezan a las 12:30 y el curso es
 a las 14:40: **14 de agosto** (Días Sansanos), **11 y 18 de septiembre** (actividades
@@ -106,8 +110,6 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 1 | 14:40 a 15:50 | Control de lectura (semanas con control) o repaso de la clase anterior, y teoría (slides en `presentaciones/`) |
 | Recreo | 15:50 a 16:05 | |
 | 2 | 16:05 a 17:15 | Actividad guiada en notebook, en parejas (`actividades/`); aquí se avanza gran parte de las tareas |
-
-Son 140 minutos de clase efectivos, repartidos en dos bloques de 70.
 
 ### Lecturas de los controles
 
