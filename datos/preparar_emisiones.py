@@ -11,9 +11,20 @@ Uso:
     uv run python datos/preparar_emisiones.py
 """
 
+import ssl
+import urllib.request
 from pathlib import Path
 
+import certifi
 import pandas as pd
+
+# En macOS es habitual que Python no encuentre los certificados del sistema y la
+# descarga falle con un error de SSL. Usamos el paquete certifi, que trae su propia
+# lista de autoridades certificadoras.
+contexto = ssl.create_default_context(cafile=certifi.where())
+urllib.request.install_opener(
+    urllib.request.build_opener(urllib.request.HTTPSHandler(context=contexto))
+)
 
 URL = (
     "https://datosretc.mma.gob.cl/dataset/2733b0f0-428a-4594-afeb-17780c8d47c1/"
@@ -62,6 +73,13 @@ print(f"El archivo original tiene {len(datos):,} filas.")
 # Si no se limpian, los filtros y los groupby fallan sin avisar.
 for columna in datos.select_dtypes(include="str").columns:
     datos[columna] = datos[columna].str.strip()
+
+# La columna de toneladas viene como texto por dos razones: usa coma decimal y marca
+# los datos faltantes con un guion. La dejamos numerica, con los faltantes como NaN.
+datos["cantidad_toneladas"] = pd.to_numeric(
+    datos["cantidad_toneladas"].astype("string").str.replace(",", ".", regex=False),
+    errors="coerce",
+)
 
 emisiones = datos[datos["contaminante"].isin(CONTAMINANTES)].copy()
 emisiones = emisiones.rename(columns=NOMBRES)
