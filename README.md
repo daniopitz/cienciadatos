@@ -2,11 +2,11 @@
 
 Universidad Técnica Federico Santa María, Departamento de Informática.
 Electivo de pregrado, 3 créditos UTFSM (5 SCT). Prerrequisitos: INF-239, INF-280 e
-INF-285 (o sus equivalentes ILI). Profesora: Daniela Opitz.
+INF-285 (o sus equivalentes ILI). Profesora: Daniela Opitz. Ayudante: Flavio Oyarce.
 
-Segundo semestre 2026. Clases los **viernes de 14:40 a 17:15**, en dos bloques de 70
-minutos con un recreo de 15. Primera clase: viernes 7 de agosto. Los anuncios y las
-entregas van por Aula.
+Segundo semestre 2026. Clases los **viernes de 14:40 a 17:15** en la **sala A07**, en
+dos bloques de 70 minutos con un recreo de 15. Primera clase: viernes 7 de agosto.
+Los anuncios y las entregas van por Aula.
 
 Cuatro viernes sin clases: 14 de agosto (Días Sansanos), 11 y 18 de septiembre
 (actividades de Fiestas Patrias y vacaciones) y 16 de octubre (Puertas Abiertas).
@@ -196,3 +196,11 @@ trabajan en el bloque práctico y no se califican por separado.
   desigualdad y amenaza la democracia*. Capitán Swing. Lectura del control Q1.
 - Russell, S. y Norvig, P. (2021). *Artificial Intelligence: A Modern Approach*, 4ª ed.
   Pearson. Capítulo 1.
+
+## Licencia
+
+El material del curso (slides, notebooks, actividades y este README) se publica bajo
+la licencia [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es):
+se puede reutilizar y adaptar citando la fuente, sin fines comerciales y compartiendo
+con la misma licencia. Los datos de `datos/` provienen de fuentes públicas y conservan
+las condiciones de su origen (ver `datos/README.md`).
