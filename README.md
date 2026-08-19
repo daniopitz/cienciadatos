@@ -89,10 +89,10 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | - | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
 | 05 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | - | - | **Entrega propuesta de proyecto** (de vuelta de vacaciones) |
 | 06 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5) | | | |
-| 07 | vie 09-oct | U7. Regresión + U8. Regularización | Regresión lineal múltiple; ajuste e interpretación de coeficientes; regularización: ridge y lasso | - | - | **Entrega T2** |
+| 07 | vie 09-oct | U7. Regresión + U8. Sesgo, varianza y regularización | Regresión lineal múltiple; ajuste e interpretación de coeficientes · Dilema entre sesgo y varianza · Regularización: ridge y lasso | - | - | **Entrega T2** |
 | - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
 | 08 | vie 23-oct | U6. Aprendizaje automático + U7. Clasificación | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado; API de scikit-learn · Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** (lectura por definir) |
-| 09 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Entrega T3** |
+| 09 | vie 30-oct | U8. Evaluación de modelos | Validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Entrega T3** |
 | 10 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
 | 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** (lectura por definir) |
 | 12 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | - | - | **Entrega T4** |
