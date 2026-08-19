@@ -20,7 +20,7 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 | Controles de lectura (Q) | 10% | **21-ago** (Q1) · resto por confirmar | 4 controles, al inicio de la clase, duración 15 a 20 minutos |
 | Tareas (T) | 10% | entregas: **10-sep · 9-oct · 30-oct · 20-nov** | 4 tareas en parejas, sobre datos reales; gran parte se desarrolla en clase, en el bloque práctico |
 | Certámenes (C) | 50% | **2-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
-| Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe con ficha del modelo |
+| Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
 
 ### Calendario de evaluaciones
 
@@ -47,7 +47,7 @@ en clase y por Aula, a más tardar una semana antes.
 | vie 13-nov | **Control Q4** | *Tentativo* | Lectura por definir |
 | vie 20-nov | **Entrega T4** | *Tentativo* | |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
-| vie 04-dic | **Presentación del proyecto + informe** | ✅ Confirmado | Con ficha del modelo |
+| vie 04-dic | **Presentación del proyecto + informe** | ✅ Confirmado | |
 
 ## Reglas del curso
 
@@ -131,9 +131,8 @@ En grupos, sobre un problema y datos elegidos por el grupo (se sugieren datos ch
 - **Avance** (opcional): el **6 de noviembre**. No es obligatorio; los grupos que lo
   presenten **parten con 10 puntos de base** (escala 0 a 100) en la nota del proyecto
   y reciben retroalimentación para la entrega final.
-- **Presentación e informe**: el **4 de diciembre**. El informe debe incluir una
-  **ficha del modelo** (model card simplificada): qué hace, para qué sirve, dónde falla
-  y a quién podría perjudicar.
+- **Presentación e informe**: el **4 de diciembre**. El informe debe explicar qué hace
+  el modelo, para qué sirve, dónde falla y a quién podría perjudicar.
 
 ## Entorno
 
@@ -155,7 +154,7 @@ evaluaciones/
   controles/         enunciados de Q1 a Q4
   certamenes/        enunciados de C1 y C2
   rubricas/          pautas de corrección
-  proyecto/          pauta, formato de propuesta y ficha del modelo
+  proyecto/          pauta y formato de propuesta
 lecturas/            lecturas de los controles (ver lecturas/README.md)
 datos/               datasets del curso (ver datos/README.md)
 programa/            programa oficial de la asignatura
@@ -198,25 +197,3 @@ No están en el programa oficial, pero cubren unidades que el texto guía no abo
   sesgo algorítmico. Lectura del control Q1.
 - Russell, S. y Norvig, P. (2021). *Artificial Intelligence: A Modern Approach*,
   4ª ed. Capítulo 1.
-
-### Qué fuente cubre cada unidad
-
-El texto guía cubre muy bien la segunda mitad del curso y casi nada de la primera.
-Por eso el material del inicio se apoya en otras fuentes.
-
-Un caso a tener presente: **el análisis exploratorio no aparece como tal en el texto
-guía ni en los complementarios del programa**. El término lo acuña Tukey en 1977
-(*Exploratory Data Analysis*, Addison-Wesley) y en la bibliografía moderna del curso
-solo lo desarrolla Bruce, Bruce y Gedeck.
-
-| Unidad del programa | Fuente principal |
-|---------------------|------------------|
-| U1. Fundamentos y ética | Ninguno de los textos del programa. Se usa O'Neil |
-| U2. Análisis exploratorio | Bruce, Bruce y Gedeck cap. 1, que es el único que desarrolla el EDA como método. VanderPlas caps. 3 y 4 para las herramientas |
-| U3. Pre-procesamiento | García, Luengo y Herrera (complementario del programa). VanderPlas cap. 3 (datos faltantes) y cap. 5 (ingeniería de características) |
-| U4. Visualización | VanderPlas cap. 4, incluida la sección de Seaborn |
-| U5. Inferencia estadística | ISLP cap. 5 (validación cruzada y bootstrap) y cap. 13 (contraste de hipótesis) |
-| U6. Aprendizaje automático | ISLP cap. 2. Para lo bayesiano, VanderPlas cap. 5 (Naive Bayes) |
-| U7. Clasificación | ISLP cap. 3 (regresión lineal) y cap. 4 (logística, LDA, KNN) |
-| U8. Evaluación de modelos | ISLP cap. 2 (sesgo y varianza), cap. 5 (validación cruzada) y cap. 6 (regularización) |
-| U9. SVM y redes neuronales | ISLP cap. 9 (SVM) y cap. 10 (deep learning) |
