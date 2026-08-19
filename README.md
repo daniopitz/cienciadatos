@@ -99,7 +99,7 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 09 | vie 30-oct | U8. Evaluación de modelos | Validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Entrega T3** |
 | 10 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
 | 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** (lectura por definir) |
-| 12 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | - | - | **Entrega T4** |
+| 12 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Redes neuronales artificiales en clasificación · Marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Entrega T4** |
 | 13 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
 | - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
 
