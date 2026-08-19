@@ -17,3 +17,10 @@ uv.lock
 *.egg-info/
 .jupyter/
 .ruff_cache/
+
+# Los scripts que arman las slides, las figuras y los notebooks son material de
+# trabajo de la profesora y no se publican. Los .pptx, .pdf e .ipynb resultantes si.
+presentaciones/build_*.py
+presentaciones/estilo.py
+presentaciones/figuras_*.py
+presentaciones/figuras/
