@@ -173,20 +173,24 @@ trabajan en el bloque práctico y no se califican por separado.
 ### Bibliografía del programa
 
 - James, G., Witten, D., Hastie, T. y Tibshirani, R. *An Introduction to Statistical
-  Learning*. Springer. Usamos la edición en Python (ISLP, 2023), de descarga gratuita en
-  https://www.statlearning.com
-- Saltz, J. S. y Stanton, J. M. (2018). *An Introduction to Data Science*. SAGE.
-- Ozdemir, S. (2016). *Principles of Data Science*. Packt.
-- García, S., Luengo, J. y Herrera, F. (2015). *Data Preprocessing in Data Mining*. Springer.
+  Learning: with Applications in R*. Springer. Usamos la edición equivalente en Python,
+  *An Introduction to Statistical Learning: with Applications in Python* (2023), de
+  descarga gratuita en https://www.statlearning.com
+- Saltz, J. S. y Stanton, J. M. (2018). *An Introduction to Data Science*. SAGE
+  Publications, primera edición.
+- Ozdemir, S. (2016). *Principles of Data Science*. Packt Publishing.
+- García, S., Luengo, J. y Herrera, F. (2015). *Data Preprocessing in Data Mining*.
+  Springer.
 
 ### Bibliografía adicional
 
-- Bruce, P., Bruce, A. y Gedeck, P. (2020). *Practical Statistics for Data Scientists*,
-  2ª ed. O'Reilly. Capítulo 1, "Exploratory Data Analysis". Notebooks en Python de
-  acceso libre en https://github.com/gedeck/practical-statistics-for-data-scientists
-- VanderPlas, J. (2016). *Python Data Science Handbook*.
-  https://jakevdp.github.io/PythonDataScienceHandbook/
-- O'Neil, C. (2017). *Armas de destrucción matemática*. Capitán Swing. Lectura del
-  control Q1.
-- Russell, S. y Norvig, P. (2021). *Artificial Intelligence: A Modern Approach*,
-  4ª ed. Capítulo 1.
+- Bruce, P., Bruce, A. y Gedeck, P. (2020). *Practical Statistics for Data Scientists:
+  50+ Essential Concepts Using R and Python*, 2ª ed. O'Reilly. Capítulo 1, "Exploratory
+  Data Analysis". Notebooks en Python de acceso libre en
+  https://github.com/gedeck/practical-statistics-for-data-scientists
+- VanderPlas, J. (2016). *Python Data Science Handbook: Essential Tools for Working
+  with Data*. O'Reilly. https://jakevdp.github.io/PythonDataScienceHandbook/
+- O'Neil, C. (2017). *Armas de destrucción matemática: cómo el Big Data aumenta la
+  desigualdad y amenaza la democracia*. Capitán Swing. Lectura del control Q1.
+- Russell, S. y Norvig, P. (2021). *Artificial Intelligence: A Modern Approach*, 4ª ed.
+  Pearson. Capítulo 1.
