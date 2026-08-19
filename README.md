@@ -170,30 +170,23 @@ trabajan en el bloque práctico y no se califican por separado.
 
 ## Bibliografía
 
-### Texto guía
+### Bibliografía del programa
 
-El programa oficial indica **James, Witten, Hastie y Tibshirani, *An Introduction to
-Statistical Learning*, Springer**, en su edición con R. En el curso usamos la **edición
-en Python (ISLP, 2023)**, que es el mismo libro con el lenguaje que ocupamos.
-Descarga gratuita en https://www.statlearning.com
-
-### Complementaria (del programa oficial)
-
+- James, G., Witten, D., Hastie, T. y Tibshirani, R. *An Introduction to Statistical
+  Learning*. Springer. Usamos la edición en Python (ISLP, 2023), de descarga gratuita en
+  https://www.statlearning.com
 - Saltz, J. S. y Stanton, J. M. (2018). *An Introduction to Data Science*. SAGE.
 - Ozdemir, S. (2016). *Principles of Data Science*. Packt.
 - García, S., Luengo, J. y Herrera, F. (2015). *Data Preprocessing in Data Mining*. Springer.
 
-### Material adicional del curso
-
-No están en el programa oficial, pero cubren unidades que el texto guía no aborda.
+### Bibliografía adicional
 
 - Bruce, P., Bruce, A. y Gedeck, P. (2020). *Practical Statistics for Data Scientists*,
-  2ª ed. O'Reilly. Su **capítulo 1 es "Exploratory Data Analysis"**: es la única fuente
-  del curso que trata el EDA como tal. Notebooks en Python de acceso libre en
-  https://github.com/gedeck/practical-statistics-for-data-scientists
-- VanderPlas, J. (2016). *Python Data Science Handbook*. Herramientas: Pandas,
-  Matplotlib y Seaborn. https://jakevdp.github.io/PythonDataScienceHandbook/
-- O'Neil, C. (2017). *Armas de destrucción matemática*. Capitán Swing. Ética y
-  sesgo algorítmico. Lectura del control Q1.
+  2ª ed. O'Reilly. Capítulo 1, "Exploratory Data Analysis". Notebooks en Python de
+  acceso libre en https://github.com/gedeck/practical-statistics-for-data-scientists
+- VanderPlas, J. (2016). *Python Data Science Handbook*.
+  https://jakevdp.github.io/PythonDataScienceHandbook/
+- O'Neil, C. (2017). *Armas de destrucción matemática*. Capitán Swing. Lectura del
+  control Q1.
 - Russell, S. y Norvig, P. (2021). *Artificial Intelligence: A Modern Approach*,
   4ª ed. Capítulo 1.
