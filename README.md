@@ -22,31 +22,31 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 | Ítem | Ponderación | Fechas | Detalle |
 |------|-------------|--------|---------|
 | Controles de lectura (Q) | 10% | **21-ago** (Q1) · resto por confirmar | 4 controles, al inicio de la clase, duración 15 a 20 minutos |
-| Tareas (T) | 10% | entregas: **10-sep · 9-oct · 30-oct · 20-nov** | 4 tareas en parejas, sobre datos reales; gran parte se desarrolla en clase, en el bloque práctico |
+| Tareas (T) | 10% | entregas *(tentativas)*: 10-sep · 9-oct · 4-nov · 20-nov | 4 tareas en parejas, sobre datos reales; gran parte se desarrolla en clase, en el bloque práctico |
 | Certámenes (C) | 50% | **2-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
 | Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
 
 ### Calendario de evaluaciones
 
-Salvo la entrega de T1, que es un jueves y se hace por Aula, todas las fechas son
-viernes en el horario de clases. Aquí van solo las evaluaciones formales; los
-enunciados de las tareas se publican por Aula y no figuran como hito.
+Las tareas se entregan por Aula; algunas entregas caen entre semana. El resto de las
+fechas son viernes en el horario de clases. Aquí van solo las evaluaciones formales;
+los enunciados de las tareas se publican por Aula y no figuran como hito.
 
-Las fechas de los certámenes, la entrega de T1, la propuesta y la presentación del
-proyecto son firmes. Los controles Q2 a Q4 y las entregas T2 a T4 se ajustan sobre la
-marcha: se confirman en clase y por Aula, a más tardar una semana antes.
+Las fechas de los certámenes, la propuesta y la presentación del proyecto son firmes.
+**Las fechas de entrega de las tareas son tentativas**, igual que los controles Q2 a
+Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 
 | Fecha | Evaluación | Estado | Detalle |
 |-------|------------|--------|---------|
 | vie 21-ago | **Control Q1** | ✅ Confirmado | O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | vie 28-ago | Hito proyecto | ✅ Confirmado | Se forman los grupos |
 | vie 04-sep | **Control Q2** | *Tentativo* | Lectura por definir |
-| **jue 10-sep** | **Entrega T1** | ✅ Confirmado | Exploración de datos. Se entrega por Aula, antes de las actividades de Fiestas Patrias |
+| jue 10-sep | **Entrega T1** | *Tentativo* | Exploración de datos. Se entrega por Aula |
 | vie 25-sep | **Propuesta de proyecto** | ✅ Confirmado | Obligatoria: pregunta, datos y plan de trabajo |
 | vie 02-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual |
 | vie 09-oct | **Entrega T2** | *Tentativo* | |
-| vie 23-oct | **Control Q3** | *Tentativo* | Lectura por definir |
-| vie 30-oct | **Entrega T3** | *Tentativo* | |
+| vie 30-oct | **Control Q3** | *Tentativo* | Lectura por definir |
+| mié 04-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula |
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
 | vie 13-nov | **Control Q4** | *Tentativo* | Lectura por definir |
 | vie 20-nov | **Entrega T4** | *Tentativo* | |
@@ -95,9 +95,9 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 06 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal) | | | |
 | 07 | vie 09-oct | U8. Sesgo, varianza y regularización | Interpretación de coeficientes y diagnóstico del ajuste · Dilema entre sesgo y varianza · Regularización: ridge y lasso | - | - | **Entrega T2** |
 | - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
-| 08 | vie 23-oct | U6. Aprendizaje automático + U7. Clasificación | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado · Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** (lectura por definir) |
-| 09 | vie 30-oct | U8. Evaluación de modelos | Validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Entrega T3** |
-| 10 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
+| 08 | vie 23-oct | U6. Aprendizaje automático + U7. Clasificación | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado · Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | |
+| 09 | vie 30-oct | U8. Evaluación de modelos | Validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Control Q3** (lectura por definir) |
+| 10 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Entrega T3** el miércoles 4 de noviembre, por Aula · **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
 | 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** (lectura por definir) |
 | 12 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Redes neuronales artificiales en clasificación · Marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Entrega T4** |
 | 13 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
@@ -117,7 +117,7 @@ Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
 
 - **Q1 (21-ago):** O'Neil, *Armas de destrucción matemática*, Introducción + Capítulo 1.
 - **Q2 (04-sep)**: por definir.
-- **Q3 (23-oct)**: por definir.
+- **Q3 (30-oct)**: por definir.
 - **Q4 (13-nov)**: por definir.
 
 Solo la lectura de Q1 está definida. Las otras tres se anuncian en clase y por Aula a
@@ -162,13 +162,8 @@ datos/               datasets del curso (ver datos/README.md)
 programa/            programa oficial de la asignatura
 ```
 
-El material se agrupa por tipo y no por clase, porque buena parte no pertenece a
-una sola clase: los datasets se reutilizan, las lecturas están amarradas a los
-controles y las tareas cruzan varias semanas. La navegación por clase se hace desde
-la tabla de planificación de más arriba, que enlaza directo a cada archivo.
-
-Las actividades quedan fuera de `evaluaciones/` a propósito: son formativas, se
-trabajan en el bloque práctico y no se califican por separado.
+Los enlaces a las slides y al notebook de cada clase están en la tabla de
+planificación.
 
 ## Bibliografía
 

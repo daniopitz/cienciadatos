@@ -11,7 +11,7 @@ y por Aula a más tardar una semana antes del control.
 |---------|-------|---------|--------|--------|
 | Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | Confirmada | 📄 Se distribuye por **Aula** (ver abajo) |
 | Q2 | vie 04-sep | Por definir | *Tentativa* | |
-| Q3 | vie 23-oct | Por definir | *Tentativa* | |
+| Q3 | vie 30-oct | Por definir | *Tentativa* | |
 | Q4 | vie 13-nov | Por definir | *Tentativa* | |
 
 ## Cómo conseguir la lectura Q1
