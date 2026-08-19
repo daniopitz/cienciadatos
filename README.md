@@ -80,18 +80,18 @@ Los enlaces se van publicando a medida que avanza el semestre.
 
 | Clase | Fecha | Unidad (programa) | Contenidos | Slides | Notebook | Evaluaciones e hitos |
 |-------|-------|-------------------|------------|--------|----------|----------------------|
-| 01 | vie 07-ago | U1. Fundamentos y ética | Qué es la ciencia de datos; reglas del curso; IA responsable; marco legal (Ley 21.719, AI Act) | [pdf](presentaciones/clase01_ia_responsable.pdf) · [pptx](presentaciones/clase01_ia_responsable.pptx) | - | Se publica lectura de Q1 |
+| 01 | vie 07-ago | U1. Fundamentos y ética | Qué es la ciencia de datos; reglas del curso; IA responsable | [pdf](presentaciones/clase01_ia_responsable.pdf) · [pptx](presentaciones/clase01_ia_responsable.pptx) | - | Se publica lectura de Q1 |
 | - | vie 14-ago | *Sin clases (Días Sansanos)* | | | | |
-| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | Manipulación de datos con Pandas: DataFrames, indexación, selección, groupby, merge · Inicio de EDA: estadística descriptiva | - | - | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
+| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | Manipulación de datos con Pandas: DataFrames, indexación, selección, groupby, merge · Inicio de EDA: estadística descriptiva | [pdf](presentaciones/clase02_pandas_eda.pdf) · [pptx](presentaciones/clase02_pandas_eda.pptx) | [ipynb](02_pandas_eda.ipynb) | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | 03 | vie 28-ago | U2. Análisis exploratorio *(parte 2)* + U4. Visualización | EDA: métodos gráficos · Matplotlib y Seaborn; datos multivariados; buenas prácticas | - | - | **Se forman los grupos de proyecto** |
 | 04 | vie 04-sep | U3. Pre-procesamiento y reducción de dimensión | Limpieza, imputación, outliers, transformaciones · Selección de características; PCA; métodos no lineales: t-SNE y UMAP | - | - | Avance mínimo T1 (revisión en clase) · **Control Q2** *(lectura tentativa)*: *Datasheets for Datasets* (Gebru et al., 2021) |
 | - | vie 11-sep | *Sin clases (actividades de Fiestas Patrias)* | | | | **Entrega T1** el jueves 10 de septiembre, por Aula |
 | - | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
 | 05 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | - | - | **Entrega propuesta de proyecto** (de vuelta de vacaciones) |
 | 06 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5) | | | |
-| 07 | vie 09-oct | U6. Aprendizaje automático | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado; API de scikit-learn | - | - | **Entrega T2** |
+| 07 | vie 09-oct | U7. Clasificación *(parte 1)* | Regresión lineal múltiple; ajuste e interpretación de coeficientes; regresión logística | - | - | **Entrega T2** |
 | - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
-| 08 | vie 23-oct | U7. Clasificación | Regresión lineal múltiple; regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
+| 08 | vie 23-oct | U6. Aprendizaje automático + U7 *(parte 2)* | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado; API de scikit-learn · Análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
 | 09 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; bootstrap; métricas de desempeño; regularización (ridge y lasso); equidad entre grupos | - | - | **Entrega T3** |
 | 10 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
 | 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir |
