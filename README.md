@@ -36,15 +36,15 @@ en clase y por Aula, a más tardar una semana antes.
 |-------|------------|--------|---------|
 | vie 21-ago | **Control Q1** | ✅ Confirmado | O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | vie 28-ago | Hito proyecto | ✅ | Se forman los grupos |
-| vie 04-sep | **Control Q2** | *Tentativo* | Q2: *Datasheets for Datasets* |
+| vie 04-sep | **Control Q2** | *Tentativo* | Lectura por definir |
 | **jue 10-sep** | **Entrega T1** | ✅ Confirmado | Exploración de datos. Se entrega por Aula, antes de las actividades de Fiestas Patrias |
 | vie 25-sep | **Propuesta de proyecto** | ✅ Confirmado | Obligatoria: pregunta, datos y plan de trabajo |
 | vie 02-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5 · certamen escrito, individual |
 | vie 09-oct | **Entrega T2** | *Tentativo* | |
-| vie 23-oct | **Control Q3** | *Tentativo* | *Model Cards* |
+| vie 23-oct | **Control Q3** | *Tentativo* | Lectura por definir |
 | vie 30-oct | **Entrega T3** | *Tentativo* | |
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ | Quienes lo presenten parten con 10 puntos de base |
-| vie 13-nov | **Control Q4** | *Tentativo* | Q4: paper aplicado, por definir |
+| vie 13-nov | **Control Q4** | *Tentativo* | Lectura por definir |
 | vie 20-nov | **Entrega T4** | *Tentativo* | |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
 | vie 04-dic | **Presentación del proyecto + informe** | ✅ Confirmado | Con ficha del modelo |
@@ -84,17 +84,17 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | - | vie 14-ago | *Sin clases (Días Sansanos)* | | | | |
 | 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | Manipulación de datos con Pandas: DataFrames, indexación, selección, groupby, merge · Inicio de EDA: estadística descriptiva | [pdf](presentaciones/clase02_pandas_eda.pdf) · [pptx](presentaciones/clase02_pandas_eda.pptx) | [ipynb](02_pandas_eda.ipynb) | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | 03 | vie 28-ago | U2. Análisis exploratorio *(parte 2)* + U4. Visualización | EDA: métodos gráficos · Matplotlib y Seaborn; datos multivariados; buenas prácticas | - | - | **Se forman los grupos de proyecto** |
-| 04 | vie 04-sep | U3. Pre-procesamiento y reducción de dimensión | Limpieza, imputación, outliers, transformaciones · Selección de características; PCA; métodos no lineales: t-SNE y UMAP | - | - | Avance mínimo T1 (revisión en clase) · **Control Q2** *(lectura tentativa)*: *Datasheets for Datasets* (Gebru et al., 2021) |
+| 04 | vie 04-sep | U3. Pre-procesamiento y reducción de dimensión | Limpieza, imputación, outliers, transformaciones · Selección de características; PCA; métodos no lineales: t-SNE y UMAP | - | - | Avance mínimo T1 (revisión en clase) · **Control Q2** (lectura por definir) |
 | - | vie 11-sep | *Sin clases (actividades de Fiestas Patrias)* | | | | **Entrega T1** el jueves 10 de septiembre, por Aula |
 | - | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
 | 05 | vie 25-sep | U5. Inferencia estadística | Estimación, intervalos, contraste de hipótesis, bootstrap | - | - | **Entrega propuesta de proyecto** (de vuelta de vacaciones) |
 | 06 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5) | | | |
-| 07 | vie 09-oct | U7. Clasificación *(parte 1)* | Regresión lineal múltiple; ajuste e interpretación de coeficientes; regresión logística | - | - | **Entrega T2** |
+| 07 | vie 09-oct | U7. Regresión + U8. Regularización | Regresión lineal múltiple; ajuste e interpretación de coeficientes; regularización: ridge y lasso | - | - | **Entrega T2** |
 | - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
-| 08 | vie 23-oct | U6. Aprendizaje automático + U7 *(parte 2)* | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado; API de scikit-learn · Análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** *(lectura tentativa)*: *Model Cards* (Mitchell et al., 2019) |
-| 09 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; bootstrap; métricas de desempeño; regularización (ridge y lasso); equidad entre grupos | - | - | **Entrega T3** |
+| 08 | vie 23-oct | U6. Aprendizaje automático + U7. Clasificación | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado; API de scikit-learn · Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Control Q3** (lectura por definir) |
+| 09 | vie 30-oct | U8. Evaluación de modelos | Sesgo y varianza; validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Entrega T3** |
 | 10 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
-| 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** *(lectura tentativa)*: paper aplicado, por definir |
+| 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** (lectura por definir) |
 | 12 | vie 20-nov | U9. Redes neuronales | Redes neuronales artificiales en clasificación | - | - | **Entrega T4** |
 | 13 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
 | - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
@@ -114,12 +114,12 @@ Son 140 minutos de clase efectivos, repartidos en dos bloques de 70.
 Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
 
 - **Q1 (21-ago):** O'Neil, *Armas de destrucción matemática*, Introducción + Capítulo 1.
-- **Q2 (04-sep)** *(tentativa)*: Gebru et al. (2021), *Datasheets for Datasets*, CACM.
-- **Q3 (23-oct)** *(tentativa)*: Mitchell et al. (2019), *Model Cards for Model Reporting*, FAT*.
-- **Q4 (13-nov)** *(tentativa)*: artículo aplicado, por definir según los intereses del grupo.
+- **Q2 (04-sep)**: por definir.
+- **Q3 (23-oct)**: por definir.
+- **Q4 (13-nov)**: por definir.
 
-Solo Q1 está confirmada. Las demás pueden cambiar; se confirman a más tardar una semana
-antes de cada control.
+Solo la lectura de Q1 está definida. Las otras tres se anuncian en clase y por Aula a
+más tardar una semana antes de cada control.
 
 ### Proyecto final
 

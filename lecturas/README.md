@@ -3,16 +3,16 @@
 Cada control de lectura (Q) se toma al inicio de la clase indicada y dura entre 15 y 20 minutos.
 Son 4 controles y ponderan 10% de la nota final.
 
-**Solo Q1 está confirmada: viernes 21 de agosto.** Q2, Q3 y Q4 son tentativas, tanto en
-la lectura como en la fecha, y se ajustan según cómo avance el curso. Cada una se confirma
-en clase y por Aula a más tardar una semana antes.
+**Solo la lectura de Q1 está definida: viernes 21 de agosto.** Las lecturas de Q2, Q3 y
+Q4 todavía no están decididas, y sus fechas son tentativas. Cada una se anuncia en clase
+y por Aula a más tardar una semana antes del control.
 
 | Control | Fecha | Lectura | Estado | Acceso |
 |---------|-------|---------|--------|--------|
 | Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | Confirmada | 📄 Se distribuye por **Aula** (ver abajo) |
-| Q2 | vie 04-sep | Gebru, T. et al. (2021). *Datasheets for Datasets*. Communications of the ACM 64(12), 86-92 | *Tentativa* | ✅ Libre: https://arxiv.org/abs/1803.09010 |
-| Q3 | vie 23-oct | Mitchell, M. et al. (2019). *Model Cards for Model Reporting*. FAT* '19, 220-229 | *Tentativa* | ✅ Libre: https://arxiv.org/abs/1810.03993 |
-| Q4 | vie 13-nov | Artículo aplicado, por definir según los intereses del grupo | *Tentativa* | Por publicar |
+| Q2 | vie 04-sep | Por definir | *Tentativa* | |
+| Q3 | vie 23-oct | Por definir | *Tentativa* | |
+| Q4 | vie 13-nov | Por definir | *Tentativa* | |
 
 ## Cómo conseguir la lectura Q1
 
