@@ -111,6 +111,15 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | Recreo | 15:50 a 16:05 | |
 | 2 | 16:05 a 17:15 | Actividad guiada en notebook, en parejas (`actividades/`); aquí se avanza gran parte de las tareas |
 
+### Material complementario
+
+- [El significado del análisis exploratorio de datos](presentaciones/significado_eda.pdf)
+  ([pptx](presentaciones/significado_eda.pptx)): slides de apoyo sobre el origen y el
+  sentido del EDA, con un ejemplo sobre las emisiones al aire declaradas en Chile.
+- Dataset de emisiones al aire (RUEA 2020, Ministerio del Medio Ambiente), en
+  `datos/emisiones_aire_2020.csv`: útil para practicar lo de las clases 02 y 03 con
+  otros datos reales (ver [datos/README.md](datos/README.md)).
+
 ### Lecturas de los controles
 
 Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
