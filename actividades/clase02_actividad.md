@@ -64,5 +64,7 @@ de su comuna, de la ciudad?
 
 ## Si terminan antes
 
-Comparen el reparto modal de su comuna (con qué medios se mueve la gente) contra el
-de todo Santiago, ponderado por factor de expansión, como hicimos en la clase.
+Adelanten el ítem 4 de la tarea: incorporen `Etapas.csv` o `Vehiculo.csv` al retrato
+(por ejemplo, la proporción de viajes con transbordo, o los vehículos por hogar).
+Es la parte de la tarea que no tiene demo en clase, así que conviene empezarla con
+el ayudante y la profesora presentes.

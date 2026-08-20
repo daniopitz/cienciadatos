@@ -1,5 +1,6 @@
 # Tarea 1: el retrato de tu comuna
 
+**Universidad Técnica Federico Santa María** · Departamento de Informática
 **INF-396 Introducción a la Ciencia de Datos** · Segundo semestre 2026
 **Modalidad**: en parejas · **Publicación**: viernes 21 de agosto
 **Entrega**: jueves 10 de septiembre por Aula *(fecha tentativa; se confirma en clase)*
@@ -8,70 +9,96 @@
 ## La idea
 
 Van a construir el **retrato de movilidad de una comuna del Gran Santiago** usando
-los microdatos de la Encuesta Origen Destino 2012: quiénes viven ahí, cuánto ganan
-sus hogares, cómo y cuánto se mueven, y en qué se parece o se diferencia del resto
-de la ciudad.
+los microdatos de la Encuesta Origen Destino 2012. La tarea acumula los contenidos
+de las clases 02, 03 y 04: cada parte exige lo visto esa semana, y los bloques
+prácticos de esas clases son para avanzarla.
 
-La tarea se desarrolla por etapas en los bloques prácticos de las clases 02, 03 y 04,
-así que si aprovechan esos bloques llegarán a la entrega con la mayor parte avanzada.
-Cada pareja trabaja una comuna distinta (se reservan en el hilo de Aula, por orden de
-llegada) y toda comparación se hace contra el Gran Santiago completo.
+Cada pareja trabaja una comuna distinta (se reservan en el hilo de Aula, por orden
+de llegada). Además del Gran Santiago completo, elegirán una **comuna de contraste**
+para comparar.
 
 ## Qué se entrega
 
 Un **notebook ejecutado** (`tarea1_apellido1_apellido2.ipynb`) que corra de principio
 a fin en el entorno del curso (`uv sync`), leyendo los datos desde `datos/eod_stgo/`.
-Las respuestas van en celdas de markdown junto al código que las produce: interesa
-tanto el número como la interpretación.
+Las respuestas van en celdas de markdown junto al código: interesa el número y la
+interpretación. Un resultado correcto sin interpretación no otorga el puntaje completo.
+
+Salvo que se indique lo contrario, **toda cifra que hable de la población debe estar
+ponderada por los factores de expansión**; reportar una cifra muestral como si fuera
+poblacional descuenta en el ítem correspondiente.
 
 Incluyan al final la **declaración de uso de IA generativa**: qué herramienta usaron
-y para qué (una línea basta). Recuerden que deben poder explicar cualquier línea de
-su código si se les pregunta en clase.
+y para qué (una línea basta). Deben poder explicar cualquier línea de su código si se
+les pregunta en clase.
 
-## Parte 1. Retrato numérico (30 puntos)
+## Parte 1. Retrato numérico (25 puntos)
 
-*Se avanza en la clase 02 (21 de agosto); la guía paso a paso está en
+*Con los contenidos de la clase 02. Se avanza en su bloque práctico; guía en
 `actividades/clase02_actividad.md`.*
 
-1. Tamaño de la muestra en su comuna: hogares y personas encuestadas, y a cuántos
-   representan según los factores de expansión. **(6 pts)**
-2. Composición: distribución por sexo (con su tabla de códigos) y edad (mediana y
-   percentiles 25 y 75), comparadas con el Gran Santiago. **(8 pts)**
-3. Ingresos: mediana y media del ingreso de los hogares de su comuna contra la
-   ciudad, con una frase que justifique cuál de las dos medidas reportar. **(8 pts)**
-4. Movilidad básica: viajes por persona (incluyendo a quienes no viajaron) y duración
-   mediana de los viajes con origen en su comuna. **(8 pts)**
+1. **La muestra y a quién representa (5 pts).** Hogares y personas encuestadas en su
+   comuna, y a cuántos representan según los factores de expansión. Expliquen en una
+   frase por qué las dos cifras responden preguntas distintas.
+2. **Composición (6 pts).** Distribución por sexo y edad (mediana y percentiles 25 y
+   75), ponderadas, comparadas con el Gran Santiago.
+3. **Ingresos (7 pts).** Media, mediana y media truncada al 10% del ingreso de los
+   hogares de su comuna, contra la ciudad. Decidan qué medida reportar y justifíquenla
+   a partir de la forma de la distribución (no como regla de memoria).
+4. **Una tabla que no vimos en clase (7 pts).** Incorporen `Etapas.csv` o
+   `Vehiculo.csv` al retrato: por ejemplo, la proporción de viajes con transbordo
+   (más de una etapa) en su comuna, o la tasa de vehículos por hogar. Documenten las
+   llaves que usaron y verifiquen el merge.
 
-## Parte 2. Retrato gráfico (30 puntos)
+## Parte 2. Retrato gráfico y asociaciones (30 puntos)
 
-*Se avanza en la clase 03 (28 de agosto), después de ver métodos gráficos.*
+*Con la correlación de la clase 02 y los métodos gráficos de la clase 03.*
 
-5. La distribución de ingresos de su comuna contra la de Santiago, en un gráfico que
-   permita compararlas de verdad. **(10 pts)**
-6. El reparto modal de su comuna contra el de Santiago (ponderado por factor de
-   expansión), en el tipo de gráfico que mejor compare categorías. **(10 pts)**
-7. Un tercer gráfico a elección que muestre algo interesante de su comuna (propósitos
-   de viaje, horarios, duración, lo que su exploración sugiera). **(10 pts)**
+5. **Distribución de ingresos (8 pts).** Su comuna contra el Gran Santiago, en un
+   gráfico que permita comparar las dos distribuciones completas. Justifiquen el tipo
+   de gráfico elegido y qué alternativa descartaron y por qué.
+6. **La comuna de contraste (8 pts).** Elijan una segunda comuna con un perfil de
+   movilidad distinto al de la suya y justifiquen la elección con datos. Comparen el
+   reparto modal ponderado de las tres unidades (su comuna, la de contraste, el Gran
+   Santiago) en una sola figura.
+7. **Asociación dentro de su comuna (8 pts).** Para los viajes con origen en su
+   comuna, calculen la correlación de Pearson y la de Spearman entre distancia y
+   duración, grafiquen la relación e interpreten: ¿qué indica la diferencia entre
+   ambos coeficientes en su comuna? ¿Difiere del patrón del Gran Santiago visto en
+   clase?
+8. **Un hallazgo propio (6 pts).** Un gráfico adicional a elección que muestre algo
+   del retrato que los ítems anteriores no capturan, con su lectura en dos o tres
+   líneas. Se evalúa que el hallazgo no sea trivial.
 
-En los tres: títulos que digan algo, ejes rotulados con unidades, y una frase de
-lectura debajo de cada figura. Un gráfico correcto pero ilegible no está terminado.
+## Parte 3. Decisiones sobre los datos (25 puntos)
 
-## Parte 3. Decisiones sobre los datos (20 puntos)
+*Con el pre-procesamiento de la clase 04.*
 
-*Se avanza en la clase 04 (4 de septiembre), con pre-procesamiento visto.*
+9. **Los que faltan (8 pts).** Identifiquen los datos faltantes que afectan su
+   retrato (ingresos, factores, duraciones, coordenadas). ¿Siguen algún patrón, o
+   pueden tratarse como ausencias sin estructura? Declaren qué decidieron hacer con
+   ellos y cómo cambiarían sus cifras con la decisión contraria.
+10. **Los extremos (8 pts).** Busquen valores extremos o sospechosos en las duraciones
+    y distancias de los viajes de su comuna. Investíguenlos (¿error de registro o
+    viaje real?) y declaren la decisión: mantener, corregir o excluir, con su efecto
+    sobre las medidas que reportaron.
+11. **Una transformación (9 pts).** Apliquen una transformación justificada a una
+    variable de su retrato (por ejemplo, logaritmo al ingreso o a la duración) y
+    muestren su efecto: cómo cambia la forma de la distribución y qué medidas se
+    vuelven más o menos informativas después de transformar.
 
-8. Identifiquen los datos faltantes que afectan su retrato (ingresos, factores,
-   duraciones) y declaren qué decidieron hacer con ellos y por qué. **(10 pts)**
-9. Busquen valores extremos o sospechosos en las duraciones de viaje de su comuna.
-   Investíguenlos y declaren la decisión: mantener, corregir o excluir. **(10 pts)**
+## Parte 4. Síntesis (20 puntos)
 
-## Parte 4. La síntesis (20 puntos)
-
-10. Cierren con una sección "El retrato de [su comuna]": máximo 10 líneas que
-    integren los hallazgos de las partes anteriores. **(12 pts)**
-11. Terminen respondiendo la pregunta del curso: **¿de quién hablan sus números?**
-    ¿De la muestra, de la comuna, de la ciudad? ¿Qué personas o viajes podrían estar
-    quedando fuera de este retrato? **(8 pts)**
+12. **El retrato (8 pts).** Una sección final "El retrato de [su comuna]": máximo 10
+    líneas que integren los hallazgos numéricos y gráficos. Debe poder leerse sola,
+    sin el resto del notebook.
+13. **¿De quién hablan sus números? (6 pts).** ¿De la muestra, de la comuna, de la
+    ciudad? ¿Qué personas o viajes podrían estar quedando fuera del retrato (piensen
+    en quién responde una encuesta de 2012 y quién no)?
+14. **Una hipótesis para más adelante (6 pts).** Formulen una hipótesis verificable
+    que su exploración sugiere pero no demuestra (por ejemplo, sobre la relación
+    entre dos variables de su comuna). En la unidad 5 veremos cómo ponerla a prueba;
+    por ahora se evalúa que sea precisa, comprobable y motivada por sus datos.
 
 ## Hitos
 
