@@ -24,3 +24,12 @@ presentaciones/build_*.py
 presentaciones/estilo.py
 presentaciones/figuras_*.py
 presentaciones/figuras/
+
+# Las evaluaciones no aplicadas y sus pautas no se publican: el repo es publico.
+# Despues de aplicar una evaluacion se puede publicar con: git add -f <archivo>
+evaluaciones/controles/*
+evaluaciones/certamenes/*
+evaluaciones/rubricas/*
+!evaluaciones/controles/.gitkeep
+!evaluaciones/certamenes/.gitkeep
+!evaluaciones/rubricas/.gitkeep
