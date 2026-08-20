@@ -33,3 +33,6 @@ evaluaciones/rubricas/*
 !evaluaciones/controles/.gitkeep
 !evaluaciones/certamenes/.gitkeep
 !evaluaciones/rubricas/.gitkeep
+
+# Configuracion local del editor
+.vscode/
