@@ -21,7 +21,7 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 
 | Ítem | Ponderación | Fechas | Detalle |
 |------|-------------|--------|---------|
-| Controles de lectura (Q) | 10% | **21-ago** (Q1) · resto por confirmar | 4 controles, al inicio de la clase, duración 15 a 20 minutos |
+| Controles de lectura (Q) | 10% | **21-ago** (Q1) · resto por confirmar | 4 controles, al inicio de la clase, duración 20 minutos |
 | Tareas (T) | 10% | entregas *(tentativas)*: 10-sep · 9-oct · 4-nov · 20-nov | 4 tareas en parejas, sobre datos reales; gran parte se desarrolla en clase, en el bloque práctico |
 | Certámenes (C) | 50% | **2-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
 | Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
@@ -41,7 +41,7 @@ Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 | vie 21-ago | **Control Q1** | ✅ Confirmado | O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | vie 28-ago | Hito proyecto | ✅ Confirmado | Se forman los grupos |
 | vie 04-sep | **Control Q2** | *Tentativo* | Lectura por definir |
-| jue 10-sep | **Entrega T1** | *Tentativo* | Exploración de datos. Se entrega por Aula |
+| jue 10-sep | [**Entrega T1**](evaluaciones/tareas/tarea1_retrato_comuna.md) | *Tentativo* | El retrato de tu comuna. Se entrega por Aula |
 | vie 25-sep | **Propuesta de proyecto** | ✅ Confirmado | Obligatoria: pregunta, datos y plan de trabajo |
 | vie 02-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual |
 | vie 09-oct | **Entrega T2** | *Tentativo* | |
@@ -86,10 +86,10 @@ Los enlaces se van publicando a medida que avanza el semestre.
 |-------|-------|-------------------|------------|--------|----------|----------------------|
 | 01 | vie 07-ago | U1. Fundamentos y ética | Qué es la ciencia de datos; reglas del curso; IA responsable | [pdf](presentaciones/clase01_ia_responsable.pdf) · [pptx](presentaciones/clase01_ia_responsable.pptx) | - | Se publica lectura de Q1 |
 | - | vie 14-ago | *Sin clases (Días Sansanos)* | | | | |
-| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | Repaso de Pandas con la EOD de Santiago: merge, groupby y factores de expansión · Inicio de EDA: estadística descriptiva | [pdf](presentaciones/clase02_pandas_eda.pdf) · [pptx](presentaciones/clase02_pandas_eda.pptx) | [ipynb](02_pandas_eda.ipynb) | **Control Q1** (15 a 20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
+| 02 | vie 21-ago | Herramientas + U2. Análisis exploratorio *(parte 1)* | Modelos, inferencia y predicción; correlación (Pearson y Spearman) y causalidad; tipos de datos · Aplicación con Pandas sobre la EOD de Santiago: merge, factores de expansión, estadística descriptiva | [pdf](presentaciones/clase02_pandas_eda.pdf) · [pptx](presentaciones/clase02_pandas_eda.pptx) | [ipynb](02_pandas_eda.ipynb) | **Control Q1** (20 min): O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | 03 | vie 28-ago | U2. Análisis exploratorio *(parte 2)* + U4. Visualización | EDA: métodos gráficos · Matplotlib y Seaborn; datos multivariados; buenas prácticas | - | - | **Se forman los grupos de proyecto** |
 | 04 | vie 04-sep | U3. Pre-procesamiento y reducción de dimensión | Limpieza, imputación, outliers, transformaciones · Selección de características; PCA; métodos no lineales: t-SNE y UMAP | - | - | Avance mínimo T1 · **Control Q2** (lectura por definir) |
-| - | vie 11-sep | *Sin clases (actividades de Fiestas Patrias)* | | | | **Entrega T1** el jueves 10 de septiembre, por Aula |
+| - | vie 11-sep | *Sin clases (actividades de Fiestas Patrias)* | | | | [**Entrega T1**](evaluaciones/tareas/tarea1_retrato_comuna.md) el jueves 10 de septiembre, por Aula |
 | - | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
 | 05 | vie 25-sep | U5. Inferencia estadística y ajuste de modelos | Estimación, intervalos, contraste de hipótesis, bootstrap · Regresión lineal múltiple | - | - | **Entrega propuesta de proyecto** (de vuelta de vacaciones) |
 | 06 | vie 02-oct | Certamen | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal) | | | |
@@ -153,9 +153,9 @@ presentaciones/      slides: claseNN_tema.pptx y claseNN_tema.pdf
 actividades/         enunciados y soluciones de las actividades en clase
 evaluaciones/
   tareas/            enunciados de T1 a T4
-  controles/         enunciados de Q1 a Q4
-  certamenes/        enunciados de C1 y C2
-  rubricas/          pautas de corrección
+  controles/         enunciados de Q1 a Q4 (se publican después de aplicarse)
+  certamenes/        enunciados de C1 y C2 (se publican después de aplicarse)
+  rubricas/          pautas de corrección (se publican después de aplicarse)
   proyecto/          pauta y formato de propuesta
 lecturas/            lecturas de los controles (ver lecturas/README.md)
 datos/               datasets del curso (ver datos/README.md)
@@ -195,7 +195,7 @@ planificación.
 ## Licencia
 
 El material del curso (slides, notebooks, actividades y este README) se publica bajo
-la licencia [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es):
+la licencia [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es) (ver [LICENSE.md](LICENSE.md)):
 se puede reutilizar y adaptar citando la fuente, sin fines comerciales y compartiendo
 con la misma licencia. Los datos de `datos/` provienen de fuentes públicas y conservan
 las condiciones de su origen (ver `datos/README.md`).
