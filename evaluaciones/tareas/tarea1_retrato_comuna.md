@@ -104,7 +104,7 @@ les pregunta en clase.
 
 | Fecha | Hito |
 |-------|------|
-| vie 21-ago | Sale la tarea; en el bloque práctico se avanza la parte 1 |
+| vie 21-ago | Se publica la tarea; en el bloque práctico se avanza la parte 1 |
 | vie 28-ago | En el bloque práctico se avanza la parte 2 |
 | vie 04-sep | **Avance mínimo**: partes 1 y 2 completas en el notebook |
 | jue 10-sep | **Entrega por Aula** *(tentativa)* |
