@@ -1,0 +1,17 @@
+
+132
+"ID",I,1,4,0,4,0,,,"",,Blank,
+"Zona777",I,5,4,0,7,0,,,"",,Copy,
+"Z_EOD",C,9,16,0,16,0,,,"",,Copy,
+"N_COM",S,25,2,0,6,0,,,"",,Copy,
+"COMUNA",C,27,20,0,20,0,,,"",,Copy,
+"NMacroZONA",I,47,4,0,6,0,,,"",,Copy,
+"MacroZona",C,51,16,0,16,0,,,"",,Copy,
+"N_ZONATS",S,67,2,0,6,0,,,"",,Copy,
+"ZONA_TS",C,69,16,0,16,0,,,"",,Copy,
+"EVTotal2012",R,85,8,0,6,2,,,"",,Copy,
+"EVPMA2012",R,93,8,0,6,2,,,"",,Copy,
+"EVPTA2012",R,101,8,0,6,2,,,"",,Copy,
+"Netapas2013",R,109,8,0,6,2,,,"",,Copy,
+"TiempoViaje",R,117,8,0,6,2,,,"",,Copy,
+"VelocidadViaje",R,125,8,0,6,2,,,"",,Copy,

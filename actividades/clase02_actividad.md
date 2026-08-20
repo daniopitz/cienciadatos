@@ -1,59 +1,68 @@
-# Actividad de la clase 02
+# Actividad de la clase 02: parte el retrato de tu comuna
 
 **INF-396 Introducción a la Ciencia de Datos**
-Manipulación de datos con Pandas y análisis exploratorio
+**Modalidad**: en parejas · **Cuándo**: segundo bloque, 16:05 a 17:15
+**Ojo**: esta actividad es la primera sesión de la **Tarea 1**. Lo que avancen hoy
+queda en el mismo notebook que van a entregar el 10 de septiembre.
 
-**Modalidad**: en parejas · **Duración**: segundo bloque, 16:05 a 17:15
-**Entrega**: no se califica. Es una actividad para practicar y para revisar juntos al cierre.
+## Qué van a hacer
 
-## Antes de empezar
+Cada pareja adopta una comuna del Gran Santiago y comienza a construir su **retrato
+de movilidad** con la EOD 2012: quiénes viven ahí, cómo se mueven y en qué se
+diferencian del resto de la ciudad.
 
-Trabajen sobre el archivo `datos/emisiones_aire_2020.csv`, el mismo del notebook de la
-clase. Pueden partir de una copia del notebook `02_pandas_eda.ipynb` o abrir uno nuevo.
+El enunciado completo de la tarea está en
+[`evaluaciones/tareas/tarea1_retrato_comuna.md`](../evaluaciones/tareas/tarea1_retrato_comuna.md).
+Hoy corresponde la parte 1: el retrato numérico.
+
+## Paso 0. Elegir la comuna
+
+- Anoten su pareja y su comuna en el hilo de Aula de la Tarea 1. **Las comunas no se
+  repiten entre parejas**: el que anota primero se la queda.
+- Verifiquen que su comuna tenga datos suficientes: al menos 100 hogares encuestados.
 
 ```python
 import pandas as pd
 
-emisiones = pd.read_csv("datos/emisiones_aire_2020.csv")
+RUTA = "datos/eod_stgo/"
+hogares = pd.read_csv(RUTA + "Hogares.csv", sep=";", decimal=",", low_memory=False)
+hogares["Comuna"].value_counts()
 ```
 
-Escriban las respuestas en celdas de markdown, junto al código. No basta con el número:
-lo que interesa es qué concluyen a partir de él.
+## Paso 1. El tamaño de la muestra en su comuna
 
-## Parte 1. Conocer los datos
+Filtren los hogares de su comuna y respondan: ¿cuántos hogares encuestados hay?
+¿Cuántas personas viven en ellos? (necesitan un merge o un filtro sobre `personas`
+usando los identificadores de hogar).
 
-1. ¿Cuántas comunas distintas aparecen en el conjunto de datos? ¿Y cuántos
-   establecimientos distintos?
-2. ¿Cuántas filas hay por cada contaminante? ¿Están balanceados?
-3. Revisen los valores faltantes. ¿En qué columnas están y cuántos son? Propongan una
-   decisión sobre qué hacer con ellos, y justifíquenla en una frase.
+Anoten también la respuesta ponderada: ¿a cuántos hogares y personas de la ciudad
+representan, según los factores de expansión?
 
-## Parte 2. Filtrar y agrupar
+## Paso 2. Quiénes viven ahí
 
-4. Calculen el total de MP10 emitido por región. Comparen ese ranking con el de MP2,5
-   que vimos en clase. ¿Cambian las primeras posiciones? ¿Se les ocurre por qué?
-5. Obtengan los cinco establecimientos con mayores emisiones de SO2. ¿A qué rubro
-   pertenecen? ¿Están concentrados en alguna región?
-6. Para el rubro con más emisiones de MP2,5, calculen cuántos establecimientos lo
-   componen y cuánto emite cada uno en promedio y en mediana.
+Con las personas de su comuna:
 
-## Parte 3. Elegir cómo resumir
+- Distribución por sexo (con la tabla de códigos, no con el 1 y el 2).
+- Edad: mediana, percentiles 25 y 75. Comparen con el Gran Santiago completo.
 
-7. Para las emisiones de MP10, calculen la media, la mediana y la media truncada al 10%.
-8. Supongan que tienen que informar en una noticia "cuánto emite un establecimiento
-   típico en Chile". ¿Qué número reportarían y por qué? Escriban dos o tres líneas
-   defendiendo su elección.
-9. Construyan un histograma de MP10 en escala logarítmica. Recuerden que los intervalos
-   también deben ser logarítmicos.
+## Paso 3. Cuánto ganan los hogares
 
-## Parte 4. Para discutir al cierre
+- Ingreso mediano de los hogares de su comuna, comparado con el de todo Santiago.
+- Reporten también la media y expliquen en una frase cuál de las dos usarían y por qué.
 
-10. En la clase 01 hablamos de sesgo y de decisiones automatizadas. Si alguien usara
-    estos datos para decidir dónde fiscalizar, ¿qué podría salir mal? Piensen en qué
-    establecimientos quedan fuera del registro y en qué significa un dato faltante en
-    este contexto.
+## Paso 4. Cómo se mueven
+
+- Viajes por persona en su comuna, **incluyendo a quienes no viajaron**.
+- Duración mediana de los viajes con origen en su comuna (`ComunaOrigen` en
+  `viajes.csv` viene codificada: revisen `tablas_parametros/`).
+
+## Cierre de la sesión (últimos 10 minutos)
+
+Escriban en una celda de markdown los **tres números que mejor retratan a su comuna**
+hasta ahora, y una frase que responda: ¿de quién hablan esos números? ¿De su muestra,
+de su comuna, de la ciudad?
 
 ## Si terminan antes
 
-Exploren la relación entre `tipo_fuente` y las emisiones: ¿hay tipos de fuente que
-concentren las emisiones más altas? ¿Y algún combustible en particular?
+Comparen el reparto modal de su comuna (con qué medios se mueve la gente) contra el
+de todo Santiago, ponderado por factor de expansión, como hicimos en la clase.
