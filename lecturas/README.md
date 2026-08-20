@@ -10,7 +10,7 @@ del control.
 | Control | Fecha | Lectura | Estado | Acceso |
 |---------|-------|---------|--------|--------|
 | Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | Confirmada | 📄 Se distribuye por **Aula** (ver abajo) |
-| Q2 | vie 04-sep | Cairo, A. (2019). *How Charts Lie: Getting Smarter about Visual Information*. W. W. Norton. Introducción + Capítulo 1, "How Charts Work". **En inglés** | Confirmada | 📄 Se distribuye por **Aula** |
+| Q2 | vie 04-sep | Cairo, A. (2019). *How Charts Lie: Getting Smarter about Visual Information*. W. W. Norton. Introducción + Capítulo 2, "Charts That Lie by Being Poorly Designed". **En inglés** | Confirmada | 📄 Se distribuye por **Aula** |
 | Q3 | vie 30-oct | Por definir | *Tentativa* | |
 | Q4 | vie 13-nov | Por definir | *Tentativa* | |
 
@@ -40,15 +40,17 @@ quiera ver los datos y el análisis detrás del caso. Está en inglés.
 
 ## Cómo conseguir la lectura Q2
 
-**El extracto (Introducción + Capítulo 1) se distribuye por Aula.** No se sube a este
+**El extracto (Introducción + Capítulo 2) se distribuye por Aula.** No se sube a este
 repositorio porque es público y el libro tiene derechos de autor (W. W. Norton, 2019).
 La lectura es **en inglés**: no existe traducción publicada al español, y leer
-bibliografía técnica en inglés es parte de la formación. El capítulo 1 presenta cómo
-funciona un gráfico (codificaciones y escalas), el mismo contenido que se practica en
-la clase 03.
+bibliografía técnica en inglés es parte de la formación.
 
-Complemento opcional, no evaluado: el Capítulo 2, "Charts That Lie by Being Poorly
-Designed".
+El capítulo 2 cataloga los engaños de diseño (ejes truncados, proporciones
+distorsionadas, dobles ejes, líneas base escogidas): complementa la clase 03, que
+enseña a construir gráficos, con el ojo para detectar los mal construidos.
+
+Complemento opcional, no evaluado: el Capítulo 1, "How Charts Work", para quien
+quiera el fundamento de cómo se decodifica un gráfico.
 
 ## Qué se evalúa
 
