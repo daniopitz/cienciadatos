@@ -21,7 +21,7 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 
 | Ítem | Ponderación | Fechas | Detalle |
 |------|-------------|--------|---------|
-| Controles de lectura (Q) | 10% | **21-ago** (Q1) · resto por confirmar | 4 controles, al inicio de la clase, duración 20 minutos |
+| Controles de lectura (Q) | 10% | **21-ago** (Q1) · **04-sep** (Q2) · Q3 y Q4 por confirmar | 4 controles, al inicio de la clase, duración 20 minutos |
 | Tareas (T) | 10% | entregas *(tentativas)*: 10-sep · 9-oct · 4-nov · 20-nov | 4 tareas en parejas, sobre datos reales; gran parte se desarrolla en clase, en el bloque práctico |
 | Certámenes (C) | 50% | **2-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
 | Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
