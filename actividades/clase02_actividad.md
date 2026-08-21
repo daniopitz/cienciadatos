@@ -65,6 +65,7 @@ de su comuna, de la ciudad?
 ## Si terminan antes
 
 Adelanten el ítem 4 de la tarea: incorporen `Etapas.csv` o `Vehiculo.csv` al retrato
-(por ejemplo, la proporción de viajes con transbordo, o los vehículos por hogar).
+(por ejemplo, qué modos se combinan en los viajes con transbordo, o los vehículos por
+hogar; ojo con la codificación de `Etapas.csv`, que es latin-1).
 Es la parte de la tarea que no tiene demo en clase, así que conviene empezarla con
 el ayudante y la profesora presentes.

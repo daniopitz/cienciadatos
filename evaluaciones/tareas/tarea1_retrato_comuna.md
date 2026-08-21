@@ -8,13 +8,12 @@
 
 ## La idea
 
-Van a construir el **retrato de movilidad de una comuna del Gran Santiago** usando
+Van a construir el **retrato de una comuna del Gran Santiago** usando
 los microdatos de la Encuesta Origen Destino 2012. La tarea acumula los contenidos
 de las clases 02, 03 y 04: cada parte exige lo visto esa semana, y los bloques
 prácticos de esas clases son para avanzarla.
 
-Cada pareja trabaja una comuna distinta (se reservan en el hilo de Aula, por orden
-de llegada). Además del Gran Santiago completo, elegirán una **comuna de contraste**
+Cada pareja trabaja una comuna distinta (se pueden repetir) y una **comuna de contraste**
 para comparar.
 
 ## Qué se entrega
@@ -29,8 +28,7 @@ ponderada por los factores de expansión**; reportar una cifra muestral como si 
 poblacional descuenta en el ítem correspondiente.
 
 Incluyan al final la **declaración de uso de IA generativa**: qué herramienta usaron
-y para qué (una línea basta). Deben poder explicar cualquier línea de su código si se
-les pregunta en clase.
+y para qué (una línea basta). 
 
 ## Parte 1. Retrato numérico (25 puntos)
 
@@ -46,9 +44,12 @@ les pregunta en clase.
    hogares de su comuna, contra la ciudad. Decidan qué medida reportar y justifíquenla
    a partir de la forma de la distribución (no como regla de memoria).
 4. **Una tabla que no vimos en clase (7 pts).** Incorporen `Etapas.csv` o
-   `Vehiculo.csv` al retrato: por ejemplo, la proporción de viajes con transbordo
-   (más de una etapa) en su comuna, o la tasa de vehículos por hogar. Documenten las
-   llaves que usaron y verifiquen el merge.
+   `Vehiculo.csv` al retrato. Por ejemplo: en los viajes con transbordo de su comuna
+   (más de una etapa, es decir, más de un vehículo; la caminata de acceso no cuenta
+   como etapa), qué combinaciones de modos son las más frecuentes; o la tasa de
+   vehículos por hogar. Documenten las llaves que usaron y verifiquen el merge.
+   Advertencia: `Etapas.csv` está codificado en latin-1 (`encoding="latin-1"`), a
+   diferencia del resto de las tablas.
 
 ## Parte 2. Retrato gráfico y asociaciones (30 puntos)
 
@@ -61,11 +62,12 @@ les pregunta en clase.
    movilidad distinto al de la suya y justifiquen la elección con datos. Comparen el
    reparto modal ponderado de las tres unidades (su comuna, la de contraste, el Gran
    Santiago) en una sola figura.
-7. **Asociación dentro de su comuna (8 pts).** Para los viajes con origen en su
-   comuna, calculen la correlación de Pearson y la de Spearman entre distancia y
-   duración, grafiquen la relación e interpreten: ¿qué indica la diferencia entre
-   ambos coeficientes en su comuna? ¿Difiere del patrón del Gran Santiago visto en
-   clase?
+7. **Ingreso y transporte público (8 pts).** Para todas las comunas del Gran
+   Santiago, calculen el ingreso medio ponderado de los hogares y la proporción
+   ponderada de viajes en transporte público. Grafiquen una contra la otra,
+   destacando su comuna y la de contraste, y calculen la correlación de Pearson y la
+   de Spearman. Interpreten: ¿qué indica la diferencia entre ambos coeficientes?
+   ¿Qué comunas se apartan del patrón general, y dónde queda la suya?
 8. **Un hallazgo propio (6 pts).** Un gráfico adicional a elección que muestre algo
    del retrato que los ítems anteriores no capturan, con su lectura en dos o tres
    líneas. Se evalúa que el hallazgo no sea trivial.
