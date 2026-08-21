@@ -209,7 +209,8 @@ revisión. Todo el contenido es revisado, corregido y decidido por la profesora 
 de publicarse, y el historial de este repositorio documenta ese proceso de revisión.
 Es el mismo criterio que se pide a los estudiantes en sus entregas: la herramienta
 puede usarse, su uso se declara, y la responsabilidad por el resultado es de quien
-lo firma.
+lo firma. Si encuentra un error en el material, contacte a la profesora de cátedra
+para corregirlo.
 
 ## Licencia
 
