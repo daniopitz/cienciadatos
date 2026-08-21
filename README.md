@@ -201,6 +201,16 @@ planificación.
 - Russell, S. y Norvig, P. (2021). *Artificial Intelligence: A Modern Approach*, 4ª ed.
   Pearson. Capítulo 1.
 
+## Sobre la elaboración del material
+
+El material de este curso se construye con uso activo de inteligencia artificial
+generativa (Claude, de Anthropic) como herramienta de redacción, programación y
+revisión. Todo el contenido es revisado, corregido y decidido por la profesora antes
+de publicarse, y el historial de este repositorio documenta ese proceso de revisión.
+Es el mismo criterio que se pide a los estudiantes en sus entregas: la herramienta
+puede usarse, su uso se declara, y la responsabilidad por el resultado es de quien
+lo firma.
+
 ## Licencia
 
 El material del curso (slides, notebooks, actividades y este README) se publica bajo
