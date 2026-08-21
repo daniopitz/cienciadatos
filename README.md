@@ -33,14 +33,14 @@ fechas son viernes en el horario de clases. Aquí van solo las evaluaciones form
 los enunciados de las tareas se publican por Aula y no figuran como hito.
 
 Las fechas de los certámenes, la propuesta y la presentación del proyecto son firmes.
-**Las fechas de entrega de las tareas son tentativas**, igual que los controles Q2 a
+**Las fechas de entrega de las tareas son tentativas**, igual que los controles Q3 y
 Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 
 | Fecha | Evaluación | Estado | Detalle |
 |-------|------------|--------|---------|
 | vie 21-ago | **Control Q1** | ✅ Confirmado | O'Neil, *Armas de destrucción matemática*, Introducción + Cap. 1 |
 | vie 28-ago | Hito proyecto | ✅ Confirmado | Se forman los grupos |
-| vie 04-sep | **Control Q2** | *Tentativo* | Cairo, *How Charts Lie*, Introducción + Cap. 2 (en inglés) |
+| vie 04-sep | **Control Q2** | ✅ Confirmado | Cairo, *How Charts Lie*, Introducción + Cap. 2 (en inglés) |
 | jue 10-sep | [**Entrega T1**](evaluaciones/tareas/tarea1_retrato_comuna.md) | *Tentativo* | El retrato de tu comuna. Se entrega por Aula |
 | vie 25-sep | **Propuesta de proyecto** | ✅ Confirmado | Obligatoria: pregunta, datos y plan de trabajo |
 | vie 02-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual |
