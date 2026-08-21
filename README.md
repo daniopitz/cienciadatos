@@ -147,12 +147,37 @@ En grupos, sobre un problema y datos elegidos por el grupo (se sugieren datos ch
 
 ## Entorno
 
-Requiere [uv](https://docs.astral.sh/uv/):
+El curso usa [uv](https://docs.astral.sh/uv/) para que todos trabajen con las mismas
+versiones de Python y de las librerías (quedan fijadas en `uv.lock`). Pasos, una sola
+vez:
+
+1. Instalar uv. En macOS o Linux:
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+   En Windows (PowerShell):
+   ```powershell
+   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+   ```
+2. Clonar el repositorio (los datos vienen incluidos, no hay descargas aparte):
+   ```bash
+   git clone https://github.com/daniopitz/cienciadatos.git
+   cd cienciadatos
+   ```
+3. Crear el entorno e instalar todo (descarga Python si hace falta):
+   ```bash
+   uv sync
+   ```
+
+Para trabajar:
 
 ```bash
-uv sync
 uv run jupyter lab
 ```
+
+(o abrir la carpeta en VS Code y elegir el intérprete de `.venv`). Cada semana,
+`git pull` trae el material nuevo; si cambian las dependencias, `uv sync` vuelve a
+dejar el entorno al día.
 
 ## Estructura del repositorio
 
