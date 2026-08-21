@@ -27,6 +27,13 @@ Salvo que se indique lo contrario, **toda cifra que hable de la población debe 
 ponderada por los factores de expansión**; reportar una cifra muestral como si fuera
 poblacional descuenta en el ítem correspondiente.
 
+La encuesta incluye personas encuestadas para un día laboral, para un sábado o un
+domingo, y en dos temporadas (normal y estival), cada grupo con su propio factor.
+**Deben decidir y declarar qué universo usan**: restringirse al día laboral de
+temporada normal (como en clase), distinguir día laboral y fin de semana, o
+combinarlos con los factores que corresponden. Cualquiera de las tres es válida;
+una cifra que no declara su universo descuenta.
+
 Incluyan al final la **declaración de uso de IA generativa**: qué herramienta usaron
 y para qué (una línea basta). 
 
@@ -43,13 +50,13 @@ y para qué (una línea basta).
 3. **Ingresos (7 pts).** Media, mediana y media truncada al 10% del ingreso de los
    hogares de su comuna, contra la ciudad. Decidan qué medida reportar y justifíquenla
    a partir de la forma de la distribución (no como regla de memoria).
-4. **Una tabla que no vimos en clase (7 pts).** Incorporen `Etapas.csv` o
-   `Vehiculo.csv` al retrato. Por ejemplo: en los viajes con transbordo de su comuna
-   (más de una etapa, es decir, más de un vehículo; la caminata de acceso no cuenta
-   como etapa), qué combinaciones de modos son las más frecuentes; o la tasa de
-   vehículos por hogar. Documenten las llaves que usaron y verifiquen el merge.
-   Advertencia: `Etapas.csv` está codificado en latin-1 (`encoding="latin-1"`), a
-   diferencia del resto de las tablas.
+4. **Una tabla que no vimos en clase (7 pts).** Incorporen `Vehiculo.csv` al
+   retrato: una fila por vehículo de cada hogar, con su año, tipo, combustible y
+   sello verde. Caractericen el parque vehicular de su comuna contra el de la ciudad,
+   por ejemplo con la antigüedad de los autos (mediana ponderada) y la proporción con
+   sello verde. Una fila de esta tabla es un vehículo, no un hogar: decidan y
+   justifiquen qué factor de expansión le corresponde. Documenten las llaves que
+   usaron y verifiquen el merge.
 
 ## Parte 2. Retrato gráfico y asociaciones (30 puntos)
 
