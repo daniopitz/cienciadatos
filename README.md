@@ -56,6 +56,9 @@ Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 ## Reglas del curso
 
 - **Trabajo en grupo**: las tareas y el proyecto se hacen en parejas (o grupos pequeños).
+- **Datos para el proyecto**: hay [ideas de conjuntos de datos](datasets_proyecto.md)
+  con enlaces verificados; se puede usar cualquier conjunto de datos que sirva
+  a la pregunta del proyecto.
   Los certámenes son individuales.
 - **Entrega de tareas**: se entrega el notebook ejecutado; debe correr de principio a fin en
   el entorno del curso (`uv sync`).
