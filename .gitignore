@@ -36,3 +36,8 @@ evaluaciones/rubricas/*
 
 # Configuracion local del editor
 .vscode/
+
+# material fuente y duplicados locales
+datos/eod_stgo.zip
+presentaciones/clase04.pptx
+presentaciones/clase04.pdf
