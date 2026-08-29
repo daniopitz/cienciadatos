@@ -21,8 +21,7 @@ para comparar.
 Un **notebook ejecutado** (`tarea1_apellido1_apellido2.ipynb`) que corra de principio
 a fin en el entorno del curso (`uv sync`), leyendo los datos desde `datos/eod_stgo/`.
 Partan de la **plantilla** [`tarea1_plantilla.ipynb`](tarea1_plantilla.ipynb),
-que trae la configuración inicial y las instrucciones específicas de cada ítem:
-cópienla a la raíz del repositorio (para que encuentre los datos) y renómbrenla.
+que trae la configuración inicial y las instrucciones específicas de cada ítem.
 Las respuestas van en celdas de markdown junto al código: interesa el número y la
 interpretación. Un resultado correcto sin interpretación no otorga el puntaje completo.
 
