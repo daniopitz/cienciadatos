@@ -13,8 +13,8 @@ los microdatos de la Encuesta Origen Destino 2012. La tarea acumula los contenid
 de las clases 02, 03 y 04: cada parte exige lo visto esa semana, y los bloques
 prácticos de esas clases son para avanzarla.
 
-Cada pareja trabaja una comuna distinta (se pueden repetir) y una **comuna de contraste**
-para comparar.
+Cada pareja elige una comuna del Gran Santiago (pueden repetirse entre parejas) y
+una **comuna de contraste** para comparar.
 
 ## Qué se entrega
 
