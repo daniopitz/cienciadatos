@@ -64,6 +64,9 @@ y para qué (una línea basta).
 
 *Con la correlación de la clase 02 y los métodos gráficos de la clase 03.*
 
+Cuando un ítem habla de los viajes de una comuna, se refiere a los viajes con
+**origen** en ella; pueden además presentar la mirada por destino si les aporta.
+
 5. **Distribución de ingresos (8 pts).** Su comuna contra el Gran Santiago, en un
    gráfico que permita comparar las dos distribuciones completas. Justifiquen el tipo
    de gráfico elegido y qué alternativa descartaron y por qué.
@@ -90,7 +93,7 @@ y para qué (una línea basta).
    pueden tratarse como ausencias sin estructura? Declaren qué decidieron hacer con
    ellos y cómo cambiarían sus cifras con la decisión contraria.
 10. **Los extremos (8 pts).** Busquen valores extremos o sospechosos en las duraciones
-    y distancias de los viajes de su comuna. Investíguenlos (¿error de registro o
+    y distancias de los viajes con origen en su comuna. Investíguenlos (¿error de registro o
     viaje real?) y declaren la decisión: mantener, corregir o excluir, con su efecto
     sobre las medidas que reportaron.
 11. **Una transformación (9 pts).** Apliquen una transformación justificada a una
