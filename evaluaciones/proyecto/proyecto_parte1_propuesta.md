@@ -3,65 +3,76 @@
 **Universidad Técnica Federico Santa María** · Departamento de Informática
 **INF-396 Introducción a la Ciencia de Datos** · Segundo semestre 2026
 **Modalidad**: en grupo (los grupos se formaron el 28 de agosto)
-**Presentación del tema**: viernes 25 de septiembre, en clase
+**Presentación de la propuesta**: viernes 25 de septiembre, en clase, en un máximo de 7 minutos por grupo
 **Registro del tema**: en Aula, en [ENLACE DE AULA], antes de la presentación
 
 ## El proyecto
 
-El proyecto final vale el 30% de la nota del curso y se desarrolla en tres
-hitos: esta propuesta (25 de septiembre), un avance opcional (6 de noviembre;
-los grupos que lo presentan parten la evaluación final con 10 puntos de base) y
-la presentación final con su informe (4 de diciembre). Esta pauta cubre la
-primera parte.
+El proyecto final corresponde al 30% de la nota del curso y se desarrolla en
+tres hitos: la propuesta (25 de septiembre), un avance opcional (6 de
+noviembre; los grupos que lo presentan inician la evaluación final con 10
+puntos de base) y la presentación final con su informe (4 de diciembre). Esta
+pauta corresponde a la primera parte.
 
-La idea del proyecto es responder una pregunta real con datos reales, usando lo
-que el curso enseña: exploración, visualización, modelos y la honestidad
-metodológica para reportar lo que los datos permiten afirmar.
+El proyecto consiste en responder una pregunta con datos reales, aplicando los
+contenidos del curso: análisis exploratorio, visualización y modelamiento.
 
-El proyecto debe incluir **algo que se pueda modelar**: una predicción, una
-clasificación o una caracterización de grupos, con alguna de las técnicas
-vistas en clases. Un proyecto que solo describe datos, sin modelo, no cumple
-el requisito.
+El proyecto debe incluir un **modelo**, construido con alguna de las técnicas
+del curso, que abarca métodos estadísticos tradicionales y de aprendizaje
+automático. El modelo puede tomar una de las siguientes formas:
 
-Los temas pueden repetirse entre grupos; la solución de cada proyecto no.
+- un modelo que **predice un valor numérico** (regresión);
+- un modelo que **predice una categoría**, binaria o entre múltiples clases
+  (clasificación);
+- un modelo que **agrupa observaciones** (clustering), acompañado de la
+  caracterización de los grupos obtenidos.
 
-## Qué se pide en la propuesta
+Se evalúa que el modelo sea adecuado al problema y que corresponda al mejor
+resultado que el grupo logró obtener. Un grupo puede presentar hasta dos
+modelos. Un proyecto que solo describe los datos, sin modelo, no cumple el
+requisito.
 
-La propuesta tiene tres componentes.
+Los temas pueden repetirse entre grupos; la solución de cada proyecto debe ser
+propia.
 
-**La pregunta.** Formulen la pregunta que su proyecto va a responder. Debe ser
-específica, estar acotada a lo que sus datos pueden responder, y valer la pena:
-expliquen en una o dos líneas a quién le serviría la respuesta. Digan además
-qué van a modelar para responderla: qué predicen, qué clasifican o qué grupos
-caracterizan.
+## Contenido de la propuesta
+
+La propuesta se compone de tres elementos.
+
+**La pregunta.** Formulen la pregunta que el proyecto va a responder. Debe ser
+específica, estar acotada a lo que los datos permiten responder y tener
+relevancia: indiquen en una o dos líneas a quién le serviría la respuesta.
+Señalen además qué tipo de modelo contemplan para responderla: qué predicen,
+qué clasifican o qué grupos esperan caracterizar.
 
 **Los datos.** Identifiquen el conjunto de datos con que van a trabajar: cuál
-es, de dónde se obtiene y por qué alcanza para la pregunta. El repositorio del
-curso tiene [ideas de conjuntos de datos](../../datasets_proyecto.md) con
-enlaces verificados, y pueden usar cualquier otro conjunto que sirva a su
-pregunta. Verifiquen antes de proponer que los datos existen y son accesibles:
-una propuesta sobre datos que no se pueden conseguir no es una propuesta.
+es, de dónde se obtiene y por qué es suficiente para la pregunta. El
+repositorio del curso ofrece [ideas de conjuntos de datos](../../datasets_proyecto.md)
+con enlaces verificados, y pueden usar cualquier otro conjunto que sirva a su
+pregunta. Verifiquen, antes de proponer, que los datos existen y son
+accesibles.
 
 **El plan de trabajo.** Describan las etapas del proyecto desde la propuesta
-hasta la entrega final del 4 de diciembre, con lo que el grupo espera tener
-listo en cada una.
+hasta la entrega final del 4 de diciembre, indicando qué esperan tener listo en
+cada una.
 
-## La presentación del 25 de septiembre
+## La presentación
 
-Cada grupo presenta su tema en clase: la pregunta, los datos elegidos y el plan
-de trabajo. La duración es de [DURACIÓN] minutos por grupo, y después de cada
-presentación hay espacio para preguntas y comentarios del curso.
+Cada grupo presenta su propuesta el viernes 25 de septiembre, en clase, en un
+máximo de 7 minutos: la pregunta, los datos y el plan de trabajo. Después de
+cada presentación hay un espacio de preguntas y comentarios.
 
 ## El registro del tema
 
-Antes de la presentación, registren el tema en Aula: [ENLACE DE AULA]. El
-registro incluye los integrantes del grupo y el tema en una o dos líneas.
+Antes de la presentación, cada grupo registra su tema en Aula, en
+[ENLACE DE AULA]. El registro indica los integrantes del grupo y el tema en una
+o dos líneas.
 
 ## Hitos
 
 | Fecha | Hito |
 |-------|------|
 | antes del vie 25-sep | Se registra el tema en Aula |
-| vie 25-sep | Se presenta la propuesta en clase |
+| vie 25-sep | Se presenta la propuesta en clase (máximo 7 minutos) |
 | vie 06-nov | Avance de proyecto (opcional, con 10 puntos de base) |
 | vie 04-dic | Presentación final y entrega del informe |
