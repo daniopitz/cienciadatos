@@ -4,7 +4,7 @@
 **INF-396 Introducción a la Ciencia de Datos** · Segundo semestre 2026
 **Modalidad**: en grupo (los grupos se formaron el 28 de agosto)
 **Presentación de la propuesta**: viernes 25 de septiembre, en clase, en un máximo de 7 minutos por grupo
-**Registro del tema**: en Aula, en [ENLACE DE AULA], antes de la presentación
+**Registro del tema**: en la [planilla compartida](https://docs.google.com/spreadsheets/d/1hy4xJHaJE2Gby__vRAO1r5A2b9wuQDCvsHapsSARdOI/edit?usp=sharing), antes de la presentación
 
 ## El proyecto
 
@@ -66,9 +66,9 @@ comentarios.
 
 ## El registro del tema
 
-Antes de la presentación, cada grupo registra su tema en Aula, en
-[ENLACE DE AULA]. El registro indica los integrantes del grupo y el tema en una
-o dos líneas.
+Antes de la presentación, cada grupo registra su tema en la
+[planilla compartida](https://docs.google.com/spreadsheets/d/1hy4xJHaJE2Gby__vRAO1r5A2b9wuQDCvsHapsSARdOI/edit?usp=sharing).
+El registro indica los integrantes del grupo y el tema en una o dos líneas.
 
 ## Hitos
 
