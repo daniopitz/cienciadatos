@@ -59,8 +59,10 @@ cada una.
 ## La presentación
 
 Cada grupo presenta su propuesta el viernes 25 de septiembre, en clase, en un
-máximo de 7 minutos: la pregunta, los datos y el plan de trabajo. Después de
-cada presentación hay un espacio de preguntas y comentarios.
+máximo de 7 minutos. La presentación debe incluir la idea del proyecto, la
+fuente de datos y **al menos dos gráficos exploratorios** construidos sobre
+esos datos. Después de cada presentación hay un espacio de preguntas y
+comentarios.
 
 ## El registro del tema
 
