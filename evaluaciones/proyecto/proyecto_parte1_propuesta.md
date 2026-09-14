@@ -27,10 +27,10 @@ automático. El modelo puede tomar una de las siguientes formas:
 - un modelo que **agrupa observaciones** (clustering), acompañado de la
   caracterización de los grupos obtenidos.
 
-Se evalúa que el modelo sea adecuado al problema y que corresponda al mejor
-resultado que el grupo logró obtener. Un grupo puede presentar hasta dos
-modelos. Un proyecto que solo describe los datos, sin modelo, no cumple el
-requisito.
+Se evalúa que el modelo sea adecuado al problema y que su desempeño se
+defina y reporte con las métricas respectivas a su tipo. Presenten el mejor
+modelo que lograron obtener; un grupo puede presentar hasta dos modelos. Un
+proyecto que solo describe los datos, sin modelo, no cumple el requisito.
 
 Los temas pueden repetirse entre grupos; la solución de cada proyecto debe ser
 propia.
