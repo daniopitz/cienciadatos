@@ -42,7 +42,7 @@ Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 | vie 28-ago | Hito proyecto | ✅ Confirmado | Se forman los grupos |
 | jue 10-sep | [**Entrega T1**](evaluaciones/tareas/tarea1_retrato_comuna.md) | *Tentativo* | El retrato de tu comuna. Se entrega por Aula |
 | vie 25-sep | **Control Q2** | ✅ Confirmado | Cairo, *How Charts Lie*, Introducción + Cap. 2 (en inglés) · lectura publicada en Aula. Se movió desde el 04-sep por la extensión de la lectura |
-| vie 25-sep | [**Propuesta de proyecto**](evaluaciones/proyecto/proyecto_parte1_propuesta.md) | ✅ Confirmado | Obligatoria: pregunta, datos y plan de trabajo. El tema se registra antes en Aula |
+| vie 25-sep | [**Propuesta de proyecto**](evaluaciones/proyecto/proyecto_parte1_propuesta.md) | ✅ Confirmado | Obligatoria: pregunta, datos y exploración inicial. El tema se registra antes en la planilla del curso |
 | vie 02-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual |
 | vie 09-oct | **Entrega T2** | *Tentativo* | |
 | vie 30-oct | **Control Q3** | *Tentativo* | Lectura por definir |

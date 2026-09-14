@@ -37,7 +37,7 @@ propia.
 
 ## Contenido de la propuesta
 
-La propuesta se compone de cuatro elementos.
+La propuesta se compone de tres elementos.
 
 **La pregunta.** Formulen la pregunta que el proyecto va a responder. Debe ser
 específica, estar acotada a lo que los datos permiten responder y tener
@@ -55,10 +55,6 @@ accesibles.
 **La exploración inicial.** Muestren al menos dos gráficos exploratorios
 construidos sobre sus datos, cada uno con su lectura: qué muestra y qué aporta
 a la pregunta del proyecto.
-
-**El plan de trabajo.** Describan las etapas del proyecto desde la propuesta
-hasta la entrega final del 4 de diciembre, indicando qué esperan tener listo en
-cada una.
 
 ## La presentación
 
