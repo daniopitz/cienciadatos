@@ -2,7 +2,7 @@
 
 **Universidad Técnica Federico Santa María** · Departamento de Informática
 **INF-396 Introducción a la Ciencia de Datos** · Segundo semestre 2026
-**Modalidad**: en grupo (los grupos se formaron el 28 de agosto)
+**Modalidad**: en grupo
 **Presentación de la propuesta**: viernes 25 de septiembre, en clase, en un máximo de 7 minutos por grupo
 **Registro del tema**: en la [planilla compartida](https://docs.google.com/spreadsheets/d/1hy4xJHaJE2Gby__vRAO1r5A2b9wuQDCvsHapsSARdOI/edit?usp=sharing), antes de la presentación
 
