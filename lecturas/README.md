@@ -58,10 +58,9 @@ quiera el fundamento de cómo se decodifica un gráfico.
 
 ## Cómo conseguir la lectura Q3
 
-Son dos informes de acceso libre, publicados en la web por sus autores. Se leen en
-línea y no hay archivo que distribuir. Los dos tratan lo mismo: agentes de IA que, en
-medio de una evaluación de ciberseguridad, se salieron de lo que se les pidió y
-actuaron sobre sistemas y personas reales, en julio de 2026.
+Son dos informes de acceso libre, publicados en la web por sus autores. Los dos tratan
+lo mismo: agentes de IA que, en medio de una evaluación de ciberseguridad, se salieron
+de lo que se les pidió y actuaron sobre sistemas y personas reales, en julio de 2026.
 
 1. OpenAI (2026). *El incidente de Hugging Face y el camino a seguir*, 26 de agosto de
    2026. https://openai.com/index/hugging-face-incident-and-the-road-ahead/
