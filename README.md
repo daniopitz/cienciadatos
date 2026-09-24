@@ -48,7 +48,7 @@ Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 | vie 25-sep | [**Propuesta de proyecto**](evaluaciones/proyecto/proyecto_parte1_propuesta.md) | ✅ Confirmado | Obligatoria: pregunta, datos y exploración inicial. El tema se registra antes en la planilla del curso |
 | vie 09-oct | **Certamen 1** | *Por confirmar: si alguien tiene un impedimento, avisa a la profesora y vuelve al 02-oct* | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual. Se movió desde el 02-oct para dictar antes la clase de inferencia |
 | vie 23-oct | **Entrega T2** | *Tentativo* | Se entrega por Aula. Se movió desde el 09-oct |
-| vie 30-oct | **Control Q3** | *Tentativo* | Lectura por definir |
+| vie 30-oct | **Control Q3** | *Fecha tentativa; lectura confirmada* | OpenAI, *El incidente de Hugging Face y el camino a seguir* + AISI (Reino Unido), *Incident Report: unsanctioned agent behaviour during cyber testing* · de acceso libre, ver [lecturas](lecturas/README.md) |
 | mié 04-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula |
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
 | vie 13-nov | **Control Q4** | *Tentativo* | Lectura por definir |
@@ -102,7 +102,7 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 07 | vie 09-oct | Certamen | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal) | | | |
 | - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
 | 08 | vie 23-oct | U6. Aprendizaje automático + U8. Sesgo, varianza y regularización | Bloque 1: tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado · Bloque 2: interpretación de coeficientes y diagnóstico del ajuste; dilema entre sesgo y varianza; regularización: ridge y lasso | - | - | **Entrega T2** |
-| 09 | vie 30-oct | U7. Clasificación *(parte 2)* + U8. Evaluación de modelos | Bloque 1: análisis discriminante lineal (LDA); KNN · Bloque 2: validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Control Q3** (lectura por definir) |
+| 09 | vie 30-oct | U7. Clasificación *(parte 2)* + U8. Evaluación de modelos | Bloque 1: análisis discriminante lineal (LDA); KNN · Bloque 2: validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Control Q3**: los informes de OpenAI y del AISI sobre los agentes que se salieron de sus evaluaciones (ver [lecturas](lecturas/README.md)) |
 | 10 | vie 06-nov | U6. No supervisado | Bloque 1: clustering: k-means y jerárquico · Bloque 2: avance de proyecto (opcional) | - | - | **Entrega T3** el miércoles 4 de noviembre, por Aula · **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
 | 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** (lectura por definir) |
 | 12 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Bloque 1: redes neuronales artificiales en clasificación · Bloque 2: marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Entrega T4** (voluntaria) |
@@ -134,11 +134,13 @@ Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
 - **Q2 (25-sep):** Cairo, *How Charts Lie*, Introducción + Capítulo 2 (en inglés). La
   lectura está publicada en Aula; el control se movió desde el 04-sep para dar más
   tiempo de lectura.
-- **Q3 (30-oct)**: por definir.
+- **Q3 (30-oct):** OpenAI, *El incidente de Hugging Face y el camino a seguir* (en
+  español) + AI Security Institute del Reino Unido, *Incident Report: unsanctioned agent
+  behaviour during cyber testing* (en inglés). Ambos de acceso libre en línea.
 - **Q4 (13-nov)**: por definir.
 
-Las lecturas de Q1 y Q2 están definidas; las de Q3 y Q4 se anuncian en clase y por
-Aula a más tardar una semana antes de cada control.
+Las lecturas de Q1, Q2 y Q3 están definidas; la de Q4 se anuncia en clase y por Aula a
+más tardar una semana antes del control.
 
 ### Proyecto final
 
