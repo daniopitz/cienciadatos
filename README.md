@@ -23,7 +23,7 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 |------|-------------|--------|---------|
 | Controles de lectura (Q) | 10% | **21-ago** (Q1) · **25-sep** (Q2) · Q3 y Q4 por confirmar | 4 controles, al inicio de la clase, duración 20 minutos |
 | Tareas (T) | 10% | entregas *(tentativas)*: 10-sep · 23-oct · 4-nov · **20-nov (T4, voluntaria)** | 3 tareas obligatorias en parejas (T1 a T3), sobre datos reales, que se desarrollan fuera de clase; T4 es voluntaria y su nota reemplaza a la más baja de las tres si le conviene al grupo |
-| Certámenes (C) | 50% | **2-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
+| Certámenes (C) | 50% | **9-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
 | Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
 
 ### Calendario de evaluaciones
@@ -32,7 +32,10 @@ Las tareas se entregan por Aula; algunas entregas caen entre semana. El resto de
 fechas son viernes en el horario de clases. Aquí van solo las evaluaciones formales;
 los enunciados de las tareas se publican por Aula y no figuran como hito.
 
-Las fechas de los certámenes, la propuesta y la presentación del proyecto son firmes.
+Las fechas de los certámenes, la propuesta y la presentación del proyecto son firmes;
+el certamen 1 se movió del 2 al 9 de octubre para alcanzar a dictar la inferencia, que
+está entre los contenidos que evalúa; si alguien tiene un impedimento con la nueva fecha,
+avisa a la profesora y el certamen vuelve al 2 de octubre.
 **Las fechas de entrega de las tareas son tentativas**, igual que los controles Q3 y
 Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 
@@ -43,7 +46,7 @@ Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 | jue 10-sep | [**Entrega T1**](evaluaciones/tareas/tarea1_retrato_comuna.md) | *Tentativo* | El retrato de tu comuna. Se entrega por Aula |
 | vie 25-sep | **Control Q2** | ✅ Confirmado | Cairo, *How Charts Lie*, Introducción + Cap. 2 (en inglés) · lectura publicada en Aula. Se movió desde el 04-sep por la extensión de la lectura |
 | vie 25-sep | [**Propuesta de proyecto**](evaluaciones/proyecto/proyecto_parte1_propuesta.md) | ✅ Confirmado | Obligatoria: pregunta, datos y exploración inicial. El tema se registra antes en la planilla del curso |
-| vie 02-oct | **Certamen 1** | *Fecha por confirmar en clase el 25-sep (02-oct o 09-oct)* | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual |
+| vie 09-oct | **Certamen 1** | *Por confirmar: si alguien tiene un impedimento, avisa a la profesora y vuelve al 02-oct* | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual. Se movió desde el 02-oct para dictar antes la clase de inferencia |
 | vie 23-oct | **Entrega T2** | *Tentativo* | Se entrega por Aula. Se movió desde el 09-oct |
 | vie 30-oct | **Control Q3** | *Tentativo* | Lectura por definir |
 | mié 04-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula |
@@ -94,15 +97,15 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 04 | vie 04-sep | U5. Regresión lineal *(parte 1)* | Matriz de correlación; regresión simple (mínimos cuadrados) y ponderada (WLS); regresión múltiple con statsmodels: R², valor p, dummies | [pdf](presentaciones/clase04_regresion.pdf) · [pptx](presentaciones/clase04_regresion.pptx) | [ipynb](04_regresion.ipynb) | |
 | - | vie 11-sep | *Sin clases (actividades de Fiestas Patrias)* | | | | [**Entrega T1**](evaluaciones/tareas/tarea1_retrato_comuna.md) el jueves 10 de septiembre, por Aula |
 | - | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
-| 05 | vie 25-sep | Evaluaciones | **Control Q2** y presentaciones de la propuesta de proyecto (15 grupos, máximo 7 minutos cada uno); no hay contenido nuevo | - | - | **Control Q2**: Cairo, *How Charts Lie*, Introducción + Cap. 2 · **Presentación de la propuesta de proyecto** |
-| 06 | vie 02-oct | Certamen *(fecha por confirmar en clase el 25-sep)* | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal). La clase de inferencia y regresión múltiple, que iba el 25-sep, se reprograma: el 25-sep se confirma en clase si el certamen se mantiene el 02-oct o pasa al 09-oct | | | |
-| 07 | vie 09-oct | U8. Sesgo, varianza y regularización | Interpretación de coeficientes y diagnóstico del ajuste · Dilema entre sesgo y varianza · Regularización: ridge y lasso | - | - | |
+| 05 | vie 25-sep | Evaluaciones + cierre de U5 *(parte 1)* | **Control Q2** · Clase breve (30 min): de dónde salen las otras muestras, el intervalo de confianza y el valor p de la regresión de la clase 04 · Presentaciones de la propuesta de proyecto (15 grupos, hasta 7 minutos cada uno) | - | - | **Control Q2**: Cairo, *How Charts Lie*, Introducción + Cap. 2 · **Presentación de la propuesta de proyecto** |
+| 06 | vie 02-oct | U5. Inferencia estadística + U7. Clasificación *(parte 1)* | Bloque 1: estimación, intervalos, contraste de hipótesis, t de Student, bootstrap; regresión lineal múltiple · Bloque 2: regresión logística | - | - | |
+| 07 | vie 09-oct | Certamen | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal) | | | |
 | - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
-| 08 | vie 23-oct | U6. Aprendizaje automático + U7. Clasificación | Tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado · Regresión logística; análisis discriminante lineal (LDA); KNN | - | - | **Entrega T2** |
-| 09 | vie 30-oct | U8. Evaluación de modelos | Validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Control Q3** (lectura por definir) |
-| 10 | vie 06-nov | U6. No supervisado | Clustering: k-means y jerárquico | - | - | **Entrega T3** el miércoles 4 de noviembre, por Aula · **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
+| 08 | vie 23-oct | U6. Aprendizaje automático + U8. Sesgo, varianza y regularización | Bloque 1: tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado · Bloque 2: interpretación de coeficientes y diagnóstico del ajuste; dilema entre sesgo y varianza; regularización: ridge y lasso | - | - | **Entrega T2** |
+| 09 | vie 30-oct | U7. Clasificación *(parte 2)* + U8. Evaluación de modelos | Bloque 1: análisis discriminante lineal (LDA); KNN · Bloque 2: validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Control Q3** (lectura por definir) |
+| 10 | vie 06-nov | U6. No supervisado | Bloque 1: clustering: k-means y jerárquico · Bloque 2: avance de proyecto (opcional) | - | - | **Entrega T3** el miércoles 4 de noviembre, por Aula · **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
 | 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** (lectura por definir) |
-| 12 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Redes neuronales artificiales en clasificación · Marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Entrega T4** (voluntaria) |
+| 12 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Bloque 1: redes neuronales artificiales en clasificación · Bloque 2: marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Entrega T4** (voluntaria) |
 | 13 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
 | - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
 
