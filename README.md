@@ -51,7 +51,7 @@ Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 | vie 30-oct | **Control Q3** | *Fecha tentativa; lectura confirmada* | OpenAI, *El incidente de Hugging Face y el camino a seguir* + AISI (Reino Unido), *Incident Report: unsanctioned agent behaviour during cyber testing* · de acceso libre, ver [lecturas](lecturas/README.md) |
 | mié 04-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula |
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
-| vie 13-nov | **Control Q4** | *Tentativo* | Lectura por definir |
+| vie 13-nov | **Control Q4** | *Fecha tentativa; lectura confirmada en parte* | Amodei, *We Must Pace the Frontier* (en inglés) + un documento sobre la política de IA de Chile, por definir a fines de octubre · ver [lecturas](lecturas/README.md) |
 | vie 20-nov | **Entrega T4** *(voluntaria)* | *Tentativo* | Reemplaza la nota más baja de T1 a T3 si le conviene al grupo |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
 | vie 04-dic | **Presentación del proyecto + informe** | ✅ Confirmado | |
@@ -104,7 +104,7 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 08 | vie 23-oct | U6. Aprendizaje automático + U8. Sesgo, varianza y regularización | Bloque 1: tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado · Bloque 2: interpretación de coeficientes y diagnóstico del ajuste; dilema entre sesgo y varianza; regularización: ridge y lasso | - | - | **Entrega T2** |
 | 09 | vie 30-oct | U7. Clasificación *(parte 2)* + U8. Evaluación de modelos | Bloque 1: análisis discriminante lineal (LDA); KNN · Bloque 2: validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Control Q3**: los informes de OpenAI y del AISI sobre los agentes que se salieron de sus evaluaciones (ver [lecturas](lecturas/README.md)) |
 | 10 | vie 06-nov | U6. No supervisado | Bloque 1: clustering: k-means y jerárquico · Bloque 2: avance de proyecto (opcional) | - | - | **Entrega T3** el miércoles 4 de noviembre, por Aula · **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
-| 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4** (lectura por definir) |
+| 11 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Control Q4**: Amodei, *We Must Pace the Frontier*, y la política de IA de Chile (ver [lecturas](lecturas/README.md)) |
 | 12 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Bloque 1: redes neuronales artificiales en clasificación · Bloque 2: marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Entrega T4** (voluntaria) |
 | 13 | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
 | - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | |
@@ -137,10 +137,11 @@ Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
 - **Q3 (30-oct):** OpenAI, *El incidente de Hugging Face y el camino a seguir* (en
   español) + AI Security Institute del Reino Unido, *Incident Report: unsanctioned agent
   behaviour during cyber testing* (en inglés). Ambos de acceso libre en línea.
-- **Q4 (13-nov)**: por definir.
+- **Q4 (13-nov):** Amodei, *We Must Pace the Frontier* (en inglés, acceso libre) + un
+  documento sobre la política de IA de Chile, por definir a fines de octubre.
 
-Las lecturas de Q1, Q2 y Q3 están definidas; la de Q4 se anuncia en clase y por Aula a
-más tardar una semana antes del control.
+Las lecturas de Q1, Q2 y Q3 están definidas, y la de Q4 en parte; el documento chileno
+del Q4 se anuncia en clase y por Aula a más tardar una semana antes del control.
 
 ### Proyecto final
 

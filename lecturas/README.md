@@ -3,16 +3,16 @@
 Cada control de lectura (Q) se toma al inicio de la clase indicada y dura entre 15 y 20 minutos.
 Son 4 controles y ponderan 10% de la nota final.
 
-**Las lecturas de Q1, Q2 y Q3 están definidas.** La de Q4 todavía no. Las fechas de Q3 y
-Q4 son tentativas: se confirman en clase y por Aula a más tardar una semana antes del
-control.
+**Las lecturas de Q1, Q2 y Q3 están definidas, y la de Q4 en parte** (falta un documento
+chileno que se define a fines de octubre). Las fechas de Q3 y Q4 son tentativas: se
+confirman en clase y por Aula a más tardar una semana antes del control.
 
 | Control | Fecha | Lectura | Estado | Acceso |
 |---------|-------|---------|--------|--------|
 | Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | Confirmada | 📄 Se distribuye por **Aula** (ver abajo) |
 | Q2 | vie 25-sep | Cairo, A. (2019). *How Charts Lie: Getting Smarter about Visual Information*. W. W. Norton. Introducción + Capítulo 2, "Charts That Lie by Being Poorly Designed". **En inglés** | Confirmada | 📄 **Publicada en Aula** (ver abajo) |
 | Q3 | vie 30-oct | OpenAI (2026). *El incidente de Hugging Face y el camino a seguir* + AI Security Institute del Reino Unido (2026). *Incident Report: unsanctioned agent behaviour during cyber testing*. **La primera en español, la segunda en inglés** | Lectura confirmada; fecha tentativa | 🔗 **Acceso libre en línea** (ver abajo) |
-| Q4 | vie 13-nov | Por definir | *Tentativa* | |
+| Q4 | vie 13-nov | Amodei, D. (2026). *We Must Pace the Frontier*. **En inglés** + un documento sobre la política de IA de Chile, por definir a fines de octubre | Lectura confirmada en parte; fecha tentativa | 🔗 **Acceso libre en línea** (ver abajo) |
 
 ## Cómo conseguir la lectura Q1
 
@@ -93,6 +93,26 @@ los agentes atacaron para descubrir cómo se puntuaba la prueba que estaban rind
 Una advertencia para leer con cuidado: las cifras varían según la fuente (700 o 1.200
 agentes, por ejemplo). El control pregunta por los mecanismos y las lecciones, no por las
 cifras.
+
+## Cómo conseguir la lectura Q4
+
+La lectura tiene dos partes. La primera ya está definida:
+
+1. Amodei, D. (2026). *We Must Pace the Frontier*, septiembre de 2026.
+   https://darioamodei.com/post/we-must-pace-the-frontier
+   En inglés, unas 5.500 palabras. Es el texto del director ejecutivo de Anthropic
+   escrito después de los incidentes de agentes de 2026 (los del Q3 y otros, incluido uno
+   en su propia empresa): propone frenar el ritmo del desarrollo de modelos, instalar
+   evaluadores externos con acceso permanente a las empresas y regular con auditorías
+   obligatorias y acuerdos internacionales. Es un texto de parte interesada, y así se
+   lee: qué propone, qué omite y a quién le conviene.
+
+La segunda parte es un documento sobre la política de inteligencia artificial de Chile,
+para contrastar lo que pide Amodei con lo que Chile está decidiendo. Se define a fines
+de octubre, porque el proyecto de ley que regula los sistemas de IA (boletín 16821-19,
+aprobado por la Cámara en octubre de 2025 y en trámite en el Senado) está por recibir
+una indicación sustitutiva del gobierno que cambia su enfoque. Se anuncia en clase y por
+Aula a más tardar el viernes 6 de noviembre.
 
 ## Qué se evalúa
 
