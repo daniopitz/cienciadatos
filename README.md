@@ -34,8 +34,7 @@ los enunciados de las tareas se publican por Aula y no figuran como hito.
 
 Las fechas de los certámenes, la propuesta y la presentación del proyecto son firmes;
 el certamen 1 se movió del 2 al 9 de octubre para alcanzar a dictar la inferencia, que
-está entre los contenidos que evalúa; si alguien tiene un impedimento con la nueva fecha,
-avisa a la profesora y el certamen vuelve al 2 de octubre.
+está entre los contenidos que evalúa. La fecha del 9 de octubre quedó confirmada.
 **Las fechas de entrega de las tareas son tentativas**, igual que los controles Q3 y
 Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 
@@ -46,7 +45,7 @@ Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 | jue 10-sep | [**Entrega T1**](evaluaciones/tareas/tarea1_retrato_comuna.md) | *Tentativo* | El retrato de tu comuna. Se entrega por Aula |
 | vie 25-sep | **Control Q2** | ✅ Confirmado | Cairo, *How Charts Lie*, Introducción + Cap. 2 (en inglés) · lectura publicada en Aula. Se movió desde el 04-sep por la extensión de la lectura |
 | vie 25-sep | [**Propuesta de proyecto**](evaluaciones/proyecto/proyecto_parte1_propuesta.md) | ✅ Confirmado | Obligatoria: pregunta, datos y exploración inicial. El tema se registra antes en la planilla del curso |
-| vie 09-oct | **Certamen 1** | *Por confirmar: si alguien tiene un impedimento, avisa a la profesora y vuelve al 02-oct* | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual. Se movió desde el 02-oct para dictar antes la clase de inferencia |
+| vie 09-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual · [guía de estudio](evaluaciones/guia_estudio_certamen1.pdf) ([markdown](evaluaciones/guia_estudio_certamen1.md)). Se movió desde el 02-oct para dictar antes la clase de inferencia |
 | vie 23-oct | **Entrega T2** | *Tentativo* | Se entrega por Aula. Se movió desde el 09-oct |
 | vie 30-oct | **Control Q3** | *Fecha tentativa; lectura confirmada* | OpenAI, *El incidente de Hugging Face y el camino a seguir* + AISI (Reino Unido), *Incident Report: unsanctioned agent behaviour during cyber testing* · de acceso libre, ver [lecturas](lecturas/README.md) |
 | mié 04-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula |
@@ -99,7 +98,7 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | - | vie 18-sep | *Vacaciones (14 al 18 de septiembre)* | | | | |
 | 05 | vie 25-sep | Evaluaciones + cierre de U5 *(parte 1)* | **Control Q2** · Clase breve (30 min): de dónde salen las otras muestras, el intervalo de confianza y el valor p de la regresión de la clase 04 · Presentaciones de la propuesta de proyecto (15 grupos, hasta 7 minutos cada uno) | - | - | **Control Q2**: Cairo, *How Charts Lie*, Introducción + Cap. 2 · **Presentación de la propuesta de proyecto** |
 | 06 | vie 02-oct | U5. Inferencia estadística + U7. Clasificación *(parte 1)* | Bloque 1: estimación, intervalos, contraste de hipótesis, t de Student, bootstrap; regresión lineal múltiple · Bloque 2: regresión logística | - | - | |
-| 07 | vie 09-oct | Certamen | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal) | | | |
+| 07 | vie 09-oct | Certamen | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal) · [guía de estudio](evaluaciones/guia_estudio_certamen1.pdf) | | | |
 | - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
 | 08 | vie 23-oct | U6. Aprendizaje automático + U8. Sesgo, varianza y regularización | Bloque 1: tipos de aprendizaje: supervisado, no supervisado y bayesiano; función de pérdida; minimización del riesgo esperado · Bloque 2: interpretación de coeficientes y diagnóstico del ajuste; dilema entre sesgo y varianza; regularización: ridge y lasso | - | - | **Entrega T2** |
 | 09 | vie 30-oct | U7. Clasificación *(parte 2)* + U8. Evaluación de modelos | Bloque 1: análisis discriminante lineal (LDA); KNN · Bloque 2: validación cruzada; bootstrap; métricas de desempeño; equidad entre grupos | - | - | **Control Q3**: los informes de OpenAI y del AISI sobre los agentes que se salieron de sus evaluaciones (ver [lecturas](lecturas/README.md)) |
@@ -197,6 +196,7 @@ NN_tema.ipynb        notebook de cada clase, en la raíz
 presentaciones/      slides: claseNN_tema.pptx y claseNN_tema.pdf
 actividades/         enunciados y soluciones de las actividades en clase
 evaluaciones/
+  guia_estudio_certamen1.md   guía de estudio del certamen 1 (también en PDF; figuras en figuras_guia/)
   tareas/            enunciados de T1 a T4
   controles/         enunciados de Q1 a Q4 (se publican después de aplicarse)
   certamenes/        enunciados de C1 y C2 (se publican después de aplicarse)
