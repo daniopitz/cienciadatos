@@ -8,7 +8,8 @@ subconjunto y se deja el script que lo genera.
 
 | Dataset | Archivo | Fuente | Se usa en |
 |---------|---------|--------|-----------|
-| Encuesta Origen Destino de Viajes Santiago 2012 | `eod_stgo/` (47 MB) | SECTRA, Ministerio de Transportes. https://www.sectra.gob.cl/biblioteca/detalle1.asp?mfn=3253 | Clases 02 y 03, Tarea 1 |
+| Encuesta Origen Destino de Viajes Santiago 2012 | `eod_stgo/` (47 MB) | SECTRA, Ministerio de Transportes. https://www.sectra.gob.cl/biblioteca/detalle1.asp?mfn=3253 | Clases 02, 03, 04 y 06, Tarea 1 |
+| Clientes de tarjeta de crédito (Default) y pasajeros del Titanic | `clase06/` (0,5 MB) | Default: James et al., *An Introduction to Statistical Learning*, statlearning.com (datos simulados por los autores). Titanic: repositorio seaborn-data. Detalle en `clase06/README.md` | Clase 06 |
 | Emisiones al aire de fuentes puntuales, 2020 | `emisiones_aire_2020.csv` (5,5 MB) | Registro de Emisiones y Transferencias de Contaminantes (RETC), Ministerio del Medio Ambiente. https://datosretc.mma.gob.cl | Material complementario |
 
 ### eod_stgo/
