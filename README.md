@@ -21,7 +21,7 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 
 | Ítem | Ponderación | Fechas | Detalle |
 |------|-------------|--------|---------|
-| Controles de lectura (Q) | 10% | **21-ago** (Q1) · **25-sep** (Q2) · Q3 y Q4 por confirmar | 4 controles, al inicio de la clase, duración 20 minutos |
+| Controles de lectura (Q) | 10% | **21-ago** (Q1) · **25-sep** (Q2) · **30-oct** (Q3) · Q4 por confirmar | 4 controles, al inicio de la clase, duración 20 minutos |
 | Tareas (T) | 10% | **10-sep** (T1) · **4-nov** (T2) · T3 y T4 (voluntaria) por confirmar | 3 tareas obligatorias en parejas (T1 a T3), sobre datos reales, que se desarrollan fuera de clase; T4 es voluntaria y su nota reemplaza a la más baja de las tres si le conviene al grupo |
 | Certámenes (C) | 50% | **9-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
 | Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
@@ -36,8 +36,8 @@ Las fechas de los certámenes, la propuesta y la presentación del proyecto son 
 el certamen 1 se movió del 2 al 9 de octubre para alcanzar a dictar la inferencia, que
 está entre los contenidos que evalúa. La fecha del 9 de octubre quedó confirmada.
 La entrega de la tarea 2 se movió al miércoles 4 de noviembre y quedó confirmada.
-**Las fechas de entrega de las tareas 3 y 4 son tentativas**, igual que los controles
-Q3 y Q4: se confirman en clase y por Aula, a más tardar una semana antes.
+**Las fechas de entrega de las tareas 3 y 4 son tentativas**, igual que el control
+Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 
 | Fecha | Evaluación | Estado | Detalle |
 |-------|------------|--------|---------|
@@ -47,7 +47,7 @@ Q3 y Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 | vie 25-sep | **Control Q2** | ✅ Confirmado | Cairo, *How Charts Lie*, Introducción + Cap. 2 (en inglés) · lectura publicada en Aula. Se movió desde el 04-sep por la extensión de la lectura |
 | vie 25-sep | [**Propuesta de proyecto**](evaluaciones/proyecto/proyecto_parte1_propuesta.md) | ✅ Confirmado | Obligatoria: pregunta, datos y exploración inicial. El tema se registra antes en la planilla del curso |
 | vie 09-oct | **Certamen 1** | ✅ Confirmado | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual · [guía de estudio](evaluaciones/guia_estudio_certamen1.pdf) ([markdown](evaluaciones/guia_estudio_certamen1.md)). Se movió desde el 02-oct para dictar antes la clase de inferencia |
-| vie 30-oct | **Control Q3** | *Fecha tentativa; lectura confirmada* | OpenAI, *El incidente de Hugging Face y el camino a seguir* + AISI (Reino Unido), *Incident Report: unsanctioned agent behaviour during cyber testing* · de acceso libre, ver [lecturas](lecturas/README.md) |
+| vie 30-oct | **Control Q3** | ✅ Confirmado | OpenAI, *El incidente de Hugging Face y el camino a seguir* + AISI (Reino Unido), *Incident Report: unsanctioned agent behaviour during cyber testing* · de acceso libre, ver [lecturas](lecturas/README.md) |
 | mié 04-nov | **Entrega T2** | ✅ Confirmado | Se entrega por Aula. El enunciado se publica la semana del 12 de octubre. Se movió desde el 23-oct |
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
 | vie 13-nov | **Control Q4** | *Fecha tentativa; lectura confirmada en parte* | Amodei, *We Must Pace the Frontier* (en inglés) + un documento sobre la política de IA de Chile, por definir a fines de octubre · ver [lecturas](lecturas/README.md) |
