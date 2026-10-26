@@ -1,0 +1,411 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{mathpazo}
+\usepackage[a4paper,margin=2cm,top=1.8cm,bottom=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xltabular}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\small INF-396 \textperiodcentered{} Pauta Certamen 1}
+\fancyfoot[R]{\small\thepage}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\renewcommand{\arraystretch}{1.25}
+\definecolor{gris}{gray}{0.92}
+\definecolor{grisclaro}{gray}{0.97}
+\setlist[itemize]{itemsep=3pt, topsep=4pt, leftmargin=1.4em}
+
+% Columna de tabularx alineada a la izquierda con ajuste de línea
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+% Título de parte y de pregunta
+\newcommand{\parte}[1]{\vspace{14pt}{\Large\bfseries #1}\vspace{6pt}\par}
+\newcommand{\pregunta}[1]{\vspace{10pt}{\large\bfseries #1}\vspace{4pt}\par}
+\newcommand{\bloque}[1]{\vspace{6pt}{\bfseries #1}\vspace{2pt}\par}
+
+% Tabla de rúbrica: \rubrica{título}{logrado}{pts}{parcial}{rango}{no logrado}{rango}
+\newcommand{\rubrica}[7]{%
+\vspace{4pt}
+\begin{tabularx}{\linewidth}{@{} >{\bfseries}p{4.1cm} L >{\raggedleft\arraybackslash}p{1.6cm} @{}}
+\toprule
+\multicolumn{2}{@{}l}{\textbf{#1}} & \textbf{Puntos} \\
+\midrule
+\rowcolor{grisclaro} Logrado & #2 & #3 \\
+Parcialmente logrado & #4 & #5 \\
+\rowcolor{grisclaro} No logrado & #6 & #7 \\
+\bottomrule
+\end{tabularx}
+\vspace{6pt}
+}
+
+\begin{document}
+
+{\Large\bfseries Pauta de corrección: Certamen 1}\\[3pt]
+{\large INF-396 Introducción a la Ciencia de Datos}
+
+\vspace{6pt}
+Universidad Técnica Federico Santa María \textperiodcentered{} Departamento de Informática\\
+Certamen 1, viernes 9 de octubre de 2026 \textperiodcentered{} Duración: 2 horas \textperiodcentered{} Puntaje total: 100 puntos
+
+
+\parte{Resumen de puntajes}
+
+\begin{tabularx}{\linewidth}{@{} l L r @{}}
+\toprule
+\textbf{Parte} & \textbf{Preguntas} & \textbf{Puntos} \\
+\midrule
+1. Alternativas & A a J, 2 puntos cada una & 20 \\
+2. Desarrollo & Una pregunta a elección: 1 (regresión múltiple) o 2 (dos correlaciones) & 40 \\
+3. Cálculo & 3 (Spearman, 15 puntos) y 4 (regresión por comuna, inferencia y bootstrap, 25 puntos) & 40 \\
+\midrule
+\multicolumn{2}{@{}l}{\textbf{Total}} & \textbf{100} \\
+\bottomrule
+\end{tabularx}
+
+\parte{Criterios generales}
+
+Se corrige el argumento y el procedimiento, no solo el número final. La calculadora es opcional: una aproximación hecha a mano con el método correcto vale el puntaje completo. Los rangos de puntaje de cada nivel son orientativos.
+
+\bloque{Tabla de descuentos}
+
+La tabla reúne las situaciones frecuentes y qué hacer con cada una. Cuando una situación no está en la tabla, se ubica la respuesta en el nivel de la rúbrica del ítem que mejor la describe.
+
+\vspace{4pt}
+\begin{xltabular}{\linewidth}{@{} L >{\raggedright\arraybackslash}p{2.6cm} L @{}}
+\toprule
+\textbf{Situación} & \textbf{Dónde aplica} & \textbf{Efecto en el puntaje} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Situación} & \textbf{Dónde aplica} & \textbf{Efecto en el puntaje} \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+\rowcolor{grisclaro}
+Aproximación a mano con el método correcto ($r \approx 0{,}65$ o $0{,}66$ para $\sqrt{0{,}433}$; $t \approx 5{,}7$) & Todo el certamen & Sin descuento. \\
+Error aritmético con el método correcto & Todo el certamen & Conserva la mayor parte del puntaje del ítem: queda en Parcialmente logrado, en la parte alta del rango. \\
+\rowcolor{grisclaro}
+Número correcto sin procedimiento ni interpretación & Todo el certamen & No obtiene el puntaje completo: Parcialmente logrado. \\
+Más de una opción marcada & Parte 1 & 0 puntos en esa pregunta. \\
+\rowcolor{grisclaro}
+Respondió las preguntas 1 y 2 & Parte 2 & Se corrige únicamente la pregunta 1, como dice el enunciado. \\
+Lectura de coeficientes sin ``a igual distancia'' & P1 b) & Parcialmente logrado (7 a 13). \\
+\rowcolor{grisclaro}
+Coeficientes de la regresión leídos como minutos & P1 a) y b) & No logrado en el ítem. \\
+Valor $p$ leído como ``probabilidad de que el resultado sea coincidencia'' & P1 b) & Si de todos modos concluye que el taxi no se distingue del auto y mira el intervalo, descontar 1 o 2 puntos. Si solo escribe esa frase, Parcialmente logrado. \\
+\rowcolor{grisclaro}
+``Correlación no es causalidad'' sin aplicarlo al caso & P1 c) & Parcialmente logrado (7 a 13). \\
+Rangos de una variable en dirección opuesta (da $+0{,}80$) & P3 & Sin descuento: el signo de $\rho$ depende de la dirección en que se asignan los rangos. La magnitud y la interpretación se corrigen igual. \\
+\rowcolor{grisclaro}
+Habla de proporción o de relación lineal (``directamente'' o ``inversamente proporcional'', ``relación lineal'') & P3 b) & Magnitud y significado: Parcialmente logrado (2 a 3), aunque el resto esté bien. Spearman solo mide monotonía. \\
+Lee el coeficiente como porcentaje, confundiéndolo con $R^2$ (``el 80\,\% de la disminución se explica por\ldots'') & P3 b) & Magnitud y significado: No logrado (1). \\
+\rowcolor{grisclaro}
+Lecturas sin unidades & P4 a) & Parcialmente logrado (2 a 3). \\
+$p$ leído como ``cero'' exacto & P4 d) & Parcialmente logrado (2 a 4). \\
+``Los intervalos son distintos porque uno es simulado'' & P4 e-iii & 1 de los 2 puntos de la explicación. \\
+\rowcolor{grisclaro}
+Bootstrap confundido con repetir la encuesta & P4 e-iv & 0 en el subítem. \\
+\end{xltabular}
+
+\vspace{6pt}
+\parte{Parte 1. Alternativas (20 puntos)}
+
+Dos puntos por pregunta. Cero si hay más de una opción marcada.
+
+\bloque{Clave}
+
+\begin{tabular}{@{} >{\centering\arraybackslash}p{2.2cm} >{\centering\arraybackslash}p{2.2cm} @{}}
+\toprule
+\textbf{Pregunta} & \textbf{Respuesta} \\
+\midrule
+\rowcolor{grisclaro} A & b \\
+B & c \\
+\rowcolor{grisclaro} C & a \\
+D & b \\
+\rowcolor{grisclaro} E & b \\
+F & d \\
+\rowcolor{grisclaro} G & c \\
+H & d \\
+\rowcolor{grisclaro} I & b \\
+J & d \\
+\bottomrule
+\end{tabular}
+
+\bloque{Justificación de cada pregunta}
+
+\begin{itemize}[itemsep=7pt]
+\item \textbf{A: b)} Pearson se calcula con los valores y es sensible a los puntos extremos: las cuatro comunas de ingreso más alto (Lo Barnechea, La Reina, Vitacura y Las Condes) están muy por sobre el resto y en la línea de la tendencia, y elevan el coeficiente, de ahí el 0,90. Spearman reemplaza los valores por rangos, y esas comunas pasan a ser solo las posiciones 42 a 45: mide la monotonía sin que los extremos dominen, 0,73. La a) es falsa: Spearman no descarta observaciones, usa las 45 comunas y solo reemplaza cada valor por su rango; Pearson no es siempre mayor (c) y los dos coeficientes no tienen por qué coincidir (d).
+
+\item \textbf{B: c)} El código de comuna es una etiqueta: categórica nominal. Que esté guardada como número (tipo computacional) no la vuelve numérica (tipo estadístico); el promedio no tiene sentido.
+
+\item \textbf{C: a)} La caja de Bip! va de 38 a 80 minutos y la mediana del auto es 26: toda la mitad central de Bip! queda por sobre ella. La b) es falsa porque los atípicos están ocultos y el bigote termina en el último dato bajo la cerca de 1,5 IQR, no en el máximo (el viaje más largo en Bip! supera las 2 horas); en c) el IQR del auto es 25 y el de Bip! 42; la d) es falsa: 15 minutos es el primer cuartil del auto, así que solo el 25\,\% de sus viajes dura menos.
+
+\item \textbf{D: b)} Con dos ejes verticales cada línea se dibuja en su propia escala, y las líneas se cruzan donde el autor decidió alinear las escalas: cambiando el rango de un eje, el cruce se mueve a otra hora o desaparece. Lo único legible es la forma de cada serie por separado. La a) compara unidades distintas (miles de viajes contra porcentaje); la c) es falsa, Cairo no prohíbe las dobles escalas, advierte cómo leerlas; la d) infiere causalidad de una coincidencia visual.
+
+\item \textbf{E: b)} Las seis dummies sumarían 1 en toda fila, igual que la constante: colinealidad perfecta. Se elimina una, que queda de referencia, y cada coeficiente se lee contra ella. La d) es falsa: una columna redundante no lleva el $R^2$ a 1; el problema es la colinealidad.
+
+\item \textbf{F: d)} Media muy por sobre la mediana: cola hacia la derecha, unos pocos valores altos arrastran la media; la mediana deja la mitad de las personas a cada lado, así que más de la mitad gana menos que el promedio. La b) confunde la media con la mediana; la c) no se deduce de los datos: la mitad de los sueldos está bajo \$800.000.
+
+\item \textbf{G: c)} Entre $Q_1$ y $Q_3$ está el 50\,\% central. IQR $= 40$; cerca superior $60 + 1{,}5 \cdot 40 = 120$, y 125 la supera. La mediana no se deduce de los cuartiles (a), el 25\,\% es menor que 20 (b), y el IQR es 40, no 80 (d).
+
+\item \textbf{H: d)} Con factores de expansión cada fila pesa lo que representa: 100, 100 y 600 personas. La media ponderada $(0 \cdot 100 + 0 \cdot 100 + 4 \cdot 600)/800 = 3{,}0$ describe a la población; la simple describe a los tres encuestados. Los factores no tienen que sumar ninguna cantidad fija (c), y sirven igual para totales y promedios (b).
+
+\item \textbf{I: b)} Es un proxy: cuando el modelo no observa lo que le interesa (el ingreso), lo reemplaza por una variable correlacionada (la comuna), y cada persona queda juzgada por el grupo al que pertenece y no por lo que hizo; O'Neil muestra que así el modelo reproduce la desigualdad de partida. La a) confunde dato público con dato inocuo; la c) es falsa, O'Neil no exige variables medidas en cada persona, critica los proxies que juzgan por el grupo; la d) es falsa, la transparencia no elimina el daño que causa un proxy.
+
+\item \textbf{J: d)} Variable ordinal: los códigos 1, 2 y 3 tienen orden pero no distancias iguales, así que la media y la desviación estándar no tienen sentido; la mediana y la moda sí. No es nominal (c), porque el orden sí importa; la a) es falsa, nada garantiza que los códigos estén igualmente espaciados.
+\end{itemize}
+
+\clearpage
+\parte{Parte 2. Desarrollo (40 puntos, una pregunta a elección)}
+
+Si el estudiante respondió las dos preguntas, se corrige únicamente la 1.
+
+\pregunta{Pregunta 1: interpretación de una regresión lineal (40 puntos)}
+
+\bloque{Respuesta esperada}
+
+\textbf{a)} La ecuación ajustada es
+\begin{align*}
+\log_{10}(\text{duración}) ={}& 1{,}164 + 0{,}368 \cdot \log_{10}(\text{km}) + 0{,}055 \cdot \text{Bicicleta} + 0{,}263 \cdot \text{Bip!} \\
+& {}+ 0{,}015 \cdot \text{Caminata} + 0{,}008 \cdot \text{Taxi} + 0{,}119 \cdot \text{TaxiColectivo}.
+\end{align*}
+El 0,368 se lee con el modo fijo: por cada unidad que sube el logaritmo de la distancia, el logaritmo de la duración sube 0,368. En términos multiplicativos, multiplicar la distancia por 10 multiplica la duración por $10^{0{,}368} = 2{,}3$. La referencia es el auto, el único de los seis modos que no está en la tabla: sus dummies valen 0, y el intercepto 1,164 es el logaritmo de la duración predicha para un viaje en auto con $\log_{10}(\text{km}) = 0$, es decir, de 1 km ($10^{1{,}164} = 14{,}6$ minutos).
+
+\medskip
+\textbf{b)} Bip!: a igual distancia, un viaje en Bip! tarda 1,83 veces lo que uno en auto (un 83\,\% más). Taxi colectivo: 1,32 veces, un 32\,\% más. Taxi: el coeficiente 0,008 tiene $p = 0{,}317$ e intervalo $[-0{,}008;\ 0{,}024]$, que incluye el 0. Si en la población el taxi no tuviera efecto, un coeficiente tan lejos de cero como este aparecería por azar de la muestra en un 32\,\% de los casos: no es un resultado raro. A igual distancia, no se puede distinguir la duración de un viaje en taxi de la de uno en auto; el multiplicador 1,02 es compatible con 1.
+
+\medskip
+\textbf{c)} El modelo no respalda la conclusión tal como está formulada. Sostiene una asociación: en estos datos, a igual distancia, los viajes en Bip! duran más que los viajes en auto. No sostiene que un mismo pasajero, al cambiar de modo, acorte su viaje: las personas que viajan en Bip! y en auto difieren en variables que el modelo no incluye (hora del viaje y congestión, origen y destino, acceso a la red de metro, ingreso, propósito del viaje), y parte de la diferencia puede deberse a eso. Para que la frase fuera válida habría que suponer que los pasajeros de Bip! y de auto son comparables en todo lo demás, o comparar a las mismas personas con un diseño distinto. Las medias sin controlar (62 minutos en Bip! contra 32 en auto) son el origen del ``casi la mitad'': la razón es 0,52 sin controlar y $1/1{,}83 = 0{,}55$ a igual distancia, parecidas, pero en los dos casos se comparan personas distintas. Mérito adicional, sin exigirlo: el taxi colectivo dura lo mismo que el auto sin controlar (32) pero un 32\,\% más a igual distancia, señal de que sus viajes son más cortos en distancia.
+
+\bloque{Rúbrica}
+
+\rubrica{a) Ecuación y lectura (12 puntos)}
+{Ecuación completa, lectura del coeficiente con las demás variables fijas (se acepta la lectura en escala logarítmica o la multiplicativa), referencia identificada y el intercepto leído para ella.}{12}
+{Ecuación correcta pero lectura incompleta, o referencia identificada sin leer el intercepto.}{6 a 11}
+{Ecuación incorrecta o sin lectura.}{0 a 5}
+
+\rubrica{b) Bip!, taxi colectivo y taxi (14 puntos)}
+{Las dos lecturas con ``a igual distancia'', ya sea multiplicativas ($10^{0{,}263} = 1{,}83$ y $10^{0{,}119} = 1{,}32$, con calculadora) o en la escala del logaritmo (Bip! suma 0,263 al logaritmo de la duración; se acepta como completa), y el taxi leído como indistinguible del auto por el valor $p$ y el intervalo.}{14}
+{Lecturas correctas pero sin ``a igual distancia'', o el taxi leído solo con el valor $p$ sin el intervalo, o una de las dos lecturas mal.}{7 a 13}
+{Lee los coeficientes como minutos, o no interpreta el taxi.}{0 a 6}
+
+\rubrica{c) Asociación contra causalidad (14 puntos)}
+{Dice que el modelo no respalda la frase, distingue la asociación a igual distancia de la afirmación causal, y nombra una variable omitida plausible.}{14}
+{Dice ``correlación no es causalidad'' sin aplicarlo al caso, o sin variable omitida.}{7 a 13}
+{Acepta la conclusión causal sin distinguirla de la asociación, o la rechaza sin argumento.}{0 a 6}
+
+\clearpage
+\pregunta{Pregunta 2: dos correlaciones para las mismas variables (40 puntos)}
+
+\bloque{Respuesta esperada}
+
+Es la falacia ecológica: una asociación entre promedios de grupos no implica la misma asociación entre los individuos.
+
+\textbf{a)} Promedios por comuna: A $(0{,}5;\ 60)$, B $(1{,}0;\ 45)$, C $(1{,}5;\ 30)$.
+
+Pearson con los tres promedios: $\bar{x} = 1{,}0$ e $\bar{y} = 45$.
+\[
+\sum (x - \bar{x})(y - \bar{y}) = (-0{,}5)(15) + 0 + (0{,}5)(-15) = -15, \qquad
+\sum (x - \bar{x})^2 = 0{,}5, \qquad
+\sum (y - \bar{y})^2 = 450,
+\]
+\[
+r = \frac{-15}{\sqrt{0{,}5 \cdot 450}} = \frac{-15}{15} = -1.
+\]
+Pearson con los seis viajes: también $\bar{x} = 1{,}0$ e $\bar{y} = 45$; los productos $(x - \bar{x})(y - \bar{y})$ son $7$, $-12$, $5$, $5$, $-12$ y $7$, que suman 0, así que $r = 0{,}00$ sin necesidad de calcular el denominador.
+
+Comparación: asociación negativa y perfecta entre comunas, ninguna entre los viajes. Lo que hay que notar: dentro de cada comuna, el viaje del hogar de mayor ingreso dura 50 minutos más (asociación positiva), y esa asociación dentro de las comunas cancela la negativa entre los promedios.
+
+\medskip
+\textbf{b)} El estudiante no tiene razón. La correlación por comuna compara 45 promedios: cada uno resume más de mil viajes en promedio y borra la variación interna. La correlación por viaje compara los 69 mil viajes uno a uno, con toda esa variación. Ninguna está mal: miden asociaciones entre unidades distintas, y el promedio pierde la relación que existe dentro de cada comuna, tal como en el ejemplo.
+
+\medskip
+\textbf{c)} La correlación por viaje responde a la pregunta sobre las personas; la correlación por comuna, a la pregunta sobre las comunas. Usar la segunda para afirmar algo sobre las personas no es válido: es exactamente el salto que el ejemplo muestra que falla.
+
+\bloque{Rúbrica}
+
+\rubrica{a) Promedios y los dos coeficientes (16 puntos)}
+{Los seis promedios, $r = -1$ entre promedios y $r = 0$ entre viajes (se acepta ``cercano a cero'' por redondeo), con la comparación: negativa perfecta contra nula. Se valora, sin exigirlo, que note la asociación positiva dentro de cada comuna.}{16}
+{Promedios correctos con un solo coeficiente bien calculado, o los dos coeficientes con errores aritméticos pero el método correcto, o sin la comparación.}{8 a 15}
+{Solo los promedios, o coeficientes con el signo al revés.}{0 a 7}
+
+\rubrica{b) Qué compara cada correlación (12 puntos)}
+{Dice que el estudiante no tiene razón, explica qué compara cada correlación (promedios de comunas contra viajes individuales) y que el promedio borra la variación dentro de la comuna, apoyándose en el ejemplo.}{12}
+{Explica que son unidades distintas sin conectar con el ejemplo, o no se pronuncia sobre si el estudiante tiene razón.}{6 a 11}
+{Da la razón al estudiante, insistiendo en que una de las dos está mal.}{0 a 5}
+
+\rubrica{c) Qué pregunta responde cada una (12 puntos)}
+{Asigna la correlación por viaje a las personas y la correlación por comuna a las comunas, y argumenta que no es válido pasar de la segunda a la primera.}{12}
+{Asigna bien las dos correlaciones pero no se pronuncia sobre la validez del salto, o lo hace sin argumento.}{6 a 11}
+{Asigna las correlaciones al revés.}{0 a 5}
+
+\clearpage
+\parte{Parte 3. Cálculo (40 puntos)}
+
+\pregunta{Pregunta 3: coeficiente de Spearman (15 puntos)}
+
+\bloque{Respuesta esperada}
+
+\textbf{a) Cálculo, paso a paso.}
+
+\textbf{Paso 1. Rangos del ingreso.} Se ordena de menor a mayor y se asigna 1 al menor:
+\[
+0{,}50 \;(\text{La Pintana}) < 0{,}65 \;(\text{Conchalí}) < 0{,}71 \;(\text{Santiago}) < 1{,}47 \;(\text{Providencia}) < 1{,}50 \;(\text{Ñuñoa}).
+\]
+Rangos: La Pintana 1, Conchalí 2, Santiago 3, Providencia 4, Ñuñoa 5.
+
+\textbf{Paso 2. Rangos del transporte público}, en la misma dirección (1 al menor):
+\[
+18{,}5 \;(\text{Providencia}) < 26{,}1 \;(\text{Ñuñoa}) < 29{,}3 \;(\text{Santiago}) < 49{,}3 \;(\text{La Pintana}) < 51{,}8 \;(\text{Conchalí}).
+\]
+Rangos: Providencia 1, Ñuñoa 2, Santiago 3, La Pintana 4, Conchalí 5.
+
+\textbf{Paso 3. Diferencias de rangos} $d_i = R(\text{ingreso}) - R(\text{TP})$ y sus cuadrados:
+
+\vspace{2pt}
+\begin{tabular}{@{} l r c r c r r @{}}
+\toprule
+\textbf{Comuna} & \textbf{Ingreso} & \textbf{Rango} & \textbf{TP (\%)} & \textbf{Rango} & $\boldsymbol{d_i}$ & $\boldsymbol{d_i^2}$ \\
+\midrule
+La Pintana  & 0,50 & 1 & 49,3 & 4 & $-3$ & 9 \\
+Conchalí    & 0,65 & 2 & 51,8 & 5 & $-3$ & 9 \\
+Santiago    & 0,71 & 3 & 29,3 & 3 & $0$  & 0 \\
+Providencia & 1,47 & 4 & 18,5 & 1 & $3$  & 9 \\
+Ñuñoa       & 1,50 & 5 & 26,1 & 2 & $3$  & 9 \\
+\midrule
+\multicolumn{6}{@{}l}{$\sum d_i^2$} & \textbf{36} \\
+\bottomrule
+\end{tabular}
+
+\textbf{Paso 4. Fórmula}, con $n = 5$:
+\begin{align*}
+\rho &= 1 - \frac{6 \sum d_i^2}{n\,(n^2 - 1)}
+     = 1 - \frac{6 \cdot 36}{5\,(25 - 1)}
+     = 1 - \frac{216}{5 \cdot 24} \\[2pt]
+     &= 1 - \frac{216}{120}
+     = 1 - 1{,}80
+     = -0{,}80.
+\end{align*}
+
+Si una variable se ordena al revés, los $d_i$ pasan a ser $-1, 1, 0, -1, 1$, $\sum d_i^2 = 4$ y $\rho = +0{,}80$: misma magnitud con el signo invertido por la dirección de los rangos. Se acepta sin descuento.
+
+\medskip
+\textbf{b) Interpretación.} El signo negativo dice que a mayor ingreso, menor proporción de viajes en transporte público. La magnitud 0,80 indica una asociación monótona fuerte, cercana al orden inverso perfecto; no llega a $-1$ porque dos pares de comunas intercambian el orden (La Pintana y Conchalí; Providencia y Ñuñoa). Frase esperada: ``existe una asociación negativa fuerte entre el ingreso y el uso del transporte público: las comunas de mayor ingreso usan menos el transporte público''.
+
+Lo que no corresponde decir: ``inversamente proporcional'' o ``relación lineal'', porque Spearman solo mide monotonía y no la forma de la relación; ni ``el 80\,\% de la disminución se explica por el ingreso'', porque el coeficiente no es un porcentaje ni un $R^2$.
+
+\newpage
+\bloque{Rúbrica}
+
+Una columna por criterio; el puntaje se elige dentro del nivel que mejor describe la respuesta. Si una respuesta calza con dos descripciones de la misma columna, se usa la de menor puntaje.
+
+\vspace{2pt}
+{\small
+\begin{tabularx}{\linewidth}{@{} >{\bfseries}p{1.9cm} L L L >{\hsize=1.3\hsize}L @{}}
+\toprule
+ & \textbf{a) Rangos} \newline 3 puntos
+ & \textbf{a) Diferencias} \newline 2 puntos
+ & \textbf{a) Fórmula y $\boldsymbol{\rho}$} \newline 5 puntos
+ & \textbf{b) Magnitud y significado} \newline 5 puntos \\
+\midrule
+\rowcolor{grisclaro}
+Logrado
+ & Rangos de las dos variables correctos, en cualquier dirección. \newline \textbf{3}
+ & Tabla con $d_i$ y $d_i^2$ por comuna y $\sum d_i^2 = 36$. \newline \textbf{2}
+ & Fórmula correcta con $n = 5$, desarrollo visible y $\rho = -0{,}80$. \newline \textbf{5}
+ & Asociación fuerte y qué significa para las comunas (a mayor ingreso, menor uso del transporte público), dicha como asociación u orden, sin hablar de proporción ni de porcentaje. \newline \textbf{5} \\
+Parcialmente logrado
+ & Un rango equivocado. \newline \textbf{1 a 2}
+ & Tabla bien calculada a partir de rangos con error, o un error aritmético. \newline \textbf{1}
+ & Fórmula correcta con error aritmético. \newline \textbf{3 a 4}
+ & Solo la magnitud o solo el significado. \newline \textbf{3 a 4} \newline Habla de proporción o de relación lineal (``inversamente proporcional'', ``relación lineal''), aunque el resto esté bien. \newline \textbf{2 a 3} \\
+\rowcolor{grisclaro}
+No logrado
+ & Sin rangos. \newline \textbf{0}
+ & Sin tabla de diferencias. \newline \textbf{0}
+ & Fórmula mal aplicada, o solo el número sin procedimiento. \newline \textbf{0 a 2}
+ & Lee el coeficiente como porcentaje, confundiéndolo con $R^2$ (``el 80\,\% de la disminución\ldots''). \newline \textbf{1} \newline Sin interpretación. \newline \textbf{0} \\
+\bottomrule
+\end{tabularx}
+}
+
+El signo de $\rho$ depende de la dirección en que se asignaron los rangos ($-0{,}80$ o $+0{,}80$) y no se descuenta por él en ningún criterio. Lo que se evalúa en b) es que la interpretación diga que a mayor ingreso hay menor uso del transporte público.
+
+\clearpage
+\pregunta{Pregunta 4: regresión lineal por comuna, inferencia y bootstrap (25 puntos)}
+
+\bloque{Respuesta esperada}
+
+\textbf{a)} $\text{duración} = 24{,}1 + 1{,}93 \cdot \text{distancia}$. Pendiente: por cada kilómetro adicional de distancia media, la duración media de los viajes de una comuna sube 1,93 minutos. Intercepto: la duración predicha para distancia 0, un valor de referencia sin sentido físico aquí.
+
+\medskip
+\textbf{b)} Predicción para 5,2 km: $24{,}1 + 1{,}93 \cdot 5{,}2 = 34{,}1$; residuo $= 44{,}0 - 34{,}1 = 9{,}9$ minutos. Positivo: en Quilicura los viajes duran casi 10 minutos más de lo que su distancia media predice.
+
+\medskip
+\textbf{c)} $r = +\sqrt{0{,}433} = 0{,}66$, positivo porque la pendiente lo es. La distancia media explica el 43\,\% de la variación de la duración media entre comunas; el resto depende de otras variables (modo, congestión, origen de los viajes).
+
+\medskip
+\textbf{d)} $t = 1{,}93 / 0{,}337 = 5{,}7$: la pendiente está a 5,7 errores estándar del cero. Bajo $H_0$ (pendiente real 0), el 95\,\% de las pendientes caería a menos de 2 errores estándar; 5,7 está mucho más lejos, y la probabilidad de un $t$ así es menor que 0,0005, por eso el summary la redondea a 0,000. No es $p = 0$ exacto: es $p < 0{,}001$.
+
+\medskip
+\textbf{e)}
+\begin{itemize}
+\item[(i)] Medias de los remuestreos: 30, 50 y 28 minutos.
+\item[(ii)] Un intervalo del 95\,\% deja fuera el 5\,\% de las medias bootstrap, repartido en dos colas de 2,5\,\% cada una. En 2.000 medias, cada cola tiene
+\[
+0{,}025 \cdot \text{2.000} = 50 \text{ medias}.
+\]
+Se ordenan las 2.000 medias de menor a mayor. El percentil 2,5 es la media que deja 50 por debajo: la número 50 desde abajo. El percentil 97,5 es la que deja 50 por encima: la número $\text{2.000} - 50 = \text{1.950}$. Entre las posiciones 50 y 1.950 quedan $\text{1.950} - 50 = \text{1.900}$ medias, que son el 95\,\% de 2.000. Los valores que ocupan esas posiciones fueron 18 y 70 minutos, así que el intervalo bootstrap es $[18;\ 70]$. También se acepta la posición 51 para el límite inferior o 1.951 para el superior, porque las convenciones para ubicar un percentil difieren en una unidad; lo que importa es el 50 como tamaño de cada cola.
+\item[(iii)] Fórmula: $EE = 35{,}4 / \sqrt{5} = 15{,}8$; intervalo $40 \pm 31{,}6 = [8{,}4;\ 71{,}6]$ (si se mantiene $EE = 15{,}83$ sin redondear, $2 \cdot EE = 31{,}66$ y sale $[8{,}3;\ 71{,}7]$; ambos valen). El error estándar bootstrap, 14,3, se parece al de la fórmula, pero el intervalo no: la fórmula supone que la media de la muestra se distribuye como una campana simétrica alrededor de 40, y con solo cinco datos y un valor de 100 eso no se cumple (el teorema central del límite necesita más datos). La campana baja hasta 8,4, un valor que ningún remuestreo puede producir: la media más baja posible es 10, si salen cinco veces el 10, y la distribución real de las medias es asimétrica, con cola hacia arriba. El bootstrap lee esa forma directamente, por eso su límite inferior es 18.
+\item[(iv)] El bootstrap, porque con cinco datos y cola larga los supuestos de la fórmula no se cumplen. Con 500 viajes la media sí se distribuiría como campana, los dos intervalos coincidirían y serían mucho más angostos: el error estándar bajaría a unos $35 / \sqrt{500} \approx 1{,}6$ minutos.
+\end{itemize}
+
+\bloque{Rúbrica}
+
+\rubrica{a) Ecuación y lectura (4 puntos)}
+{Ecuación y las dos lecturas con unidades.}{4}
+{Ecuación sin unidades en la lectura, o sin leer el intercepto.}{2 a 3}
+{Ecuación incorrecta.}{0 a 1}
+
+\rubrica{b) Residuo (4 puntos)}
+{9,9 con el signo interpretado.}{4}
+{Residuo con signo invertido o sin interpretar.}{2 a 3}
+{Sin predicción.}{0 a 1}
+
+\rubrica{c) $r$ y $R^2$ (4 puntos)}
+{0,66 y la lectura como fracción de variación explicada.}{4}
+{$r$ sin lectura, o lectura sin $r$.}{2 a 3}
+{Confunde $R^2$ con la pendiente.}{0 a 1}
+
+\rubrica{d) $t$ y $p$ (5 puntos)}
+{$t = 5{,}7$ explicado como errores estándar del cero y $p < 0{,}001$.}{5}
+{$t$ correcto sin explicar, o $p$ leído como ``cero''.}{2 a 4}
+{Sin $t$.}{0 a 1}
+
+\bloque{e) Bootstrap de la media (8 puntos, por subítem)}
+
+\vspace{2pt}
+\begin{tabularx}{\linewidth}{@{} >{\bfseries}p{1.4cm} L >{\raggedleft\arraybackslash}p{1.6cm} @{}}
+\toprule
+\textbf{Subítem} & \textbf{Qué se pide y cómo se reparte} & \textbf{Puntos} \\
+\midrule
+\rowcolor{grisclaro} (i) & Las tres medias: 30, 50 y 28. & 1 \\
+(ii) & Las posiciones 50 y 1.950, o 51 y 1.951, con el 50 como tamaño de cada cola (1 punto) y el intervalo $[18;\ 70]$ (1 punto). & 2 \\
+\rowcolor{grisclaro} (iii) & El intervalo $[8{,}4;\ 71{,}6]$ o $[8{,}3;\ 71{,}7]$ (1 punto) y la explicación de la diferencia: pocos datos y cola larga, la fórmula supone una campana simétrica y el bootstrap lee la forma real, 8,4 es un valor imposible (2 puntos). Con solo ``son distintos porque uno es simulado'' se da 1 de esos 2. & 3 \\
+(iv) & Elige el bootstrap con la razón (1 punto) y el efecto de $n = 500$: los dos intervalos coincidirían y serían mucho más angostos (1 punto). Confundir el bootstrap con repetir la encuesta deja el subítem en 0. & 2 \\
+\bottomrule
+\end{tabularx}
+
+\end{document}
