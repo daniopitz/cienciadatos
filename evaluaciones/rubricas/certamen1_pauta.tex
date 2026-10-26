@@ -75,49 +75,8 @@ Certamen 1, viernes 9 de octubre de 2026 \textperiodcentered{} Duración: 2 hora
 
 \parte{Criterios generales}
 
-Se corrige el argumento y el procedimiento, no solo el número final. La calculadora es opcional: una aproximación hecha a mano con el método correcto vale el puntaje completo. Los rangos de puntaje de cada nivel son orientativos.
+Se corrige el argumento y el procedimiento, no solo el número final. La calculadora es opcional: una aproximación hecha a mano con el método correcto ($r \approx 0{,}65$ o $0{,}66$ para $\sqrt{0{,}433}$; $t \approx 5{,}7$) vale el puntaje completo. Un error aritmético con el método correcto deja el ítem en Parcialmente logrado, en la parte alta del rango; un número correcto sin procedimiento ni interpretación, en Parcialmente logrado. Los rangos de puntaje de cada nivel son orientativos: dentro de cada nivel se elige el puntaje según cuánto falta.
 
-\bloque{Tabla de descuentos}
-
-La tabla reúne las situaciones frecuentes y qué hacer con cada una. Cuando una situación no está en la tabla, se ubica la respuesta en el nivel de la rúbrica del ítem que mejor la describe.
-
-\vspace{4pt}
-\begin{xltabular}{\linewidth}{@{} L >{\raggedright\arraybackslash}p{2.6cm} L @{}}
-\toprule
-\textbf{Situación} & \textbf{Dónde aplica} & \textbf{Efecto en el puntaje} \\
-\midrule
-\endfirsthead
-\toprule
-\textbf{Situación} & \textbf{Dónde aplica} & \textbf{Efecto en el puntaje} \\
-\midrule
-\endhead
-\bottomrule
-\endlastfoot
-\rowcolor{grisclaro}
-Aproximación a mano con el método correcto ($r \approx 0{,}65$ o $0{,}66$ para $\sqrt{0{,}433}$; $t \approx 5{,}7$) & Todo el certamen & Sin descuento. \\
-Error aritmético con el método correcto & Todo el certamen & Conserva la mayor parte del puntaje del ítem: queda en Parcialmente logrado, en la parte alta del rango. \\
-\rowcolor{grisclaro}
-Número correcto sin procedimiento ni interpretación & Todo el certamen & No obtiene el puntaje completo: Parcialmente logrado. \\
-Más de una opción marcada & Parte 1 & 0 puntos en esa pregunta. \\
-\rowcolor{grisclaro}
-Respondió las preguntas 1 y 2 & Parte 2 & Se corrige únicamente la pregunta 1, como dice el enunciado. \\
-Lectura de coeficientes sin ``a igual distancia'' & P1 b) & Parcialmente logrado (7 a 13). \\
-\rowcolor{grisclaro}
-Coeficientes de la regresión leídos como minutos & P1 a) y b) & No logrado en el ítem. \\
-Valor $p$ leído como ``probabilidad de que el resultado sea coincidencia'' & P1 b) & Si de todos modos concluye que el taxi no se distingue del auto y mira el intervalo, descontar 1 o 2 puntos. Si solo escribe esa frase, Parcialmente logrado. \\
-\rowcolor{grisclaro}
-``Correlación no es causalidad'' sin aplicarlo al caso & P1 c) & Parcialmente logrado (7 a 13). \\
-Rangos de una variable en dirección opuesta (da $+0{,}80$) & P3 & Sin descuento: el signo de $\rho$ depende de la dirección en que se asignan los rangos. La magnitud y la interpretación se corrigen igual. \\
-\rowcolor{grisclaro}
-Habla de proporción o de relación lineal (``directamente'' o ``inversamente proporcional'', ``relación lineal'') & P3 b) & Magnitud y significado: Parcialmente logrado (2 a 3), aunque el resto esté bien. Spearman solo mide monotonía. \\
-Lee el coeficiente como porcentaje, confundiéndolo con $R^2$ (``el 80\,\% de la disminución se explica por\ldots'') & P3 b) & Magnitud y significado: No logrado (1). \\
-\rowcolor{grisclaro}
-Lecturas sin unidades & P4 a) & Parcialmente logrado (2 a 3). \\
-$p$ leído como ``cero'' exacto & P4 d) & Parcialmente logrado (2 a 4). \\
-``Los intervalos son distintos porque uno es simulado'' & P4 e-iii & 1 de los 2 puntos de la explicación. \\
-\rowcolor{grisclaro}
-Bootstrap confundido con repetir la encuesta & P4 e-iv & 0 en el subítem. \\
-\end{xltabular}
 
 \vspace{6pt}
 \parte{Parte 1. Alternativas (20 puntos)}
@@ -194,11 +153,11 @@ El 0,368 se lee con el modo fijo: por cada unidad que sube el logaritmo de la di
 \rubrica{a) Ecuación y lectura (12 puntos)}
 {Ecuación completa, lectura del coeficiente con las demás variables fijas (se acepta la lectura en escala logarítmica o la multiplicativa), referencia identificada y el intercepto leído para ella.}{12}
 {Ecuación correcta pero lectura incompleta, o referencia identificada sin leer el intercepto.}{6 a 11}
-{Ecuación incorrecta o sin lectura.}{0 a 5}
+{Ecuación incorrecta, sin lectura, o con los coeficientes leídos como minutos.}{0 a 5}
 
 \rubrica{b) Bip!, taxi colectivo y taxi (14 puntos)}
-{Las dos lecturas con ``a igual distancia'', ya sea multiplicativas ($10^{0{,}263} = 1{,}83$ y $10^{0{,}119} = 1{,}32$, con calculadora) o en la escala del logaritmo (Bip! suma 0,263 al logaritmo de la duración; se acepta como completa), y el taxi leído como indistinguible del auto por el valor $p$ y el intervalo.}{14}
-{Lecturas correctas pero sin ``a igual distancia'', o el taxi leído solo con el valor $p$ sin el intervalo, o una de las dos lecturas mal.}{7 a 13}
+{Las dos lecturas con ``a igual distancia'', ya sea multiplicativas ($10^{0{,}263} = 1{,}83$ y $10^{0{,}119} = 1{,}32$, con calculadora) o en la escala del logaritmo (Bip! suma 0,263 al logaritmo de la duración; se acepta como completa), y el taxi leído como indistinguible del auto por el valor $p$ y el intervalo. Si además escribe que el valor $p$ es ``la probabilidad de que el resultado sea coincidencia'', 12 o 13.}{14}
+{Lecturas correctas pero sin ``a igual distancia'', o el taxi leído solo con el valor $p$ sin el intervalo, o solo con la frase ``probabilidad de que sea coincidencia'' sin conclusión, o una de las dos lecturas mal.}{7 a 13}
 {Lee los coeficientes como minutos, o no interpreta el taxi.}{0 a 6}
 
 \rubrica{c) Asociación contra causalidad (14 puntos)}
