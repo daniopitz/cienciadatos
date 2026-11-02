@@ -4,7 +4,7 @@ Departamento de Informática
 **Universidad Técnica Federico Santa María**  
 **INF-396 Introducción a la Ciencia de Datos** · Segundo semestre 2026  
 **Modalidad**: en parejas · **Publicación**: lunes 26 de octubre  
-**Entrega**: martes 10 de noviembre por Aula  
+**Entrega**: lunes 16 de noviembre por Aula  
 **Puntaje**: 100 puntos · Atrasos: 10 puntos menos por día, hasta 3 días; después, nota mínima
 
 ## Qué se entrega

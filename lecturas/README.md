@@ -4,15 +4,15 @@ Cada control de lectura (Q) se toma al inicio de la clase indicada y dura entre 
 Son 4 controles y ponderan 10% de la nota final.
 
 **Las lecturas de Q1, Q2 y Q3 están definidas, y la de Q4 en parte** (falta un documento
-chileno que se define a fines de octubre). Las fechas de Q3 y Q4 son tentativas: se
-confirman en clase y por Aula a más tardar una semana antes del control.
+chileno que se anuncia en clase y por Aula). El Q4 quedó para el viernes 20 de noviembre;
+se movió desde el 13.
 
 | Control | Fecha | Lectura | Estado | Acceso |
 |---------|-------|---------|--------|--------|
 | Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | Confirmada | 📄 Se distribuye por **Aula** (ver abajo) |
 | Q2 | vie 25-sep | Cairo, A. (2019). *How Charts Lie: Getting Smarter about Visual Information*. W. W. Norton. Introducción + Capítulo 2, "Charts That Lie by Being Poorly Designed". **En inglés** | Confirmada | 📄 **Publicada en Aula** (ver abajo) |
-| Q3 | vie 30-oct | OpenAI (2026). *El incidente de Hugging Face y el camino a seguir* + AI Security Institute del Reino Unido (2026). *Incident Report: unsanctioned agent behaviour during cyber testing*. **La primera en español, la segunda en inglés** | Lectura confirmada; fecha tentativa | 🔗 **Acceso libre en línea** (ver abajo) |
-| Q4 | vie 13-nov | Amodei, D. (2026). *We Must Pace the Frontier*. **En inglés** + un documento sobre la política de IA de Chile, por definir a fines de octubre | Lectura confirmada en parte; fecha tentativa | 🔗 **Acceso libre en línea** (ver abajo) |
+| Q3 | vie 30-oct | OpenAI (2026). *El incidente de Hugging Face y el camino a seguir* + AI Security Institute del Reino Unido (2026). *Incident Report: unsanctioned agent behaviour during cyber testing*. **La primera en español, la segunda en inglés** | Confirmada | 🔗 **Acceso libre en línea** (ver abajo) |
+| Q4 | vie 20-nov | Amodei, D. (2026). *We Must Pace the Frontier*. **En inglés** + un documento sobre la política de IA de Chile, por definir | Lectura confirmada en parte; fecha confirmada | 🔗 **Acceso libre en línea** (ver abajo) |
 
 ## Cómo conseguir la lectura Q1
 

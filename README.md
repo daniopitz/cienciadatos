@@ -21,8 +21,8 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 
 | Ítem | Ponderación | Fechas | Detalle |
 |------|-------------|--------|---------|
-| Controles de lectura (Q) | 10% | **21-ago** (Q1) · **25-sep** (Q2) · **30-oct** (Q3) · Q4 por confirmar | 4 controles, al inicio de la clase, duración 20 minutos |
-| Tareas (T) | 10% | **10-sep** (T1) · **10-nov** (T2) · T3 y T4 (voluntaria) por confirmar | 3 tareas obligatorias en parejas (T1 a T3), sobre datos reales, que se desarrollan fuera de clase; T4 es voluntaria y su nota reemplaza a la más baja de las tres si le conviene al grupo |
+| Controles de lectura (Q) | 10% | **21-ago** (Q1) · **25-sep** (Q2) · **30-oct** (Q3) · **20-nov** (Q4) | 4 controles, al inicio de la clase, duración 20 minutos |
+| Tareas (T) | 10% | **10-sep** (T1) · **16-nov** (T2) · T3 y T4 (voluntaria) por confirmar | 3 tareas obligatorias en parejas (T1 a T3), sobre datos reales, que se desarrollan fuera de clase; T4 es voluntaria y su nota reemplaza a la más baja de las tres si le conviene al grupo |
 | Certámenes (C) | 50% | **9-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
 | Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
 
@@ -35,9 +35,10 @@ los enunciados de las tareas se publican por Aula y no figuran como hito.
 Las fechas de los certámenes, la propuesta y la presentación del proyecto son firmes;
 el certamen 1 se movió del 2 al 9 de octubre para alcanzar a dictar la inferencia, que
 está entre los contenidos que evalúa. La fecha del 9 de octubre quedó confirmada.
-La entrega de la tarea 2 quedó confirmada para el martes 10 de noviembre.
-**Las fechas de entrega de las tareas 3 y 4 son tentativas**, igual que el control
-Q4: se confirman en clase y por Aula, a más tardar una semana antes.
+La entrega de la tarea 2 quedó para el lunes 16 de noviembre (se movió desde el 10).
+El control Q4 quedó para el viernes 20 de noviembre (se movió desde el 13).
+**Las fechas de entrega de las tareas 3 y 4 son tentativas**: se confirman en clase y
+por Aula, a más tardar una semana antes.
 
 | Fecha | Evaluación | Estado | Detalle |
 |-------|------------|--------|---------|
@@ -49,8 +50,8 @@ Q4: se confirman en clase y por Aula, a más tardar una semana antes.
 | vie 09-oct | **Certamen 1** | ✅ Tomado | Unidades 1 a 5, incluida la regresión lineal · certamen escrito, individual · [guía de estudio](evaluaciones/guia_estudio_certamen1.pdf) ([markdown](evaluaciones/guia_estudio_certamen1.md)) · [enunciado](evaluaciones/certamenes/certamen1.pdf) y [pauta de corrección](evaluaciones/rubricas/certamen1_pauta.pdf) |
 | vie 30-oct | **Control Q3** | ✅ Confirmado | OpenAI, *El incidente de Hugging Face y el camino a seguir* + AISI (Reino Unido), *Incident Report: unsanctioned agent behaviour during cyber testing* · de acceso libre, ver [lecturas](lecturas/README.md) |
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
-| mar 10-nov | [**Entrega T2**](evaluaciones/tareas/tarea2_lambda_y_costos.md) | ✅ Confirmado | Regularización, umbral de clasificación y validación cruzada. Se entrega por Aula. Se movió desde el 04-nov |
-| vie 13-nov | **Control Q4** | *Fecha tentativa; lectura confirmada en parte* | Amodei, *We Must Pace the Frontier* (en inglés) + un documento sobre la política de IA de Chile, por definir a fines de octubre · ver [lecturas](lecturas/README.md) |
+| lun 16-nov | [**Entrega T2**](evaluaciones/tareas/tarea2_lambda_y_costos.md) | ✅ Confirmado | Regularización, umbral de clasificación y validación cruzada. Se entrega por Aula. Se movió desde el 10-nov |
+| vie 20-nov | **Control Q4** | ✅ Confirmado; lectura confirmada en parte | Amodei, *We Must Pace the Frontier* (en inglés) + un documento sobre la política de IA de Chile, por definir · ver [lecturas](lecturas/README.md). Se movió desde el 13-nov |
 | mié 25-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula, después de la T2. Se movió desde el 04-nov |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
 | mié 02-dic | **Entrega T4** *(voluntaria)* | *Tentativo* | Reemplaza la nota más baja de T1 a T3 si le conviene al grupo. Se movió desde el 20-nov para quedar después de la T3 |
@@ -102,10 +103,10 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | - | vie 09-oct | Certamen | **Certamen 1** (unidades 1 a 5, incluida la regresión lineal) · [guía de estudio](evaluaciones/guia_estudio_certamen1.pdf) | | | |
 | - | vie 16-oct | *Sin clases (Puertas Abiertas, 14 al 17 de octubre)* | | | | |
 | 07 | vie 23-oct | U7. Clasificación *(parte 2)* + U8. Sesgo, varianza y regularización | Bloque 1: los dos errores de un clasificador: sensibilidad, especificidad y precisión; elegir el umbral según el costo de cada error; comparar clasificadores con la curva ROC y el AUC · Bloque 2: regresión con muchas variables: correlaciones, entrenamiento y prueba, RMSE y sobreajuste; estandarización; regularización con Ridge y Lasso; elección de λ con validación cruzada | [pdf](presentaciones/clase07_evaluar_regularizar.pdf) · [pptx](presentaciones/clase07_evaluar_regularizar.pptx) | [ipynb](07_evaluar_regularizar.ipynb) | |
-| 08 | vie 30-oct | U6. Aprendizaje automático + U8. Evaluación de modelos *(contenidos por confirmar)* | Bloque 1: puente breve: tipos de aprendizaje y la función de pérdida que minimizan los modelos vistos; validación cruzada · Bloque 2: reducción de dimensionalidad: PCA | - | - | **Control Q3**: los informes de OpenAI y del AISI sobre los agentes que se salieron de sus evaluaciones (ver [lecturas](lecturas/README.md)) |
-| 09 | vie 06-nov | U6. No supervisado | Bloque 1: clustering: k-means y jerárquico · Bloque 2: avance de proyecto (opcional) | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
-| 10 | vie 13-nov | U9. Máquinas de soporte vectorial | SVM en clasificación de 2 o más clases; kernels | - | - | **Entrega T2** el martes 10 de noviembre, por Aula · **Control Q4**: Amodei, *We Must Pace the Frontier*, y la política de IA de Chile (ver [lecturas](lecturas/README.md)) |
-| 11 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Bloque 1: redes neuronales artificiales en clasificación · Bloque 2: marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | |
+| 08 | vie 30-oct | U6. Aprendizaje automático | Bloque 1: aprendizaje supervisado y no supervisado; la función de pérdida que minimiza cada modelo del curso; reducción de dimensionalidad con PCA · Bloque 2: grupos con k-means | [pdf](presentaciones/clase08_aprendizaje_supervisado_no_supervisado.pdf) · [pptx](presentaciones/clase08_aprendizaje_supervisado_no_supervisado.pptx) | [ipynb](08_aprendizaje_no_supervisado.ipynb) | **Control Q3**: los informes de OpenAI y del AISI sobre los agentes que se salieron de sus evaluaciones (ver [lecturas](lecturas/README.md)) |
+| 09 | vie 06-nov | U6. No supervisado + U9. Máquinas de soporte vectorial | Bloque 1: clustering jerárquico; máquinas de soporte vectorial (SVM) en clasificación de 2 o más clases, kernels · Bloque 2: avance de proyecto (opcional) | - | - | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
+| 10 | vie 13-nov | *Por confirmar* | *Contenidos por confirmar* | - | - | **Entrega T2** el lunes 16 de noviembre, por Aula |
+| 11 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Bloque 1: redes neuronales artificiales en clasificación · Bloque 2: marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Control Q4**: Amodei, *We Must Pace the Frontier*, y la política de IA de Chile (ver [lecturas](lecturas/README.md)) |
 | - | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | **Entrega T3** (tentativa) el miércoles 25 de noviembre, por Aula |
 | - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | **Entrega T4** (voluntaria, tentativa) el miércoles 2 de diciembre, por Aula |
 
@@ -137,7 +138,7 @@ Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
 - **Q3 (30-oct):** OpenAI, *El incidente de Hugging Face y el camino a seguir* (en
   español) + AI Security Institute del Reino Unido, *Incident Report: unsanctioned agent
   behaviour during cyber testing* (en inglés). Ambos de acceso libre en línea.
-- **Q4 (13-nov):** Amodei, *We Must Pace the Frontier* (en inglés, acceso libre) + un
+- **Q4 (20-nov):** Amodei, *We Must Pace the Frontier* (en inglés, acceso libre) + un
   documento sobre la política de IA de Chile, por definir a fines de octubre.
 
 Las lecturas de Q1, Q2 y Q3 están definidas, y la de Q4 en parte; el documento chileno
