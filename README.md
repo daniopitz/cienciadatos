@@ -51,7 +51,7 @@ por Aula, a más tardar una semana antes.
 | vie 30-oct | **Control Q3** | ✅ Confirmado | OpenAI, *El incidente de Hugging Face y el camino a seguir* + AISI (Reino Unido), *Incident Report: unsanctioned agent behaviour during cyber testing* · de acceso libre, ver [lecturas](lecturas/README.md) |
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
 | lun 16-nov | [**Entrega T2**](evaluaciones/tareas/tarea2_lambda_y_costos.md) | ✅ Confirmado | Regularización, umbral de clasificación y validación cruzada. Se entrega por Aula. Se movió desde el 10-nov |
-| vie 20-nov | **Control Q4** | ✅ Confirmado | Amodei, *We Must Pace the Frontier* (en inglés) + dos lecturas sobre la ley de IA en Chile, de Fundación Progresa y del Ministerio de Ciencia · ver [lecturas](lecturas/README.md). Se movió desde el 13-nov |
+| vie 20-nov | **Control Q4** | ✅ Confirmado | Amodei, *We Must Pace the Frontier* (en inglés) + tres lecturas sobre la ley de IA en Chile, de Fundación Progresa, de la Cámara y del Ministerio de Ciencia · ver [lecturas](lecturas/README.md). Se movió desde el 13-nov |
 | mié 25-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula, después de la T2. Se movió desde el 04-nov |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
 | mié 02-dic | **Entrega T4** *(voluntaria)* | *Tentativo* | Reemplaza la nota más baja de T1 a T3 si le conviene al grupo. Se movió desde el 20-nov para quedar después de la T3 |
@@ -140,8 +140,9 @@ Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
   behaviour during cyber testing* (en inglés). Ambos de acceso libre en línea.
 - **Q4 (20-nov):** Amodei, *We Must Pace the Frontier* (en inglés, acceso libre) +
   Fundación Progresa, *Ley de inteligencia artificial en Chile: en qué va y qué cambia
-  para las personas*, + Ministerio de Ciencia, presentación de la indicación sustitutiva
-  ante el Senado (13 de julio de 2026). Las dos chilenas, también en Aula en PDF.
+  para las personas*, + artículos 6, 7 y 8 del texto aprobado por la Cámara (Oficio
+  N° 20.843, 2025) + Ministerio de Ciencia, presentación de la indicación sustitutiva
+  ante el Senado (13 de julio de 2026). Las tres chilenas, también en Aula en PDF.
 
 Las lecturas de los cuatro controles están definidas.
 

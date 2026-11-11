@@ -11,7 +11,7 @@ de noviembre; se movió desde el 13.
 | Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | Confirmada | 📄 Se distribuye por **Aula** (ver abajo) |
 | Q2 | vie 25-sep | Cairo, A. (2019). *How Charts Lie: Getting Smarter about Visual Information*. W. W. Norton. Introducción + Capítulo 2, "Charts That Lie by Being Poorly Designed". **En inglés** | Confirmada | 📄 **Publicada en Aula** (ver abajo) |
 | Q3 | vie 30-oct | OpenAI (2026). *El incidente de Hugging Face y el camino a seguir* + AI Security Institute del Reino Unido (2026). *Incident Report: unsanctioned agent behaviour during cyber testing*. **La primera en español, la segunda en inglés** | Confirmada | 🔗 **Acceso libre en línea** (ver abajo) |
-| Q4 | vie 20-nov | Amodei, D. (2026). *We Must Pace the Frontier*. **En inglés** + Fundación Progresa (2026), sobre la ley de IA en Chile + Ministerio de Ciencia (2026), presentación de la indicación sustitutiva al Senado | Confirmada | 🔗 **Acceso libre en línea**; las dos lecturas chilenas también en **Aula** en PDF (ver abajo) |
+| Q4 | vie 20-nov | Amodei, D. (2026). *We Must Pace the Frontier*. **En inglés** + Fundación Progresa (2026), sobre la ley de IA en Chile + artículos 6, 7 y 8 del texto aprobado por la Cámara (2025) + Ministerio de Ciencia (2026), presentación de la indicación sustitutiva al Senado | Confirmada | 🔗 **Acceso libre en línea**; las tres lecturas chilenas también en **Aula** en PDF (ver abajo) |
 
 ## Cómo conseguir la lectura Q1
 
@@ -95,7 +95,7 @@ cifras.
 
 ## Cómo conseguir la lectura Q4
 
-Son tres lecturas, una en inglés y dos sobre la ley de IA que se discute en Chile.
+Son cuatro lecturas, una en inglés y tres sobre la ley de IA que se discute en Chile.
 
 1. Amodei, D. (2026). *We Must Pace the Frontier*, septiembre de 2026.
    https://darioamodei.com/post/we-must-pace-the-frontier
@@ -114,7 +114,15 @@ Son tres lecturas, una en inglés y dos sobre la ley de IA que se discute en Chi
    el Senado) y el cambio que anuncia el gobierno. Es un centro de estudios progresista.
    La página se actualiza a medida que avanza el proyecto, por eso la versión del 11 de
    noviembre de 2026 queda en Aula en PDF.
-3. Ministerio de Ciencia, Tecnología, Conocimiento e Innovación (2026). *IA como
+3. Cámara de Diputadas y Diputados (2025). *Proyecto de ley que regula los sistemas de
+   inteligencia artificial*, artículos 6, 7 y 8 del texto aprobado. Oficio N° 20.843 al
+   Senado, 13 de octubre de 2025
+   ([oficio completo](https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=getDocto&iddocto=35352&tipodoc=ofic)).
+   En español, 3 páginas, en Aula en PDF. Son los artículos que clasifican los usos de la
+   IA según su riesgo (inaceptable, alto, limitado y sin riesgo evidente), prohíben siete
+   usos de riesgo inaceptable y definen el alto riesgo. Es el texto que hoy está en el
+   Senado.
+4. Ministerio de Ciencia, Tecnología, Conocimiento e Innovación (2026). *IA como
    infraestructura estratégica para Chile. Indicación sustitutiva al proyecto de ley de
    inteligencia artificial*. Presentación ante la Comisión de Desafíos del Futuro del
    Senado, 13 de julio de 2026. Publicada en el sitio del Senado
@@ -124,7 +132,7 @@ Son tres lecturas, una en inglés y dos sobre la ley de IA que se discute en Chi
    defiende el cambio: los problemas que le ve al proyecto aprobado por la Cámara y lo que
    propone en su lugar.
 
-Las tres se leen igual que la de Amodei, sabiendo quién las escribe. El control pide
+Las tres lecturas chilenas se leen igual que la de Amodei, sabiendo quién las escribe. El control pide
 contrastarlas: lo que pide Amodei, lo que aprobó la Cámara y lo que propone el gobierno.
 
 ## Qué se evalúa
