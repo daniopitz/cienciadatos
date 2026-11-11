@@ -3,16 +3,15 @@
 Cada control de lectura (Q) se toma al inicio de la clase indicada y dura entre 15 y 20 minutos.
 Son 4 controles y ponderan 10% de la nota final.
 
-**Las lecturas de Q1, Q2 y Q3 están definidas, y la de Q4 en parte** (falta un documento
-chileno que se anuncia en clase y por Aula). El Q4 quedó para el viernes 20 de noviembre;
-se movió desde el 13.
+**Las lecturas de los cuatro controles están definidas.** El Q4 quedó para el viernes 20
+de noviembre; se movió desde el 13.
 
 | Control | Fecha | Lectura | Estado | Acceso |
 |---------|-------|---------|--------|--------|
 | Q1 | vie 21-ago | O'Neil, C. (2017). *Armas de destrucción matemática*. Introducción + Capítulo 1 | Confirmada | 📄 Se distribuye por **Aula** (ver abajo) |
 | Q2 | vie 25-sep | Cairo, A. (2019). *How Charts Lie: Getting Smarter about Visual Information*. W. W. Norton. Introducción + Capítulo 2, "Charts That Lie by Being Poorly Designed". **En inglés** | Confirmada | 📄 **Publicada en Aula** (ver abajo) |
 | Q3 | vie 30-oct | OpenAI (2026). *El incidente de Hugging Face y el camino a seguir* + AI Security Institute del Reino Unido (2026). *Incident Report: unsanctioned agent behaviour during cyber testing*. **La primera en español, la segunda en inglés** | Confirmada | 🔗 **Acceso libre en línea** (ver abajo) |
-| Q4 | vie 20-nov | Amodei, D. (2026). *We Must Pace the Frontier*. **En inglés** + un documento sobre la política de IA de Chile, por definir | Lectura confirmada en parte; fecha confirmada | 🔗 **Acceso libre en línea** (ver abajo) |
+| Q4 | vie 20-nov | Amodei, D. (2026). *We Must Pace the Frontier*. **En inglés** + Fundación Progresa (2026), sobre la ley de IA en Chile + Ministerio de Ciencia (2026), presentación de la indicación sustitutiva al Senado | Confirmada | 🔗 **Acceso libre en línea**; las dos lecturas chilenas también en **Aula** en PDF (ver abajo) |
 
 ## Cómo conseguir la lectura Q1
 
@@ -96,7 +95,7 @@ cifras.
 
 ## Cómo conseguir la lectura Q4
 
-La lectura tiene dos partes. La primera ya está definida:
+Son tres lecturas, una en inglés y dos sobre la ley de IA que se discute en Chile.
 
 1. Amodei, D. (2026). *We Must Pace the Frontier*, septiembre de 2026.
    https://darioamodei.com/post/we-must-pace-the-frontier
@@ -107,12 +106,26 @@ La lectura tiene dos partes. La primera ya está definida:
    obligatorias y acuerdos internacionales. Es un texto de parte interesada, y así se
    lee: qué propone, qué omite y a quién le conviene.
 
-La segunda parte es un documento sobre la política de inteligencia artificial de Chile,
-para contrastar lo que pide Amodei con lo que Chile está decidiendo. Se define a fines
-de octubre, porque el proyecto de ley que regula los sistemas de IA (boletín 16821-19,
-aprobado por la Cámara en octubre de 2025 y en trámite en el Senado) está por recibir
-una indicación sustitutiva del gobierno que cambia su enfoque. Se anuncia en clase y por
-Aula a más tardar el viernes 6 de noviembre.
+2. Fundación Progresa (2026). *Ley de inteligencia artificial en Chile: en qué va y qué
+   cambia para las personas*, 30 de octubre de 2026.
+   https://fundacionprogresa.cl/ley-inteligencia-artificial-chile/
+   En español, unas 2.000 palabras. Explica el proyecto de ley que regula los sistemas de
+   IA (boletín 16821-19, aprobado por la Cámara en octubre de 2025 y en segundo trámite en
+   el Senado) y el cambio que anuncia el gobierno. Es un centro de estudios progresista.
+   La página se actualiza a medida que avanza el proyecto, por eso la versión del 11 de
+   noviembre de 2026 queda en Aula en PDF.
+3. Ministerio de Ciencia, Tecnología, Conocimiento e Innovación (2026). *IA como
+   infraestructura estratégica para Chile. Indicación sustitutiva al proyecto de ley de
+   inteligencia artificial*. Presentación ante la Comisión de Desafíos del Futuro del
+   Senado, 13 de julio de 2026. Publicada en el sitio del Senado
+   ([enlace](https://microservicio-documentos.senado.cl/v1/archivos/a5d218fc-4138-4c25-9d08-afa36ec59128?includeContent=true))
+   y en Aula en PDF. En español, 22 slides, de las que se lee un extracto de 12 (el que
+   queda en Aula). Es la presentación con que el gobierno
+   defiende el cambio: los problemas que le ve al proyecto aprobado por la Cámara y lo que
+   propone en su lugar.
+
+Las tres se leen igual que la de Amodei, sabiendo quién las escribe. El control pide
+contrastarlas: lo que pide Amodei, lo que aprobó la Cámara y lo que propone el gobierno.
 
 ## Qué se evalúa
 

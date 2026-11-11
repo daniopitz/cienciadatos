@@ -51,7 +51,7 @@ por Aula, a más tardar una semana antes.
 | vie 30-oct | **Control Q3** | ✅ Confirmado | OpenAI, *El incidente de Hugging Face y el camino a seguir* + AISI (Reino Unido), *Incident Report: unsanctioned agent behaviour during cyber testing* · de acceso libre, ver [lecturas](lecturas/README.md) |
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
 | lun 16-nov | [**Entrega T2**](evaluaciones/tareas/tarea2_lambda_y_costos.md) | ✅ Confirmado | Regularización, umbral de clasificación y validación cruzada. Se entrega por Aula. Se movió desde el 10-nov |
-| vie 20-nov | **Control Q4** | ✅ Confirmado; lectura confirmada en parte | Amodei, *We Must Pace the Frontier* (en inglés) + un documento sobre la política de IA de Chile, por definir · ver [lecturas](lecturas/README.md). Se movió desde el 13-nov |
+| vie 20-nov | **Control Q4** | ✅ Confirmado | Amodei, *We Must Pace the Frontier* (en inglés) + dos lecturas sobre la ley de IA en Chile, de Fundación Progresa y del Ministerio de Ciencia · ver [lecturas](lecturas/README.md). Se movió desde el 13-nov |
 | mié 25-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula, después de la T2. Se movió desde el 04-nov |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
 | mié 02-dic | **Entrega T4** *(voluntaria)* | *Tentativo* | Reemplaza la nota más baja de T1 a T3 si le conviene al grupo. Se movió desde el 20-nov para quedar después de la T3 |
@@ -106,7 +106,7 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 08 | vie 30-oct | U6. Aprendizaje automático | Bloque 1: aprendizaje supervisado y no supervisado; la función de pérdida que minimiza cada modelo del curso; reducción de dimensionalidad con PCA · Bloque 2: grupos con k-means | [pdf](presentaciones/clase08_aprendizaje_supervisado_no_supervisado.pdf) · [pptx](presentaciones/clase08_aprendizaje_supervisado_no_supervisado.pptx) | [ipynb](08_aprendizaje_no_supervisado.ipynb) | **Control Q3**: los informes de OpenAI y del AISI sobre los agentes que se salieron de sus evaluaciones (ver [lecturas](lecturas/README.md)) |
 | 09 | vie 06-nov | U6. No supervisado | Bloque 1: clustering jerárquico (dendrograma y enlaces) y DBSCAN · Bloque 2: avance de proyecto (opcional) | [pdf](presentaciones/clase09_clustering.pdf) · [pptx](presentaciones/clase09_clustering.pptx) | [ipynb](09_clustering.ipynb) | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
 | 10 | vie 13-nov | U9. Máquinas de soporte vectorial | Máquinas de soporte vectorial (SVM): margen máximo, margen blando, kernels y más de dos clases; evaluación de los resultados *(por confirmar)* | - | - | **Entrega T2** el lunes 16 de noviembre, por Aula |
-| 11 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Bloque 1: redes neuronales artificiales en clasificación · Bloque 2: marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Control Q4**: Amodei, *We Must Pace the Frontier*, y la política de IA de Chile (ver [lecturas](lecturas/README.md)) |
+| 11 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Bloque 1: redes neuronales artificiales en clasificación · Bloque 2: marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Control Q4**: Amodei, *We Must Pace the Frontier*, y la ley de IA en Chile (ver [lecturas](lecturas/README.md)) |
 | - | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | **Entrega T3** (tentativa) el miércoles 25 de noviembre, por Aula |
 | - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | **Entrega T4** (voluntaria, tentativa) el miércoles 2 de diciembre, por Aula |
 
@@ -138,11 +138,12 @@ Detalle y enlaces en [`lecturas/README.md`](lecturas/README.md). Resumen:
 - **Q3 (30-oct):** OpenAI, *El incidente de Hugging Face y el camino a seguir* (en
   español) + AI Security Institute del Reino Unido, *Incident Report: unsanctioned agent
   behaviour during cyber testing* (en inglés). Ambos de acceso libre en línea.
-- **Q4 (20-nov):** Amodei, *We Must Pace the Frontier* (en inglés, acceso libre) + un
-  documento sobre la política de IA de Chile, por definir a fines de octubre.
+- **Q4 (20-nov):** Amodei, *We Must Pace the Frontier* (en inglés, acceso libre) +
+  Fundación Progresa, *Ley de inteligencia artificial en Chile: en qué va y qué cambia
+  para las personas*, + Ministerio de Ciencia, presentación de la indicación sustitutiva
+  ante el Senado (13 de julio de 2026). Las dos chilenas, también en Aula en PDF.
 
-Las lecturas de Q1, Q2 y Q3 están definidas, y la de Q4 en parte; el documento chileno
-del Q4 se anuncia en clase y por Aula a más tardar una semana antes del control.
+Las lecturas de los cuatro controles están definidas.
 
 ### Proyecto final
 
