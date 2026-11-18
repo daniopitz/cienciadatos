@@ -22,7 +22,7 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 | Ítem | Ponderación | Fechas | Detalle |
 |------|-------------|--------|---------|
 | Controles de lectura (Q) | 10% | **21-ago** (Q1) · **25-sep** (Q2) · **30-oct** (Q3) · **20-nov** (Q4) | 4 controles, al inicio de la clase, duración 20 minutos |
-| Tareas (T) | 10% | **10-sep** (T1) · **16-nov** (T2) · T3 y T4 (voluntaria) por confirmar | 3 tareas obligatorias en parejas (T1 a T3), sobre datos reales, que se desarrollan fuera de clase; T4 es voluntaria y su nota reemplaza a la más baja de las tres si le conviene al grupo |
+| Tareas (T) | 10% | **10-sep** (T1) · **16-nov** (T2) · **01-dic** (T3) · T4 (voluntaria) por confirmar | 3 tareas obligatorias en parejas (T1 a T3), sobre datos reales, que se desarrollan fuera de clase; T4 es voluntaria y su nota reemplaza a la más baja de las tres si le conviene al grupo |
 | Certámenes (C) | 50% | **9-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
 | Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
 
@@ -52,8 +52,8 @@ por Aula, a más tardar una semana antes.
 | vie 06-nov | Avance de proyecto *(opcional)* | ✅ Confirmado | Quienes lo presenten parten con 10 puntos de base |
 | lun 16-nov | [**Entrega T2**](evaluaciones/tareas/tarea2_lambda_y_costos.md) | ✅ Confirmado | Regularización, umbral de clasificación y validación cruzada. Se entrega por Aula. Se movió desde el 10-nov |
 | vie 20-nov | **Control Q4** | ✅ Confirmado | Amodei, *We Must Pace the Frontier* (en inglés) + tres lecturas sobre la ley de IA en Chile, de Fundación Progresa, de la Cámara y del Ministerio de Ciencia · ver [lecturas](lecturas/README.md). Se movió desde el 13-nov |
-| mié 25-nov | **Entrega T3** | *Tentativo* | Se entrega por Aula, después de la T2. Se movió desde el 04-nov |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
+| mar 01-dic | [**Entrega T3**](evaluaciones/tareas/tarea3_agrupar_y_separar.pdf) | ✅ Confirmado | Convergencia de k-means y regresión con vectores de soporte. Se entrega por Aula. Se movió desde el 25-nov |
 | mié 02-dic | **Entrega T4** *(voluntaria)* | *Tentativo* | Reemplaza la nota más baja de T1 a T3 si le conviene al grupo. Se movió desde el 20-nov para quedar después de la T3 |
 | vie 04-dic | **Presentación del proyecto + informe** | ✅ Confirmado | |
 
@@ -107,8 +107,8 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 09 | vie 06-nov | U6. No supervisado | Bloque 1: clustering jerárquico (dendrograma y enlaces) y DBSCAN · Bloque 2: avance de proyecto (opcional) | [pdf](presentaciones/clase09_clustering.pdf) · [pptx](presentaciones/clase09_clustering.pptx) | [ipynb](09_clustering.ipynb) | **Avance de proyecto (opcional)**: quienes lo presenten parten con 10 puntos de base y reciben retroalimentación |
 | 10 | vie 13-nov | U9. Máquinas de soporte vectorial | Máquinas de soporte vectorial (SVM): margen máximo, margen blando, kernels y más de dos clases; evaluación de los resultados *(por confirmar)* | - | - | **Entrega T2** el lunes 16 de noviembre, por Aula |
 | 11 | vie 20-nov | U9. Redes neuronales + U1. Marco legal | Bloque 1: redes neuronales artificiales en clasificación · Bloque 2: marco legal de los datos y la IA: Ley 21.719 y AI Act, con vista al informe del proyecto | - | - | **Control Q4**: Amodei, *We Must Pace the Frontier*, y la ley de IA en Chile (ver [lecturas](lecturas/README.md)) |
-| - | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | **Entrega T3** (tentativa) el miércoles 25 de noviembre, por Aula |
-| - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | **Entrega T4** (voluntaria, tentativa) el miércoles 2 de diciembre, por Aula |
+| - | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
+| - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | **Entrega T3** el martes 1 de diciembre y **Entrega T4** (voluntaria, tentativa) el miércoles 2 de diciembre, por Aula |
 
 ### Estructura de cada clase (14:40 a 17:15)
 
