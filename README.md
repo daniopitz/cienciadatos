@@ -22,7 +22,7 @@ Material basado en el programa oficial INF-396 (ver `programa/`).
 | Ítem | Ponderación | Fechas | Detalle |
 |------|-------------|--------|---------|
 | Controles de lectura (Q) | 10% | **21-ago** (Q1) · **25-sep** (Q2) · **30-oct** (Q3) · **20-nov** (Q4) | 4 controles, al inicio de la clase, duración 20 minutos |
-| Tareas (T) | 10% | **10-sep** (T1) · **16-nov** (T2) · **01-dic** (T3) · T4 (voluntaria) por confirmar | 3 tareas obligatorias en parejas (T1 a T3), sobre datos reales, que se desarrollan fuera de clase; T4 es voluntaria y su nota reemplaza a la más baja de las tres si le conviene al grupo |
+| Tareas (T) | 10% | **10-sep** (T1) · **16-nov** (T2) · **01-dic** (T3) | 3 tareas obligatorias en parejas (T1 a T3), sobre datos reales, que se desarrollan fuera de clase |
 | Certámenes (C) | 50% | **9-oct · 27-nov** | promedio de C1 y C2; escritos e individuales |
 | Proyecto final (P) | 30% | **25-sep · 6-nov · 4-dic** | en grupo; propuesta, avance y presentación + informe |
 
@@ -37,8 +37,6 @@ el certamen 1 se movió del 2 al 9 de octubre para alcanzar a dictar la inferenc
 está entre los contenidos que evalúa. La fecha del 9 de octubre quedó confirmada.
 La entrega de la tarea 2 quedó para el lunes 16 de noviembre (se movió desde el 10).
 El control Q4 quedó para el viernes 20 de noviembre (se movió desde el 13).
-**Las fechas de entrega de las tareas 3 y 4 son tentativas**: se confirman en clase y
-por Aula, a más tardar una semana antes.
 
 | Fecha | Evaluación | Estado | Detalle |
 |-------|------------|--------|---------|
@@ -54,7 +52,6 @@ por Aula, a más tardar una semana antes.
 | vie 20-nov | **Control Q4** | ✅ Confirmado | Amodei, *We Must Pace the Frontier* (en inglés) + tres lecturas sobre la ley de IA en Chile, de Fundación Progresa, de la Cámara y del Ministerio de Ciencia · ver [lecturas](lecturas/README.md). Se movió desde el 13-nov |
 | vie 27-nov | **Certamen 2** | ✅ Confirmado | Unidades 6 a 9 · certamen escrito, individual |
 | mar 01-dic | [**Entrega T3**](evaluaciones/tareas/tarea3_agrupar_y_separar.pdf) | ✅ Confirmado | Convergencia de k-means y regresión con vectores de soporte. Se entrega por Aula. Se movió desde el 25-nov |
-| mié 02-dic | **Entrega T4** *(voluntaria)* | *Tentativo* | Reemplaza la nota más baja de T1 a T3 si le conviene al grupo. Se movió desde el 20-nov para quedar después de la T3 |
 | vie 04-dic | **Presentación del proyecto + informe** | ✅ Confirmado | |
 
 ## Reglas del curso
@@ -108,7 +105,7 @@ Los enlaces se van publicando a medida que avanza el semestre.
 | 10 | vie 13-nov | U9. Máquinas de soporte vectorial | Bloque 1: SVM para clasificación: margen máximo, margen blando, kernels y más de dos clases; evaluar el clasificador con la matriz de confusión y elegir C y gamma con validación cruzada · Bloque 2: SVM para regresión (SVR): el tubo de ancho ε, la pérdida insensible a ε y el salario de los beisbolistas de la clase 07 | [pdf](presentaciones/clase10_svm.pdf) · [pptx](presentaciones/clase10_svm.pptx) | [ipynb](10_svm.ipynb) | **Entrega T2** el lunes 16 de noviembre, por Aula |
 | 11 | vie 20-nov | U7. Clasificación + U9. SVM y redes neuronales | KNN · SVM con más de dos clases en otro conjunto de datos · curvas ROC por clase · redes neuronales artificiales en clasificación | - | - | **Control Q4**: Amodei, *We Must Pace the Frontier*, y la ley de IA en Chile (ver [lecturas](lecturas/README.md)) |
 | - | vie 27-nov | Certamen | **Certamen 2** (unidades 6 a 9) | | | |
-| - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | **Entrega T3** el martes 1 de diciembre y **Entrega T4** (voluntaria, tentativa) el miércoles 2 de diciembre, por Aula |
+| - | vie 04-dic | Proyecto | **Presentaciones del proyecto final** + entrega del informe | | | **Entrega T3** el martes 1 de diciembre, por Aula |
 
 ### Estructura de cada clase (14:40 a 17:15)
 
@@ -201,7 +198,7 @@ presentaciones/      slides: claseNN_tema.pptx y claseNN_tema.pdf
 actividades/         enunciados y soluciones de las actividades en clase
 evaluaciones/
   guia_estudio_certamen1.md   guía de estudio del certamen 1 (también en PDF; figuras en figuras_guia/)
-  tareas/            enunciados de T1 a T4
+  tareas/            enunciados de T1 a T3
   controles/         enunciados de Q1 a Q4 (se publican después de aplicarse)
   certamenes/        enunciados de C1 y C2 (se publican después de aplicarse)
   rubricas/          pautas de corrección (se publican después de aplicarse)
